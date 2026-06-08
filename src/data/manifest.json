@@ -1,0 +1,4889 @@
+{
+  "cities": [
+    {
+      "id": "catania",
+      "name": "Catania",
+      "country": "Italy",
+      "continent": "europe",
+      "coords": [
+        15.0873,
+        37.5079
+      ],
+      "totalKm": 4,
+      "lines": 1,
+      "stations": 6,
+      "openedYear": 1999,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/catania.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Catania",
+          "color": "#E4002B",
+          "lengthKm": 4
+        }
+      ]
+    },
+    {
+      "id": "lausanne",
+      "name": "Lausanne",
+      "country": "Switzerland",
+      "continent": "europe",
+      "coords": [
+        6.6323,
+        46.5197
+      ],
+      "totalKm": 6,
+      "lines": 1,
+      "stations": 14,
+      "openedYear": 2008,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/lausanne.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Lausanne",
+          "color": "#E4002B",
+          "lengthKm": 6
+        }
+      ]
+    },
+    {
+      "id": "glasgow",
+      "name": "Glasgow",
+      "country": "UK",
+      "continent": "europe",
+      "coords": [
+        -4.2518,
+        55.8642
+      ],
+      "totalKm": 10,
+      "lines": 1,
+      "stations": 15,
+      "openedYear": 1896,
+      "accentColor": "#F57C00",
+      "geojsonPath": "/data/geojson/glasgow.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Glasgow",
+          "color": "#E4002B",
+          "lengthKm": 10
+        }
+      ]
+    },
+    {
+      "id": "yerevan",
+      "name": "Yerevan",
+      "country": "Armenia",
+      "continent": "asia",
+      "coords": [
+        44.5152,
+        40.1872
+      ],
+      "totalKm": 14,
+      "lines": 1,
+      "stations": 10,
+      "openedYear": 1981,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/yerevan.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Yerevan",
+          "color": "#E4002B",
+          "lengthKm": 14
+        }
+      ]
+    },
+    {
+      "id": "rennes",
+      "name": "Rennes",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        -1.6778,
+        48.1173
+      ],
+      "totalKm": 14,
+      "lines": 1,
+      "stations": 15,
+      "openedYear": 2002,
+      "accentColor": "#00A651",
+      "geojsonPath": "/data/geojson/rennes.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Rennes",
+          "color": "#E4002B",
+          "lengthKm": 14
+        }
+      ]
+    },
+    {
+      "id": "nizhny-novgorod",
+      "name": "Nizhny Novgorod",
+      "country": "Russia",
+      "continent": "europe",
+      "coords": [
+        43.9361,
+        56.2965
+      ],
+      "totalKm": 16,
+      "lines": 2,
+      "stations": 14,
+      "openedYear": 1985,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/nizhny-novgorod.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 8
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 8
+        }
+      ]
+    },
+    {
+      "id": "jakarta",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "continent": "asia",
+      "coords": [
+        106.8456,
+        -6.2088
+      ],
+      "totalKm": 16,
+      "lines": 1,
+      "stations": 13,
+      "openedYear": 2019,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/jakarta.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Jakarta",
+          "color": "#E4002B",
+          "lengthKm": 16
+        }
+      ]
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "country": "Russia",
+      "continent": "europe",
+      "coords": [
+        49.1221,
+        55.8304
+      ],
+      "totalKm": 16,
+      "lines": 1,
+      "stations": 10,
+      "openedYear": 2005,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/kazan.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Kazan",
+          "color": "#E4002B",
+          "lengthKm": 16
+        }
+      ]
+    },
+    {
+      "id": "panama-city",
+      "name": "Panama City",
+      "country": "Panama",
+      "continent": "north-america",
+      "coords": [
+        -79.5342,
+        8.9824
+      ],
+      "totalKm": 17,
+      "lines": 2,
+      "stations": 14,
+      "openedYear": 2014,
+      "accentColor": "#F7941D",
+      "geojsonPath": "/data/geojson/panama-city.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 9
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 9
+        }
+      ]
+    },
+    {
+      "id": "algiers",
+      "name": "Algiers",
+      "country": "Algeria",
+      "continent": "africa",
+      "coords": [
+        3.0588,
+        36.7538
+      ],
+      "totalKm": 18,
+      "lines": 1,
+      "stations": 19,
+      "openedYear": 2011,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/algiers.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Algiers",
+          "color": "#E4002B",
+          "lengthKm": 18
+        }
+      ]
+    },
+    {
+      "id": "grenoble",
+      "name": "Grenoble",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        5.7245,
+        45.1885
+      ],
+      "totalKm": 19,
+      "lines": 1,
+      "stations": 13,
+      "openedYear": 1987,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/grenoble.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Grenoble",
+          "color": "#E4002B",
+          "lengthKm": 19
+        }
+      ]
+    },
+    {
+      "id": "kryvyi-rih",
+      "name": "Kryvyi Rih",
+      "country": "Ukraine",
+      "continent": "europe",
+      "coords": [
+        33.3918,
+        47.9105
+      ],
+      "totalKm": 19,
+      "lines": 1,
+      "stations": 6,
+      "openedYear": 1986,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/kryvyi-rih.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Kryvyi Rih",
+          "color": "#E4002B",
+          "lengthKm": 19
+        }
+      ]
+    },
+    {
+      "id": "hanoi",
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "continent": "asia",
+      "coords": [
+        105.8542,
+        21.0285
+      ],
+      "totalKm": 21,
+      "lines": 1,
+      "stations": 12,
+      "openedYear": 2024,
+      "accentColor": "#00A651",
+      "geojsonPath": "/data/geojson/hanoi.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Hanoi",
+          "color": "#E4002B",
+          "lengthKm": 21
+        }
+      ]
+    },
+    {
+      "id": "zagreb",
+      "name": "Zagreb",
+      "country": "Croatia",
+      "continent": "europe",
+      "coords": [
+        15.9819,
+        45.815
+      ],
+      "totalKm": 22,
+      "lines": 1,
+      "stations": 12,
+      "openedYear": 1994,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/zagreb.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Zagreb",
+          "color": "#E4002B",
+          "lengthKm": 22
+        }
+      ]
+    },
+    {
+      "id": "quito",
+      "name": "Quito",
+      "country": "Ecuador",
+      "continent": "south-america",
+      "coords": [
+        -78.4678,
+        -0.1807
+      ],
+      "totalKm": 23,
+      "lines": 1,
+      "stations": 15,
+      "openedYear": 2023,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/quito.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Quito",
+          "color": "#E4002B",
+          "lengthKm": 23
+        }
+      ]
+    },
+    {
+      "id": "mendoza",
+      "name": "Mendoza",
+      "country": "Argentina",
+      "continent": "south-america",
+      "coords": [
+        -68.8458,
+        -32.8908
+      ],
+      "totalKm": 24,
+      "lines": 1,
+      "stations": 12,
+      "openedYear": 2025,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/mendoza.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Mendoza",
+          "color": "#E4002B",
+          "lengthKm": 24
+        }
+      ]
+    },
+    {
+      "id": "marseille",
+      "name": "Marseille",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        5.3698,
+        43.2965
+      ],
+      "totalKm": 24,
+      "lines": 2,
+      "stations": 28,
+      "openedYear": 1977,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/marseille.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 12
+        }
+      ]
+    },
+    {
+      "id": "palma",
+      "name": "Palma",
+      "country": "Spain",
+      "continent": "europe",
+      "coords": [
+        2.6502,
+        39.5696
+      ],
+      "totalKm": 27,
+      "lines": 2,
+      "stations": 16,
+      "openedYear": 2007,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/palma.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 14
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 14
+        }
+      ]
+    },
+    {
+      "id": "lahore",
+      "name": "Lahore",
+      "country": "Pakistan",
+      "continent": "asia",
+      "coords": [
+        74.3587,
+        31.5204
+      ],
+      "totalKm": 27,
+      "lines": 1,
+      "stations": 26,
+      "openedYear": 2024,
+      "accentColor": "#F7941D",
+      "geojsonPath": "/data/geojson/lahore.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Lahore",
+          "color": "#E4002B",
+          "lengthKm": 27
+        }
+      ]
+    },
+    {
+      "id": "tbilisi",
+      "name": "Tbilisi",
+      "country": "Georgia",
+      "continent": "asia",
+      "coords": [
+        44.793,
+        41.7151
+      ],
+      "totalKm": 27,
+      "lines": 2,
+      "stations": 23,
+      "openedYear": 1966,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/tbilisi.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 14
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 14
+        }
+      ]
+    },
+    {
+      "id": "toulouse",
+      "name": "Toulouse",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        1.4442,
+        43.6047
+      ],
+      "totalKm": 28,
+      "lines": 2,
+      "stations": 38,
+      "openedYear": 1993,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/toulouse.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 14
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 14
+        }
+      ]
+    },
+    {
+      "id": "ho-chi-minh-city",
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "continent": "asia",
+      "coords": [
+        106.6297,
+        10.8231
+      ],
+      "totalKm": 28,
+      "lines": 1,
+      "stations": 14,
+      "openedYear": 2024,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/ho-chi-minh-city.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Ho Chi Minh City",
+          "color": "#E4002B",
+          "lengthKm": 28
+        }
+      ]
+    },
+    {
+      "id": "santo-domingo",
+      "name": "Santo Domingo",
+      "country": "Dominican Republic",
+      "continent": "north-america",
+      "coords": [
+        -69.9312,
+        18.4861
+      ],
+      "totalKm": 28,
+      "lines": 2,
+      "stations": 34,
+      "openedYear": 2008,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/santo-domingo.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 14
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 14
+        }
+      ]
+    },
+    {
+      "id": "nantes",
+      "name": "Nantes",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        -1.5536,
+        47.2184
+      ],
+      "totalKm": 29,
+      "lines": 3,
+      "stations": 48,
+      "openedYear": 1985,
+      "accentColor": "#00A651",
+      "geojsonPath": "/data/geojson/nantes.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 10
+        }
+      ]
+    },
+    {
+      "id": "tunis",
+      "name": "Tunis",
+      "country": "Tunisia",
+      "continent": "africa",
+      "coords": [
+        10.1815,
+        36.8065
+      ],
+      "totalKm": 30,
+      "lines": 1,
+      "stations": 24,
+      "openedYear": 1985,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/tunis.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Tunis",
+          "color": "#E4002B",
+          "lengthKm": 30
+        }
+      ]
+    },
+    {
+      "id": "naples",
+      "name": "Naples",
+      "country": "Italy",
+      "continent": "europe",
+      "coords": [
+        14.2681,
+        40.8518
+      ],
+      "totalKm": 31,
+      "lines": 3,
+      "stations": 26,
+      "openedYear": 1993,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/naples.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 10
+        }
+      ]
+    },
+    {
+      "id": "medellin",
+      "name": "Medellín",
+      "country": "Colombia",
+      "continent": "south-america",
+      "coords": [
+        -75.5812,
+        6.2476
+      ],
+      "totalKm": 31,
+      "lines": 1,
+      "stations": 27,
+      "openedYear": 1995,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/medellin.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Medellín",
+          "color": "#E4002B",
+          "lengthKm": 31
+        }
+      ]
+    },
+    {
+      "id": "lille",
+      "name": "Lille",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        3.0573,
+        50.6292
+      ],
+      "totalKm": 33,
+      "lines": 2,
+      "stations": 60,
+      "openedYear": 1983,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/lille.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 17
+        }
+      ]
+    },
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        4.8357,
+        45.764
+      ],
+      "totalKm": 33,
+      "lines": 4,
+      "stations": 40,
+      "openedYear": 1978,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/lyon.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 8
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 8
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 8
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 8
+        }
+      ]
+    },
+    {
+      "id": "addis-ababa",
+      "name": "Addis Ababa",
+      "country": "Ethiopia",
+      "continent": "africa",
+      "coords": [
+        38.7578,
+        9.0054
+      ],
+      "totalKm": 34,
+      "lines": 2,
+      "stations": 39,
+      "openedYear": 2015,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/addis-ababa.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 17
+        }
+      ]
+    },
+    {
+      "id": "lima",
+      "name": "Lima",
+      "country": "Peru",
+      "continent": "south-america",
+      "coords": [
+        -77.0428,
+        -12.0464
+      ],
+      "totalKm": 35,
+      "lines": 1,
+      "stations": 26,
+      "openedYear": 2011,
+      "accentColor": "#F7941D",
+      "geojsonPath": "/data/geojson/lima.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Lima",
+          "color": "#E4002B",
+          "lengthKm": 35
+        }
+      ]
+    },
+    {
+      "id": "baku",
+      "name": "Baku",
+      "country": "Azerbaijan",
+      "continent": "asia",
+      "coords": [
+        49.8671,
+        40.4093
+      ],
+      "totalKm": 37,
+      "lines": 3,
+      "stations": 27,
+      "openedYear": 1967,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/baku.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 12
+        }
+      ]
+    },
+    {
+      "id": "turin",
+      "name": "Turin",
+      "country": "Italy",
+      "continent": "europe",
+      "coords": [
+        7.6869,
+        45.0703
+      ],
+      "totalKm": 38,
+      "lines": 1,
+      "stations": 21,
+      "openedYear": 1958,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/turin.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Turin",
+          "color": "#E4002B",
+          "lengthKm": 38
+        }
+      ]
+    },
+    {
+      "id": "kharkiv",
+      "name": "Kharkiv",
+      "country": "Ukraine",
+      "continent": "europe",
+      "coords": [
+        36.2304,
+        49.9935
+      ],
+      "totalKm": 38,
+      "lines": 3,
+      "stations": 30,
+      "openedYear": 1975,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/kharkiv.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 13
+        }
+      ]
+    },
+    {
+      "id": "kolkata",
+      "name": "Kolkata",
+      "country": "India",
+      "continent": "asia",
+      "coords": [
+        88.3639,
+        22.5726
+      ],
+      "totalKm": 39,
+      "lines": 2,
+      "stations": 31,
+      "openedYear": 1984,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/kolkata.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 20
+        }
+      ]
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "continent": "europe",
+      "coords": [
+        12.5683,
+        55.6761
+      ],
+      "totalKm": 39,
+      "lines": 2,
+      "stations": 39,
+      "openedYear": 2002,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/copenhagen.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 20
+        }
+      ]
+    },
+    {
+      "id": "brussels",
+      "name": "Brussels",
+      "country": "Belgium",
+      "continent": "europe",
+      "coords": [
+        4.3517,
+        50.8503
+      ],
+      "totalKm": 39,
+      "lines": 4,
+      "stations": 59,
+      "openedYear": 1976,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/brussels.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 10
+        }
+      ]
+    },
+    {
+      "id": "budapest",
+      "name": "Budapest",
+      "country": "Hungary",
+      "continent": "europe",
+      "coords": [
+        19.0402,
+        47.4979
+      ],
+      "totalKm": 39,
+      "lines": 4,
+      "stations": 48,
+      "openedYear": 1896,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/budapest.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 10
+        }
+      ]
+    },
+    {
+      "id": "belgrade",
+      "name": "Belgrade",
+      "country": "Serbia",
+      "continent": "europe",
+      "coords": [
+        20.4573,
+        44.7866
+      ],
+      "totalKm": 41,
+      "lines": 2,
+      "stations": 25,
+      "openedYear": 1995,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/belgrade.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 21
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 21
+        }
+      ]
+    },
+    {
+      "id": "minsk",
+      "name": "Minsk",
+      "country": "Belarus",
+      "continent": "europe",
+      "coords": [
+        27.5615,
+        53.9045
+      ],
+      "totalKm": 42,
+      "lines": 2,
+      "stations": 29,
+      "openedYear": 1984,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/minsk.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 21
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 21
+        }
+      ]
+    },
+    {
+      "id": "helsinki",
+      "name": "Helsinki",
+      "country": "Finland",
+      "continent": "europe",
+      "coords": [
+        24.9384,
+        60.1699
+      ],
+      "totalKm": 43,
+      "lines": 2,
+      "stations": 25,
+      "openedYear": 1982,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/helsinki.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 22
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 22
+        }
+      ]
+    },
+    {
+      "id": "lisbon",
+      "name": "Lisbon",
+      "country": "Portugal",
+      "continent": "europe",
+      "coords": [
+        -9.1393,
+        38.7223
+      ],
+      "totalKm": 45,
+      "lines": 4,
+      "stations": 56,
+      "openedYear": 1959,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/lisbon.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 11
+        }
+      ]
+    },
+    {
+      "id": "almaty",
+      "name": "Almaty",
+      "country": "Kazakhstan",
+      "continent": "asia",
+      "coords": [
+        76.8897,
+        43.222
+      ],
+      "totalKm": 45,
+      "lines": 1,
+      "stations": 11,
+      "openedYear": 2011,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/almaty.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Almaty",
+          "color": "#E4002B",
+          "lengthKm": 45
+        }
+      ]
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -71.0589,
+        42.3601
+      ],
+      "totalKm": 47,
+      "lines": 4,
+      "stations": 53,
+      "openedYear": 1897,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/boston.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 12
+        }
+      ]
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -75.1652,
+        39.9526
+      ],
+      "totalKm": 47,
+      "lines": 4,
+      "stations": 53,
+      "openedYear": 1907,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/philadelphia.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 12
+        }
+      ]
+    },
+    {
+      "id": "bordeaux",
+      "name": "Bordeaux",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        -0.5792,
+        44.8378
+      ],
+      "totalKm": 47,
+      "lines": 4,
+      "stations": 47,
+      "openedYear": 2003,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/bordeaux.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 12
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 12
+        }
+      ]
+    },
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "country": "Colombia",
+      "continent": "south-america",
+      "coords": [
+        -74.0721,
+        4.711
+      ],
+      "totalKm": 48,
+      "lines": 1,
+      "stations": 16,
+      "openedYear": 2022,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/bogota.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Bogotá",
+          "color": "#E4002B",
+          "lengthKm": 48
+        }
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "continent": "europe",
+      "coords": [
+        4.9041,
+        52.3676
+      ],
+      "totalKm": 52,
+      "lines": 5,
+      "stations": 58,
+      "openedYear": 1977,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/amsterdam.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 10
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 10
+        }
+      ]
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "country": "Bulgaria",
+      "continent": "europe",
+      "coords": [
+        23.3219,
+        42.6977
+      ],
+      "totalKm": 52,
+      "lines": 4,
+      "stations": 47,
+      "openedYear": 1998,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/sofia.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 13
+        }
+      ]
+    },
+    {
+      "id": "caracas",
+      "name": "Caracas",
+      "country": "Venezuela",
+      "continent": "south-america",
+      "coords": [
+        -66.9036,
+        10.4806
+      ],
+      "totalKm": 54,
+      "lines": 5,
+      "stations": 48,
+      "openedYear": 1983,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/caracas.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 11
+        }
+      ]
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "country": "Spain",
+      "continent": "europe",
+      "coords": [
+        -0.3763,
+        39.4699
+      ],
+      "totalKm": 56,
+      "lines": 5,
+      "stations": 70,
+      "openedYear": 1995,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/valencia.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 11
+        }
+      ]
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore",
+      "country": "India",
+      "continent": "asia",
+      "coords": [
+        77.5946,
+        12.9716
+      ],
+      "totalKm": 56,
+      "lines": 2,
+      "stations": 66,
+      "openedYear": 2011,
+      "accentColor": "#6A2150",
+      "geojsonPath": "/data/geojson/bangalore.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 28
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 28
+        }
+      ]
+    },
+    {
+      "id": "manila",
+      "name": "Manila",
+      "country": "Philippines",
+      "continent": "asia",
+      "coords": [
+        120.9842,
+        14.5995
+      ],
+      "totalKm": 56,
+      "lines": 3,
+      "stations": 31,
+      "openedYear": 1984,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/manila.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 19
+        }
+      ]
+    },
+    {
+      "id": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "continent": "south-america",
+      "coords": [
+        -43.1729,
+        -22.9068
+      ],
+      "totalKm": 58,
+      "lines": 3,
+      "stations": 41,
+      "openedYear": 1979,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/rio-de-janeiro.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 19
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "Italy",
+      "continent": "europe",
+      "coords": [
+        12.4964,
+        41.9028
+      ],
+      "totalKm": 60,
+      "lines": 3,
+      "stations": 73,
+      "openedYear": 1955,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/rome.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 20
+        }
+      ]
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "country": "Czech Republic",
+      "continent": "europe",
+      "coords": [
+        14.4378,
+        50.0755
+      ],
+      "totalKm": 65,
+      "lines": 3,
+      "stations": 61,
+      "openedYear": 1974,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/prague.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 22
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 22
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 22
+        }
+      ]
+    },
+    {
+      "id": "tashkent",
+      "name": "Tashkent",
+      "country": "Uzbekistan",
+      "continent": "asia",
+      "coords": [
+        69.2401,
+        41.2995
+      ],
+      "totalKm": 66,
+      "lines": 4,
+      "stations": 50,
+      "openedYear": 1977,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/tashkent.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 17
+        }
+      ]
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "country": "Portugal",
+      "continent": "europe",
+      "coords": [
+        -8.6291,
+        41.1579
+      ],
+      "totalKm": 67,
+      "lines": 6,
+      "stations": 68,
+      "openedYear": 2002,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/porto.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 11
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 11
+        }
+      ]
+    },
+    {
+      "id": "warsaw",
+      "name": "Warsaw",
+      "country": "Poland",
+      "continent": "europe",
+      "coords": [
+        21.0122,
+        52.2297
+      ],
+      "totalKm": 70,
+      "lines": 2,
+      "stations": 39,
+      "openedYear": 1995,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/warsaw.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 35
+        }
+      ]
+    },
+    {
+      "id": "kyiv",
+      "name": "Kyiv",
+      "country": "Ukraine",
+      "continent": "europe",
+      "coords": [
+        30.5234,
+        50.4501
+      ],
+      "totalKm": 70,
+      "lines": 3,
+      "stations": 52,
+      "openedYear": 1960,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/kyiv.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 23
+        }
+      ]
+    },
+    {
+      "id": "montreal",
+      "name": "Montreal",
+      "country": "Canada",
+      "continent": "north-america",
+      "coords": [
+        -73.5673,
+        45.5017
+      ],
+      "totalKm": 71,
+      "lines": 4,
+      "stations": 68,
+      "openedYear": 1966,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/montreal.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 18
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 18
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 18
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 18
+        }
+      ]
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto",
+      "country": "Canada",
+      "continent": "north-america",
+      "coords": [
+        -79.3832,
+        43.6532
+      ],
+      "totalKm": 76,
+      "lines": 4,
+      "stations": 75,
+      "openedYear": 1954,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/toronto.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 19
+        }
+      ]
+    },
+    {
+      "id": "doha",
+      "name": "Doha",
+      "country": "Qatar",
+      "continent": "middle-east",
+      "coords": [
+        51.531,
+        25.2854
+      ],
+      "totalKm": 76,
+      "lines": 3,
+      "stations": 37,
+      "openedYear": 2011,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/doha.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 25
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 25
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 25
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "south-america",
+      "coords": [
+        -58.3816,
+        -34.6037
+      ],
+      "totalKm": 78,
+      "lines": 6,
+      "stations": 90,
+      "openedYear": 1913,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/buenos-aires.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 13
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 13
+        }
+      ]
+    },
+    {
+      "id": "rotterdam",
+      "name": "Rotterdam",
+      "country": "Netherlands",
+      "continent": "europe",
+      "coords": [
+        4.4792,
+        51.9225
+      ],
+      "totalKm": 78,
+      "lines": 5,
+      "stations": 70,
+      "openedYear": 1968,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/rotterdam.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 16
+        }
+      ]
+    },
+    {
+      "id": "bucharest",
+      "name": "Bucharest",
+      "country": "Romania",
+      "continent": "europe",
+      "coords": [
+        26.1025,
+        44.4268
+      ],
+      "totalKm": 78,
+      "lines": 5,
+      "stations": 63,
+      "openedYear": 1979,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/bucharest.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 16
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 16
+        }
+      ]
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "country": "Canada",
+      "continent": "north-america",
+      "coords": [
+        -123.1207,
+        49.2827
+      ],
+      "totalKm": 80,
+      "lines": 3,
+      "stations": 53,
+      "openedYear": 1985,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/vancouver.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 27
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 27
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 27
+        }
+      ]
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "country": "Austria",
+      "continent": "europe",
+      "coords": [
+        16.3738,
+        48.2082
+      ],
+      "totalKm": 83,
+      "lines": 5,
+      "stations": 98,
+      "openedYear": 1976,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/vienna.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 17
+        }
+      ]
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "country": "Norway",
+      "continent": "europe",
+      "coords": [
+        10.7522,
+        59.9139
+      ],
+      "totalKm": 85,
+      "lines": 5,
+      "stations": 101,
+      "openedYear": 1966,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/oslo.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 17
+        }
+      ]
+    },
+    {
+      "id": "athens",
+      "name": "Athens",
+      "country": "Greece",
+      "continent": "europe",
+      "coords": [
+        23.7275,
+        37.9838
+      ],
+      "totalKm": 85,
+      "lines": 3,
+      "stations": 66,
+      "openedYear": 1904,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/athens.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 28
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 28
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 28
+        }
+      ]
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "UAE",
+      "continent": "middle-east",
+      "coords": [
+        55.2708,
+        25.2048
+      ],
+      "totalKm": 90,
+      "lines": 2,
+      "stations": 53,
+      "openedYear": 2009,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/dubai.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 45
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 45
+        }
+      ]
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "Australia",
+      "continent": "oceania",
+      "coords": [
+        144.9631,
+        -37.8136
+      ],
+      "totalKm": 97,
+      "lines": 1,
+      "stations": 13,
+      "openedYear": 2021,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/melbourne.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Melbourne",
+          "color": "#E4002B",
+          "lengthKm": 97
+        }
+      ]
+    },
+    {
+      "id": "kuala-lumpur",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continent": "asia",
+      "coords": [
+        101.6869,
+        3.139
+      ],
+      "totalKm": 99,
+      "lines": 3,
+      "stations": 75,
+      "openedYear": 1996,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/kuala-lumpur.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 33
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 33
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 33
+        }
+      ]
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "country": "Brazil",
+      "continent": "south-america",
+      "coords": [
+        -46.6333,
+        -23.5505
+      ],
+      "totalKm": 101,
+      "lines": 6,
+      "stations": 89,
+      "openedYear": 1974,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/sao-paulo.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 17
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 17
+        }
+      ]
+    },
+    {
+      "id": "milan",
+      "name": "Milan",
+      "country": "Italy",
+      "continent": "europe",
+      "coords": [
+        9.19,
+        45.4642
+      ],
+      "totalKm": 101,
+      "lines": 5,
+      "stations": 113,
+      "openedYear": 1964,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/milan.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 20
+        }
+      ]
+    },
+    {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "country": "Sweden",
+      "continent": "europe",
+      "coords": [
+        18.0686,
+        59.3293
+      ],
+      "totalKm": 108,
+      "lines": 7,
+      "stations": 100,
+      "openedYear": 1950,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/stockholm.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 15
+        }
+      ]
+    },
+    {
+      "id": "busan",
+      "name": "Busan",
+      "country": "South Korea",
+      "continent": "asia",
+      "coords": [
+        129.0756,
+        35.1796
+      ],
+      "totalKm": 116,
+      "lines": 4,
+      "stations": 114,
+      "openedYear": 1985,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/busan.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 29
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 29
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 29
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 29
+        }
+      ]
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "continent": "europe",
+      "coords": [
+        28.9784,
+        41.0082
+      ],
+      "totalKm": 120,
+      "lines": 6,
+      "stations": 104,
+      "openedYear": 1989,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/istanbul.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 20
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 20
+        }
+      ]
+    },
+    {
+      "id": "saint-petersburg",
+      "name": "Saint Petersburg",
+      "country": "Russia",
+      "continent": "europe",
+      "coords": [
+        30.3351,
+        59.9343
+      ],
+      "totalKm": 124,
+      "lines": 5,
+      "stations": 72,
+      "openedYear": 1955,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/saint-petersburg.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 25
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 25
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 25
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 25
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 25
+        }
+      ]
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka",
+      "country": "Japan",
+      "continent": "asia",
+      "coords": [
+        135.5023,
+        34.6937
+      ],
+      "totalKm": 137,
+      "lines": 9,
+      "stations": 133,
+      "openedYear": 1933,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/osaka.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 15
+        }
+      ]
+    },
+    {
+      "id": "santiago",
+      "name": "Santiago",
+      "country": "Chile",
+      "continent": "south-america",
+      "coords": [
+        -70.6693,
+        -33.4489
+      ],
+      "totalKm": 140,
+      "lines": 6,
+      "stations": 136,
+      "openedYear": 1975,
+      "ridershipPerYear": 670000000,
+      "expansionRate": 2.8,
+      "accentColor": "#E4002B",
+      "dataProvider": "dtpm-gtfs",
+      "dataSourceUrl": "https://www.dtpm.cl/descargas/gtfs/GTFS_20260418.zip",
+      "geojsonPath": "/data/geojson/santiago.json",
+      "linesDetail": [
+        {
+          "name": "Línea 1",
+          "color": "#E4002B",
+          "lengthKm": 20
+        },
+        {
+          "name": "Línea 2",
+          "color": "#FFD100",
+          "lengthKm": 18
+        },
+        {
+          "name": "Línea 3",
+          "color": "#6A2150",
+          "lengthKm": 22
+        },
+        {
+          "name": "Línea 4",
+          "color": "#009BD4",
+          "lengthKm": 24
+        },
+        {
+          "name": "Línea 5",
+          "color": "#009A44",
+          "lengthKm": 30
+        },
+        {
+          "name": "Línea 6",
+          "color": "#80298F",
+          "lengthKm": 26
+        }
+      ]
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "continent": "asia",
+      "coords": [
+        100.5018,
+        13.7563
+      ],
+      "totalKm": 145,
+      "lines": 6,
+      "stations": 120,
+      "openedYear": 1999,
+      "ridershipPerYear": 420000000,
+      "expansionRate": 5,
+      "accentColor": "#77B255",
+      "dataProvider": "namtang-gtfs",
+      "dataSourceUrl": "https://namtang-api.otp.go.th/download/namtang-gtfs.zip",
+      "geojsonPath": "/data/geojson/bangkok.json",
+      "linesDetail": [
+        {
+          "name": "BTS Sukhumvit",
+          "color": "#77B255",
+          "lengthKm": 24
+        },
+        {
+          "name": "BTS Silom",
+          "color": "#007A33",
+          "lengthKm": 14
+        },
+        {
+          "name": "MRT Blue",
+          "color": "#0066B3",
+          "lengthKm": 48
+        },
+        {
+          "name": "MRT Purple",
+          "color": "#6A2150",
+          "lengthKm": 23
+        },
+        {
+          "name": "MRT Yellow",
+          "color": "#FFD100",
+          "lengthKm": 23
+        },
+        {
+          "name": "Airport Rail",
+          "color": "#E4002B",
+          "lengthKm": 28
+        }
+      ]
+    },
+    {
+      "id": "taipei",
+      "name": "Taipei",
+      "country": "Taiwan",
+      "continent": "asia",
+      "coords": [
+        121.5654,
+        25.033
+      ],
+      "totalKm": 152,
+      "lines": 6,
+      "stations": 131,
+      "openedYear": 1996,
+      "ridershipPerYear": 780000000,
+      "expansionRate": 4.9,
+      "accentColor": "#E3002C",
+      "dataProvider": "tdx-trtc",
+      "dataSourceUrl": "https://tdx.transportdata.tw/api/gtfs/V3/Map/GTFS/Static/Rail/TRTC",
+      "geojsonPath": "/data/geojson/taipei.json",
+      "linesDetail": [
+        {
+          "name": "Red Line",
+          "color": "#E3002C",
+          "lengthKm": 28
+        },
+        {
+          "name": "Blue Line",
+          "color": "#0070BD",
+          "lengthKm": 26
+        },
+        {
+          "name": "Green Line",
+          "color": "#008659",
+          "lengthKm": 22
+        },
+        {
+          "name": "Orange Line",
+          "color": "#F8B62D",
+          "lengthKm": 26
+        },
+        {
+          "name": "Brown Line",
+          "color": "#C48C31",
+          "lengthKm": 25
+        },
+        {
+          "name": "Yellow Line",
+          "color": "#FFDB00",
+          "lengthKm": 25
+        }
+      ]
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "country": "Germany",
+      "continent": "europe",
+      "coords": [
+        13.405,
+        52.52
+      ],
+      "totalKm": 155,
+      "lines": 9,
+      "stations": 175,
+      "openedYear": 1902,
+      "ridershipPerYear": 560000000,
+      "expansionRate": 1.4,
+      "accentColor": "#009BD4",
+      "dataProvider": "vbb-gtfs",
+      "dataSourceUrl": "https://www.vbb.de/fileadmin/user_upload/VBB/Dokumente/API-Datensaetze/gtfs-mastscharf/GTFS.zip",
+      "geojsonPath": "/data/geojson/berlin.json",
+      "linesDetail": [
+        {
+          "name": "U1",
+          "color": "#55A822",
+          "lengthKm": 9
+        },
+        {
+          "name": "U2",
+          "color": "#E4002B",
+          "lengthKm": 21
+        },
+        {
+          "name": "U5",
+          "color": "#7E5335",
+          "lengthKm": 32
+        },
+        {
+          "name": "U6",
+          "color": "#8C6DAB",
+          "lengthKm": 20
+        },
+        {
+          "name": "U7",
+          "color": "#009BD4",
+          "lengthKm": 32
+        },
+        {
+          "name": "U8",
+          "color": "#0066B3",
+          "lengthKm": 18
+        },
+        {
+          "name": "U9",
+          "color": "#F37920",
+          "lengthKm": 12
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -87.6298,
+        41.8781
+      ],
+      "totalKm": 165,
+      "lines": 8,
+      "stations": 270,
+      "openedYear": 1892,
+      "ridershipPerYear": 135000000,
+      "expansionRate": 1.8,
+      "accentColor": "#C60C30",
+      "dataProvider": "cta-gtfs",
+      "dataSourceUrl": "https://www.transitchicago.com/downloads/sch_data/google_transit.zip",
+      "geojsonPath": "/data/geojson/chicago.json",
+      "linesDetail": [
+        {
+          "name": "CTA Red Line",
+          "color": "#C60C30",
+          "lengthKm": 35
+        },
+        {
+          "name": "CTA Blue Line",
+          "color": "#00A1DE",
+          "lengthKm": 43
+        },
+        {
+          "name": "CTA Brown Line",
+          "color": "#62361B",
+          "lengthKm": 18
+        },
+        {
+          "name": "CTA Green Line",
+          "color": "#009B3A",
+          "lengthKm": 33
+        },
+        {
+          "name": "CTA Orange Line",
+          "color": "#F9461C",
+          "lengthKm": 21
+        },
+        {
+          "name": "CTA Pink Line",
+          "color": "#E27EA6",
+          "lengthKm": 18
+        },
+        {
+          "name": "CTA Purple Line",
+          "color": "#522398",
+          "lengthKm": 25
+        },
+        {
+          "name": "CTA Yellow Line",
+          "color": "#F9E300",
+          "lengthKm": 8
+        }
+      ]
+    },
+    {
+      "id": "riyadh",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "continent": "middle-east",
+      "coords": [
+        46.6753,
+        24.7136
+      ],
+      "totalKm": 176,
+      "lines": 2,
+      "stations": 85,
+      "openedYear": 2014,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/riyadh.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 88
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 88
+        }
+      ]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "continent": "oceania",
+      "coords": [
+        151.2093,
+        -33.8688
+      ],
+      "totalKm": 178,
+      "lines": 1,
+      "stations": 13,
+      "openedYear": 2019,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/sydney.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Sydney",
+          "color": "#E4002B",
+          "lengthKm": 178
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -122.4194,
+        37.7749
+      ],
+      "totalKm": 180,
+      "lines": 5,
+      "stations": 50,
+      "openedYear": 1972,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/san-francisco.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 36
+        }
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -118.2437,
+        34.0522
+      ],
+      "totalKm": 186,
+      "lines": 2,
+      "stations": 93,
+      "openedYear": 1990,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/los-angeles.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 93
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 93
+        }
+      ]
+    },
+    {
+      "id": "washington-dc",
+      "name": "Washington D.C.",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -77.0369,
+        38.9072
+      ],
+      "totalKm": 208,
+      "lines": 6,
+      "stations": 98,
+      "openedYear": 1976,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/washington-dc.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 35
+        }
+      ]
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "country": "Egypt",
+      "continent": "africa",
+      "coords": [
+        31.2357,
+        30.0444
+      ],
+      "totalKm": 210,
+      "lines": 3,
+      "stations": 84,
+      "openedYear": 1987,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/cairo.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 70
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 70
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 70
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        114.1694,
+        22.3193
+      ],
+      "totalKm": 220,
+      "lines": 15,
+      "stations": 264,
+      "openedYear": 1979,
+      "ridershipPerYear": 1700000000,
+      "expansionRate": 6.4,
+      "accentColor": "#007DC5",
+      "dataProvider": "hk-gtfs",
+      "dataSourceUrl": "https://github.com/wheelstransit/hongkong-community-gtfs",
+      "geojsonPath": "/data/geojson/hong-kong.json",
+      "linesDetail": [
+        {
+          "name": "MTR Island Line",
+          "color": "#007DC5",
+          "lengthKm": 16
+        },
+        {
+          "name": "MTR Kwun Tong Line",
+          "color": "#00A040",
+          "lengthKm": 18
+        },
+        {
+          "name": "MTR Tsuen Wan Line",
+          "color": "#E4002B",
+          "lengthKm": 16
+        },
+        {
+          "name": "MTR Tseung Kwan O",
+          "color": "#7E5335",
+          "lengthKm": 15
+        },
+        {
+          "name": "MTR Tung Chung",
+          "color": "#F7941D",
+          "lengthKm": 31
+        },
+        {
+          "name": "MTR East Rail",
+          "color": "#5EB6E4",
+          "lengthKm": 46
+        },
+        {
+          "name": "MTR South Island",
+          "color": "#B5BD00",
+          "lengthKm": 7
+        },
+        {
+          "name": "MTR Tuen Ma",
+          "color": "#9A3826",
+          "lengthKm": 57
+        }
+      ]
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "continent": "north-america",
+      "coords": [
+        -99.1332,
+        19.4326
+      ],
+      "totalKm": 226,
+      "lines": 12,
+      "stations": 195,
+      "openedYear": 1969,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/mexico-city.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 19
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 19
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "continent": "asia",
+      "coords": [
+        103.8198,
+        1.3521
+      ],
+      "totalKm": 230,
+      "lines": 6,
+      "stations": 142,
+      "openedYear": 1987,
+      "ridershipPerYear": 1200000000,
+      "expansionRate": 4.1,
+      "accentColor": "#E4002B",
+      "dataProvider": "sgraildata",
+      "dataSourceUrl": "https://github.com/cheeaun/sgraildata",
+      "geojsonPath": "/data/geojson/singapore.json",
+      "linesDetail": [
+        {
+          "name": "North-South",
+          "color": "#E4002B",
+          "lengthKm": 45
+        },
+        {
+          "name": "East-West",
+          "color": "#009645",
+          "lengthKm": 57
+        },
+        {
+          "name": "Circle Line",
+          "color": "#F7931E",
+          "lengthKm": 35
+        },
+        {
+          "name": "North East",
+          "color": "#9900AA",
+          "lengthKm": 20
+        },
+        {
+          "name": "Downtown",
+          "color": "#005EB8",
+          "lengthKm": 42
+        },
+        {
+          "name": "Thomson-East Coast",
+          "color": "#9D5B25",
+          "lengthKm": 31
+        },
+        {
+          "name": "Bukit Panjang LRT",
+          "color": "#848484",
+          "lengthKm": 8
+        },
+        {
+          "name": "Sengkang LRT",
+          "color": "#848484",
+          "lengthKm": 11
+        },
+        {
+          "name": "Punggol LRT",
+          "color": "#848484",
+          "lengthKm": 10
+        },
+        {
+          "name": "Jurong Region",
+          "color": "#4BA491",
+          "lengthKm": 24
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "continent": "europe",
+      "coords": [
+        2.3522,
+        48.8566
+      ],
+      "totalKm": 245,
+      "lines": 16,
+      "stations": 308,
+      "openedYear": 1900,
+      "ridershipPerYear": 1500000000,
+      "expansionRate": 2.5,
+      "accentColor": "#FFCD00",
+      "dataProvider": "idfm-gtfs",
+      "dataSourceUrl": "https://eu.ftp.opendatasoft.com/stif/GTFS/IDFM-gtfs.zip",
+      "geojsonPath": "/data/geojson/paris.json",
+      "linesDetail": [
+        {
+          "name": "Ligne 1",
+          "color": "#FFCD00",
+          "lengthKm": 17
+        },
+        {
+          "name": "Ligne 4",
+          "color": "#BE418E",
+          "lengthKm": 14
+        },
+        {
+          "name": "Ligne 6",
+          "color": "#6EC4E8",
+          "lengthKm": 13
+        },
+        {
+          "name": "Ligne 9",
+          "color": "#B6BD00",
+          "lengthKm": 20
+        },
+        {
+          "name": "Ligne 12",
+          "color": "#00814F",
+          "lengthKm": 15
+        },
+        {
+          "name": "Ligne 13",
+          "color": "#8D5E2A",
+          "lengthKm": 25
+        },
+        {
+          "name": "Ligne 14",
+          "color": "#62259D",
+          "lengthKm": 14
+        },
+        {
+          "name": "RER A",
+          "color": "#E4002B",
+          "lengthKm": 109
+        }
+      ]
+    },
+    {
+      "id": "tehran",
+      "name": "Tehran",
+      "country": "Iran",
+      "continent": "middle-east",
+      "coords": [
+        51.389,
+        35.6892
+      ],
+      "totalKm": 254,
+      "lines": 7,
+      "stations": 119,
+      "openedYear": 1966,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/tehran.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 36
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 36
+        }
+      ]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "continent": "asia",
+      "coords": [
+        139.6917,
+        35.6895
+      ],
+      "totalKm": 304,
+      "lines": 13,
+      "stations": 179,
+      "openedYear": 1927,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/tokyo.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 23
+        }
+      ]
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "continent": "asia",
+      "coords": [
+        126.978,
+        37.5665
+      ],
+      "totalKm": 332,
+      "lines": 9,
+      "stations": 307,
+      "openedYear": 1974,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/seoul.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 37
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 37
+        }
+      ]
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "country": "India",
+      "continent": "asia",
+      "coords": [
+        77.209,
+        28.6139
+      ],
+      "totalKm": 348,
+      "lines": 10,
+      "stations": 288,
+      "openedYear": 2002,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/delhi.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 35
+        }
+      ]
+    },
+    {
+      "id": "nanjing",
+      "name": "Nanjing",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        118.7969,
+        32.0603
+      ],
+      "totalKm": 378,
+      "lines": 12,
+      "stations": 237,
+      "openedYear": 2005,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/nanjing.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 32
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 32
+        }
+      ]
+    },
+    {
+      "id": "new-york-city",
+      "name": "New York City",
+      "country": "USA",
+      "continent": "north-america",
+      "coords": [
+        -73.9857,
+        40.7484
+      ],
+      "totalKm": 394,
+      "lines": 27,
+      "stations": 424,
+      "openedYear": 1904,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/new-york-city.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 14",
+          "color": "#009645",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 15",
+          "color": "#005EB8",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 16",
+          "color": "#9900AA",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 17",
+          "color": "#F7931E",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 18",
+          "color": "#9D5B25",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 19",
+          "color": "#00A1DE",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 20",
+          "color": "#009B3A",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 21",
+          "color": "#C60C30",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 22",
+          "color": "#522398",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 23",
+          "color": "#FFCD00",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 24",
+          "color": "#6EC4E8",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 25",
+          "color": "#E4002B",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 26",
+          "color": "#009645",
+          "lengthKm": 15
+        },
+        {
+          "name": "Line 27",
+          "color": "#005EB8",
+          "lengthKm": 15
+        }
+      ]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "UK",
+      "continent": "europe",
+      "coords": [
+        -0.1276,
+        51.5074
+      ],
+      "totalKm": 402,
+      "lines": 11,
+      "stations": 272,
+      "openedYear": 1863,
+      "ridershipPerYear": 1200000000,
+      "expansionRate": 1.6,
+      "accentColor": "#E4002B",
+      "dataProvider": "tfl-api",
+      "dataSourceUrl": "https://api.tfl.gov.uk/Line/Mode/tube",
+      "geojsonPath": "/data/geojson/london.json",
+      "linesDetail": [
+        {
+          "name": "Central",
+          "color": "#E4002B",
+          "lengthKm": 74
+        },
+        {
+          "name": "Northern",
+          "color": "#000000",
+          "lengthKm": 58
+        },
+        {
+          "name": "Piccadilly",
+          "color": "#003688",
+          "lengthKm": 71
+        },
+        {
+          "name": "District",
+          "color": "#007A33",
+          "lengthKm": 64
+        },
+        {
+          "name": "Circle",
+          "color": "#FFD300",
+          "lengthKm": 27
+        },
+        {
+          "name": "Victoria",
+          "color": "#0098D4",
+          "lengthKm": 21
+        },
+        {
+          "name": "Jubilee",
+          "color": "#A0A5A9",
+          "lengthKm": 36
+        },
+        {
+          "name": "Metropolitan",
+          "color": "#9B0058",
+          "lengthKm": 51
+        }
+      ]
+    },
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "country": "Russia",
+      "continent": "europe",
+      "coords": [
+        37.6173,
+        55.7558
+      ],
+      "totalKm": 465,
+      "lines": 15,
+      "stations": 263,
+      "openedYear": 1935,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/moscow.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 14",
+          "color": "#009645",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 15",
+          "color": "#005EB8",
+          "lengthKm": 31
+        }
+      ]
+    },
+    {
+      "id": "chongqing",
+      "name": "Chongqing",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        106.5516,
+        29.563
+      ],
+      "totalKm": 492,
+      "lines": 12,
+      "stations": 280,
+      "openedYear": 2004,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/chongqing.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 41
+        }
+      ]
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "country": "India",
+      "continent": "asia",
+      "coords": [
+        72.8777,
+        19.076
+      ],
+      "totalKm": 496,
+      "lines": 12,
+      "stations": 173,
+      "openedYear": 2014,
+      "accentColor": "#FFD100",
+      "geojsonPath": "/data/geojson/mumbai.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 41
+        }
+      ]
+    },
+    {
+      "id": "wuhan",
+      "name": "Wuhan",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        114.3055,
+        30.5928
+      ],
+      "totalKm": 518,
+      "lines": 12,
+      "stations": 282,
+      "openedYear": 2004,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/wuhan.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 43
+        }
+      ]
+    },
+    {
+      "id": "chengdu",
+      "name": "Chengdu",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        104.0665,
+        30.5728
+      ],
+      "totalKm": 558,
+      "lines": 13,
+      "stations": 373,
+      "openedYear": 2010,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/chengdu.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 43
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 43
+        }
+      ]
+    },
+    {
+      "id": "shenzhen",
+      "name": "Shenzhen",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        114.0579,
+        22.5431
+      ],
+      "totalKm": 567,
+      "lines": 16,
+      "stations": 369,
+      "openedYear": 2004,
+      "accentColor": "#005EB8",
+      "geojsonPath": "/data/geojson/shenzhen.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 14",
+          "color": "#009645",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 15",
+          "color": "#005EB8",
+          "lengthKm": 35
+        },
+        {
+          "name": "Line 16",
+          "color": "#9900AA",
+          "lengthKm": 35
+        }
+      ]
+    },
+    {
+      "id": "guangzhou",
+      "name": "Guangzhou",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        113.2644,
+        23.1291
+      ],
+      "totalKm": 631,
+      "lines": 16,
+      "stations": 270,
+      "openedYear": 1997,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/guangzhou.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 14",
+          "color": "#009645",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 15",
+          "color": "#005EB8",
+          "lengthKm": 39
+        },
+        {
+          "name": "Line 16",
+          "color": "#9900AA",
+          "lengthKm": 39
+        }
+      ]
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        121.4737,
+        31.2304
+      ],
+      "totalKm": 831,
+      "lines": 20,
+      "stations": 508,
+      "openedYear": 1993,
+      "accentColor": "#E4002B",
+      "geojsonPath": "/data/geojson/shanghai.json",
+      "dataProvider": "openstreetmap",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 2",
+          "color": "#009645",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 3",
+          "color": "#005EB8",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 4",
+          "color": "#9900AA",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 5",
+          "color": "#F7931E",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 6",
+          "color": "#9D5B25",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 7",
+          "color": "#00A1DE",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 8",
+          "color": "#009B3A",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 9",
+          "color": "#C60C30",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 10",
+          "color": "#522398",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 11",
+          "color": "#FFCD00",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 12",
+          "color": "#6EC4E8",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 13",
+          "color": "#E4002B",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 14",
+          "color": "#009645",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 15",
+          "color": "#005EB8",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 16",
+          "color": "#9900AA",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 17",
+          "color": "#F7931E",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 18",
+          "color": "#9D5B25",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 19",
+          "color": "#00A1DE",
+          "lengthKm": 42
+        },
+        {
+          "name": "Line 20",
+          "color": "#009B3A",
+          "lengthKm": 42
+        }
+      ]
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "country": "China",
+      "continent": "asia",
+      "coords": [
+        116.4074,
+        39.9042
+      ],
+      "totalKm": 836,
+      "lines": 27,
+      "stations": 490,
+      "openedYear": 1969,
+      "ridershipPerYear": 3800000000,
+      "expansionRate": 8.2,
+      "accentColor": "#E4002B",
+      "dataProvider": "osm-beijing",
+      "dataSourceUrl": "https://www.openstreetmap.org",
+      "geojsonPath": "/data/geojson/beijing.json",
+      "linesDetail": [
+        {
+          "name": "Line 1",
+          "color": "#E4002B",
+          "lengthKm": 31
+        },
+        {
+          "name": "Line 2",
+          "color": "#0066B3",
+          "lengthKm": 23
+        },
+        {
+          "name": "Line 4",
+          "color": "#008E9C",
+          "lengthKm": 28
+        },
+        {
+          "name": "Line 5",
+          "color": "#A192B2",
+          "lengthKm": 27
+        },
+        {
+          "name": "Line 6",
+          "color": "#B58500",
+          "lengthKm": 53
+        },
+        {
+          "name": "Line 10",
+          "color": "#009BD4",
+          "lengthKm": 57
+        },
+        {
+          "name": "Line 13",
+          "color": "#F9E300",
+          "lengthKm": 41
+        },
+        {
+          "name": "Line 14",
+          "color": "#D5A7A1",
+          "lengthKm": 54
+        }
+      ]
+    }
+  ]
+}
