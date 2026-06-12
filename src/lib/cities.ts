@@ -22,8 +22,12 @@ export function getDefaultCityIndex(): number {
   return index >= 0 ? index : cities.length - 1;
 }
 
+export function getCitiesRankedByKm(): MetroCity[] {
+  return [...cities].sort((a, b) => b.totalKm - a.totalKm);
+}
+
 export function getTopTen(): MetroCity[] {
-  return [...cities].sort((a, b) => b.totalKm - a.totalKm).slice(0, 10);
+  return getCitiesRankedByKm().slice(0, 10);
 }
 
 export function getCumulativeLength(upToIndex: number): number {

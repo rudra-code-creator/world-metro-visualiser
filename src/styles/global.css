@@ -33,6 +33,19 @@ button {
   position: relative;
   width: 100%;
   height: 100%;
+  --bottom-dock-expanded-height: 25vh;
+  --bottom-dock-tab-height: 44px;
+  --bottom-dock-height: var(--bottom-dock-expanded-height);
+}
+
+.app--dock-minimized {
+  --bottom-dock-height: var(--bottom-dock-tab-height);
+}
+
+.app--dock-resizing,
+.app--dock-resizing * {
+  cursor: ns-resize !important;
+  user-select: none;
 }
 
 .app__overlay {
@@ -42,7 +55,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1.25rem 1.5rem 0.75rem;
+  padding: 1.25rem 1.5rem calc(var(--bottom-dock-height) + 0.65rem);
   z-index: 2;
 }
 
@@ -409,66 +422,258 @@ button {
   margin-bottom: 0.5rem;
 }
 
-/* Top 10 chart */
-.top-ten {
-  background: rgba(8, 8, 18, 0.72);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 8px;
-  padding: 0.75rem 0.85rem;
-  max-height: 280px;
-  overflow-y: auto;
+/* City info (bottom dock panel) */
+.city-info {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(11rem, 36%) 1fr;
+  gap: 1rem;
+  overflow: hidden;
 }
 
-.top-ten__list {
-  list-style: none;
+.city-info__hero {
+  position: relative;
+  min-height: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.city-info__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.city-info__image--fallback {
+  background:
+    linear-gradient(145deg, rgba(183, 148, 246, 0.25), rgba(6, 6, 15, 0.9)),
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.08), transparent 55%);
+}
+
+.city-info__hero-overlay {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 1.5rem 0.85rem 0.75rem;
+  background: linear-gradient(transparent, rgba(6, 6, 15, 0.92));
+}
+
+.city-info__title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+}
+
+.city-info__country {
+  margin-top: 0.2rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a8a8bc;
+}
+
+.city-info__body {
+  min-height: 0;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
+  gap: 0.85rem;
+  padding-right: 0.25rem;
+}
+
+.city-info__facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem 1rem;
+}
+
+.city-info__fact dt {
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #787890;
+  margin-bottom: 0.2rem;
+}
+
+.city-info__fact dd {
+  font-size: 0.82rem;
+  color: #e0e0ec;
+  line-height: 1.35;
+}
+
+.city-info__fact--traffic dd {
+  margin: 0;
+}
+
+.city-info__traffic {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.city-info__traffic-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 1.1rem;
+}
+
+.city-info__traffic-bar {
+  width: 5px;
+  height: 100%;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.city-info__traffic-bar--filled {
+  background: linear-gradient(180deg, #f5d76e, #e85d4c);
+}
+
+.city-info__traffic-value {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #f4f4fc;
+}
+
+.city-info__traffic-scale {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: #8888a0;
+}
+
+.city-info__section-title {
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #787890;
+  margin-bottom: 0.35rem;
+}
+
+.city-info__text {
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: #c8c8dc;
+}
+
+.city-info__wiki {
+  display: inline-flex;
+  margin-top: 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #b794f6;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.city-info__wiki:hover {
+  color: #d4c4ff;
+  text-decoration: underline;
+}
+
+.city-info__landmarks {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.35rem;
 }
 
-.top-ten__button {
+.city-info__landmarks li {
+  font-size: 0.72rem;
+  padding: 0.22rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #d0d0e0;
+}
+
+/* Leaderboard (bottom dock panel) */
+.leaderboard {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.leaderboard__summary {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #787890;
+}
+
+.leaderboard__list {
+  list-style: none;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
   display: grid;
-  grid-template-columns: 72px 1fr 42px;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  gap: 0.2rem 1.25rem;
+  align-content: start;
+  padding-right: 0.35rem;
+}
+
+.leaderboard__button {
+  display: grid;
+  grid-template-columns: 1.6rem minmax(0, 5.75rem) 1fr 2.85rem;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   width: 100%;
-  padding: 0.2rem 0;
+  padding: 0.18rem 0;
   text-align: left;
-  transition: opacity 0.15s;
+  border-radius: 4px;
+  transition: background 0.15s, opacity 0.15s;
 }
 
-.top-ten__button:hover {
-  opacity: 0.9;
+.leaderboard__button:hover {
+  background: rgba(255, 255, 255, 0.05);
 }
 
-.top-ten__button--active .top-ten__name {
+.leaderboard__button--active {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.leaderboard__button--active .leaderboard__name {
   font-weight: 700;
 }
 
-.top-ten__name {
-  font-size: 0.72rem;
+.leaderboard__rank {
+  font-size: 0.62rem;
+  color: #686880;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.leaderboard__name {
+  font-size: 0.7rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.top-ten__bar-track {
+.leaderboard__bar-track {
   height: 4px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 2px;
   overflow: hidden;
 }
 
-.top-ten__bar {
+.leaderboard__bar {
   display: block;
   height: 100%;
   border-radius: 2px;
-  transition: width 0.4s ease;
 }
 
-.top-ten__km {
-  font-size: 0.68rem;
+.leaderboard__km {
+  font-size: 0.66rem;
   color: #9090a8;
   text-align: right;
   font-variant-numeric: tabular-nums;
@@ -635,20 +840,215 @@ button {
   opacity: 0.5;
 }
 
+/* Bottom dock — shared shell for timeline and future panels */
+.bottom-dock {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  pointer-events: auto;
+  cursor: default;
+}
+
+.bottom-dock--expanded {
+  display: flex;
+  flex-direction: column;
+  height: var(--bottom-dock-expanded-height);
+  min-height: 8.75rem;
+  background: rgba(6, 6, 15, 0.94);
+  backdrop-filter: blur(18px);
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 -8px 32px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.bottom-dock__resize-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  transform: translateY(-50%);
+  cursor: ns-resize;
+  touch-action: none;
+  z-index: 2;
+}
+
+.bottom-dock__resize-handle::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2.75rem;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.22);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s;
+}
+
+.bottom-dock--expanded:hover .bottom-dock__resize-handle::after,
+.app--dock-resizing .bottom-dock__resize-handle::after {
+  opacity: 1;
+}
+
+.bottom-dock__resize-handle:hover::after,
+.app--dock-resizing .bottom-dock__resize-handle::after {
+  background: rgba(183, 148, 246, 0.75);
+}
+
+.bottom-dock__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  padding: 0.4rem 0.75rem 0.35rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bottom-dock__tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.bottom-dock__tab-btn {
+  height: 30px;
+  padding: 0 0.85rem;
+  border-radius: 6px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9090a8;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.bottom-dock__tab-btn:hover {
+  color: #c8c8dc;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.bottom-dock__tab-btn--active {
+  color: #f0eeff;
+  background: rgba(183, 148, 246, 0.22);
+  border-color: rgba(183, 148, 246, 0.45);
+}
+
+.bottom-dock__minimize {
+  width: 32px;
+  height: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: #b8b8cc;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.bottom-dock__minimize:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.24);
+  color: #f0f0f8;
+}
+
+.bottom-dock__content {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem 0.75rem;
+}
+
+.bottom-dock--minimized {
+  height: var(--bottom-dock-tab-height);
+  background: rgba(6, 6, 15, 0.92);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.45);
+}
+
+.bottom-dock__minimized-tabs {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.bottom-dock__minimized-tab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0 0.75rem;
+  border: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  transition: background 0.15s, color 0.15s;
+}
+
+.bottom-dock__minimized-tab:last-child {
+  border-right: none;
+}
+
+.bottom-dock__minimized-tab:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.bottom-dock__minimized-tab--active {
+  background: rgba(183, 148, 246, 0.12);
+}
+
+.bottom-dock__tab-chevron {
+  font-size: 0.55rem;
+  color: #b794f6;
+}
+
+.bottom-dock__tab-title {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #c8c8dc;
+}
+
+.bottom-dock__tab-hint {
+  font-size: 0.72rem;
+  color: #8888a0;
+  letter-spacing: 0.02em;
+}
+
+.bottom-dock__tab-hint::before {
+  content: '·';
+  margin-right: 0.5rem;
+  color: #5a5a70;
+}
+
 /* Timeline */
 .timeline {
-  margin-top: auto;
-  margin-right: 15px;
   cursor: default;
-  background: rgba(6, 6, 15, 0.9);
-  backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 10px;
-  padding: 0.7rem 0.95rem 0.5rem;
-  box-shadow:
-    0 -6px 28px rgba(0, 0, 0, 0.55),
-    0 8px 24px rgba(0, 0, 0, 0.35),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.timeline--dock {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .timeline__controls {
@@ -773,6 +1173,30 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.timeline--dock .timeline__track {
+  flex: 1;
+  min-height: 3.25rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline--dock .timeline__blocks {
+  height: clamp(1.25rem, 4vh, 2.75rem);
+}
+
+.timeline--dock .timeline__playhead {
+  top: 50%;
+  height: min(70%, 3.5rem);
+  transform: translate(-50%, -50%);
+}
+
+.timeline--dock .timeline__labels {
+  flex-shrink: 0;
+  height: 1.5rem;
+}
+
 .timeline__blocks {
   display: flex;
   height: 14px;
@@ -871,8 +1295,17 @@ button {
     max-height: 220px;
   }
 
-  .top-ten {
-    max-height: 180px;
+  .leaderboard__list {
+    grid-template-columns: 1fr;
+  }
+
+  .city-info {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(9rem, 34%) 1fr;
+  }
+
+  .city-info__facts {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -894,8 +1327,12 @@ button {
     font-size: 1.5rem;
   }
 
-  .timeline {
-    padding: 0.6rem 0.75rem 0.45rem;
+  .bottom-dock__content {
+    padding: 0.45rem 0.75rem 0.6rem;
+  }
+
+  .bottom-dock__header {
+    padding: 0.4rem 0.75rem 0.3rem;
   }
 
   .timeline__controls {

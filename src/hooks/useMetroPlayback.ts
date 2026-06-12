@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { cities, getCumulativeLength, prefetchCityGeoJson } from '../lib/cities';
+import { skipNextMetroAnimationRef } from '../lib/playbackFlags';
 
 const STEP_MS = 2800;
 
@@ -28,15 +29,18 @@ export function useMetroPlayback(options: MetroPlaybackOptions = {}) {
     : getCumulativeLength(currentIndex);
 
   const goToIndex = useCallback((index: number) => {
+    skipNextMetroAnimationRef.current = false;
     const clamped = Math.max(0, Math.min(index, cities.length - 1));
     setCurrentIndex(clamped);
   }, []);
 
   const stepForward = useCallback(() => {
+    skipNextMetroAnimationRef.current = false;
     setCurrentIndex((index) => Math.min(index + 1, cities.length - 1));
   }, []);
 
   const stepBackward = useCallback(() => {
+    skipNextMetroAnimationRef.current = false;
     setCurrentIndex((index) => Math.max(index - 1, 0));
   }, []);
 
@@ -58,6 +62,7 @@ export function useMetroPlayback(options: MetroPlaybackOptions = {}) {
     const intervalMs = STEP_MS / playbackSpeed;
 
     timerRef.current = window.setInterval(() => {
+      skipNextMetroAnimationRef.current = true;
       setCurrentIndex((index) => {
         if (reverse) {
           if (index <= 0) {

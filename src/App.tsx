@@ -1,9 +1,11 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { MetroMap } from './components/MetroMap';
 import { Header } from './components/Header';
 import { GlobalStats } from './components/GlobalStats';
-import { TopTenChart } from './components/TopTenChart';
 import { CityPanel } from './components/CityPanel';
+import { BottomDock, clampDockHeight, getDefaultDockHeight } from './components/BottomDock';
+import { LeaderboardChart } from './components/LeaderboardChart';
+import { CityInfoPanel } from './components/CityInfoPanel';
 import { TimelineScrubber } from './components/TimelineScrubber';
 import { WelcomeOverlay } from './components/WelcomeOverlay';
 import { useMetroPlayback } from './hooks/useMetroPlayback';
@@ -29,9 +31,22 @@ export default function App() {
     toggleReverse,
   } = useMetroPlayback({ initialIndex, initialReverse: true });
 
+  const [dockExpanded, setDockExpanded] = useState(true);
+  const [activeDockTab, setActiveDockTab] = useState('timeline');
+  const [dockHeight, setDockHeight] = useState(getDefaultDockHeight);
+  const [dockResizing, setDockResizing] = useState(false);
+
   useEffect(() => {
     setCityIdInUrl(currentCity.id);
   }, [currentCity.id]);
+
+  useEffect(() => {
+    const onWindowResize = () => {
+      setDockHeight((current) => clampDockHeight(current));
+    };
+    window.addEventListener('resize', onWindowResize);
+    return () => window.removeEventListener('resize', onWindowResize);
+  }, []);
 
   const handleCitySelect = useCallback(
     (index: number) => {
@@ -49,7 +64,14 @@ export default function App() {
   );
 
   return (
-    <div className="app">
+    <div
+      className={`app${dockExpanded ? '' : ' app--dock-minimized'}${dockResizing ? ' app--dock-resizing' : ''}`}
+      style={
+        dockExpanded
+          ? ({ '--bottom-dock-expanded-height': `${dockHeight}px` } as React.CSSProperties)
+          : undefined
+      }
+    >
       <MetroMap
         currentCity={currentCity}
         currentIndex={currentIndex}
@@ -79,27 +101,58 @@ export default function App() {
                 <span>Upcoming — dim dashed</span>
               </div>
             </div>
-            <TopTenChart
-              currentCityId={currentCity.id}
-              onCitySelect={handleCitySelectById}
-              onScrubStart={pause}
-            />
           </div>
           <CityPanel city={currentCity} />
         </div>
-
-        <TimelineScrubber
-          currentIndex={currentIndex}
-          isPlaying={isPlaying}
-          playbackSpeed={playbackSpeed}
-          reverse={reverse}
-          onIndexChange={goToIndex}
-          onTogglePlay={togglePlay}
-          onScrubStart={pause}
-          onPlaybackSpeedChange={setPlaybackSpeed}
-          onToggleReverse={toggleReverse}
-        />
       </div>
+
+      <BottomDock
+        expanded={dockExpanded}
+        onExpandedChange={setDockExpanded}
+        activeTabId={activeDockTab}
+        onActiveTabChange={setActiveDockTab}
+        height={dockHeight}
+        onHeightChange={setDockHeight}
+        onResizingChange={setDockResizing}
+        tabs={[
+          {
+            id: 'timeline',
+            label: 'Timeline',
+            hint: currentCity.name,
+            panel: (
+              <TimelineScrubber
+                currentIndex={currentIndex}
+                isPlaying={isPlaying}
+                playbackSpeed={playbackSpeed}
+                reverse={reverse}
+                onIndexChange={goToIndex}
+                onTogglePlay={togglePlay}
+                onScrubStart={pause}
+                onPlaybackSpeedChange={setPlaybackSpeed}
+                onToggleReverse={toggleReverse}
+              />
+            ),
+          },
+          {
+            id: 'leaderboard',
+            label: 'Leaderboard',
+            panel: (
+              <LeaderboardChart
+                currentCityId={currentCity.id}
+                onCitySelect={handleCitySelectById}
+                onScrubStart={pause}
+                isActive={activeDockTab === 'leaderboard'}
+              />
+            ),
+          },
+          {
+            id: 'city-info',
+            label: 'City',
+            hint: currentCity.name,
+            panel: <CityInfoPanel key={currentCity.id} city={currentCity} />,
+          },
+        ]}
+      />
 
       <WelcomeOverlay />
     </div>

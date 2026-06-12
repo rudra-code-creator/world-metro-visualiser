@@ -68,7 +68,7 @@ export function TimelineScrubber({
   };
 
   return (
-    <div className="timeline">
+    <div className="timeline timeline--dock">
       <div className="timeline__controls">
         <button
           type="button"

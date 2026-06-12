@@ -1,0 +1,1445 @@
+{
+  "catania": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/1598_-_Catania_-_Cielo_nuvoloso_-_Foto_Giovanni_Dall%27Orto_25-Jan-2006.jpg/960px-1598_-_Catania_-_Cielo_nuvoloso_-_Foto_Giovanni_Dall%27Orto_25-Jan-2006.jpg",
+    "imageAlt": "Catania cityscape",
+    "population": "311,000",
+    "landmarks": [
+      "Mount Etna",
+      "Piazza del Duomo",
+      "Teatro Romano"
+    ],
+    "knownFor": "Catania is a major city in Italy, home to a metro network spanning 4 km across 1 lines and 6 stations, with rapid transit service dating to 1999. Sicilian port city in the shadow of Europe's tallest active volcano. The city is widely recognised for landmarks including Mount Etna, Piazza del Duomo, Teatro Romano, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Catania"
+  },
+  "lausanne": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2008_06_14_Lausanne_et_c%C3%B4te_Lutry_Panorama_HQ.jpg/960px-2008_06_14_Lausanne_et_c%C3%B4te_Lutry_Panorama_HQ.jpg",
+    "imageAlt": "Lausanne cityscape",
+    "population": "415,000 (metro)",
+    "landmarks": [
+      "Olympic Museum",
+      "Lausanne Cathedral",
+      "Ouchy waterfront"
+    ],
+    "knownFor": "Lausanne is a major city in Switzerland, home to a metro network spanning 6 km across 1 lines and 14 stations, with rapid transit service dating to 2008. Swiss lakeside hub and home of the International Olympic Committee. The city is widely recognised for landmarks including Olympic Museum, Lausanne Cathedral, Ouchy waterfront, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lausanne"
+  },
+  "glasgow": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Glasgow_skyline_-_geograph.org.uk_-_572267.jpg",
+    "imageAlt": "Glasgow cityscape",
+    "population": "635,000",
+    "landmarks": [
+      "Kelvingrove Art Gallery",
+      "Glasgow Cathedral",
+      "River Clyde"
+    ],
+    "knownFor": "Glasgow is a major city in UK, home to a metro network spanning 10 km across 1 lines and 15 stations, with rapid transit service dating to 1896. Scotland's largest city, famed for Victorian architecture and live music. The city is widely recognised for landmarks including Kelvingrove Art Gallery, Glasgow Cathedral, River Clyde, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Glasgow"
+  },
+  "yerevan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mount_Ararat_and_the_Yerevan_skyline.jpg/960px-Mount_Ararat_and_the_Yerevan_skyline.jpg",
+    "imageAlt": "Yerevan cityscape",
+    "population": "1.1 million",
+    "landmarks": [
+      "Republic Square",
+      "Cascade Complex",
+      "Ararat views"
+    ],
+    "knownFor": "Yerevan is a major city in Armenia, home to a metro network spanning 14 km across 1 lines and 10 stations, with rapid transit service dating to 1981. Pink-stone Armenian capital with ancient churches and café culture. The city is widely recognised for landmarks including Republic Square, Cascade Complex, Ararat views, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Yerevan"
+  },
+  "rennes": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/High_Falls_of_the_Genesee_panorama%2C_Rochester%2C_New_York_-_20190331.jpg/960px-High_Falls_of_the_Genesee_panorama%2C_Rochester%2C_New_York_-_20190331.jpg",
+    "imageAlt": "Rennes cityscape",
+    "population": "220,000",
+    "landmarks": [
+      "Parliament of Brittany",
+      "Thabor Park",
+      "Half-timbered centre"
+    ],
+    "knownFor": "Rennes is a major city in France, home to a metro network spanning 14 km across 1 lines and 15 stations, with rapid transit service dating to 2002. Breton university city blending medieval lanes with digital industries. The city is widely recognised for landmarks including Parliament of Brittany, Thabor Park, Half-timbered centre, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rennes"
+  },
+  "nizhny-novgorod": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Kstovo-Volga-1375.jpg/960px-Kstovo-Volga-1375.jpg",
+    "imageAlt": "Nizhny Novgorod cityscape",
+    "population": "1.2 million",
+    "landmarks": [
+      "Nizhny Novgorod Kremlin",
+      "Chkalov Stairs",
+      "Volga confluence"
+    ],
+    "knownFor": "Nizhny Novgorod is a major city in Russia, home to a metro network spanning 16 km across 2 lines and 14 stations, with rapid transit service dating to 1985. Historic Russian river port and Volga trade crossroads. The city is widely recognised for landmarks including Nizhny Novgorod Kremlin, Chkalov Stairs, Volga confluence, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nizhny_Novgorod"
+  },
+  "jakarta": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jakarta_Skyline_Part_2.jpg/960px-Jakarta_Skyline_Part_2.jpg",
+    "imageAlt": "Jakarta cityscape",
+    "population": "10.6 million",
+    "landmarks": [
+      "National Monument",
+      "Old Batavia",
+      "Istiqlal Mosque"
+    ],
+    "knownFor": "Jakarta is a major city in Indonesia, home to a metro network spanning 16 km across 1 lines and 13 stations, with rapid transit service dating to 2019. Sprawling Indonesian capital and economic engine of Southeast Asia. The city is widely recognised for landmarks including National Monument, Old Batavia, Istiqlal Mosque, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jakarta"
+  },
+  "kazan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Skyline_Kazan_Port.JPG/960px-Skyline_Kazan_Port.JPG",
+    "imageAlt": "Kazan cityscape",
+    "population": "1.3 million",
+    "landmarks": [
+      "Kazan Kremlin",
+      "Kul Sharif Mosque",
+      "Bauman Street"
+    ],
+    "knownFor": "Kazan is a major city in Russia, home to a metro network spanning 16 km across 1 lines and 10 stations, with rapid transit service dating to 2005. Tatarstan capital where Islamic and Orthodox heritage meet on the Volga. The city is widely recognised for landmarks including Kazan Kremlin, Kul Sharif Mosque, Bauman Street, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kazan"
+  },
+  "panama-city": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Skyline_of_Panama_City_01.jpg/960px-Skyline_of_Panama_City_01.jpg",
+    "imageAlt": "Panama City cityscape",
+    "population": "880,000",
+    "landmarks": [
+      "Casco Viejo",
+      "Panama Canal (nearby)",
+      "Cinta Costera"
+    ],
+    "knownFor": "Panama City is a major city in Panama, home to a metro network spanning 17 km across 2 lines and 14 stations, with rapid transit service dating to 2014. Banking hub and gateway between the Pacific and Caribbean. The city is widely recognised for landmarks including Casco Viejo, Panama Canal (nearby), Cinta Costera, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Panama_City"
+  },
+  "algiers": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Algiers_Point_Library_Now_Open_Post_Isaac.JPG/960px-Algiers_Point_Library_Now_Open_Post_Isaac.JPG",
+    "imageAlt": "Algiers cityscape",
+    "population": "2.9 million",
+    "landmarks": [
+      "Casbah of Algiers",
+      "Notre Dame d'Afrique",
+      "Martyrs Memorial"
+    ],
+    "knownFor": "Algiers is a major city in Algeria, home to a metro network spanning 18 km across 1 lines and 19 stations, with rapid transit service dating to 2011. White-walled Mediterranean capital with layered Ottoman and French history. The city is widely recognised for landmarks including Casbah of Algiers, Notre Dame d'Afrique, Martyrs Memorial, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Algiers"
+  },
+  "grenoble": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Grenoble_Under_The_Snow_%28258165289%29.jpeg/960px-Grenoble_Under_The_Snow_%28258165289%29.jpeg",
+    "imageAlt": "Grenoble cityscape",
+    "population": "160,000",
+    "landmarks": [
+      "Bastille fortress",
+      "Musée de Grenoble",
+      "French Alps gateway"
+    ],
+    "knownFor": "Grenoble is a major city in France, home to a metro network spanning 19 km across 1 lines and 13 stations, with rapid transit service dating to 1987. Alpine research city known for winter sports and nanotechnology. The city is widely recognised for landmarks including Bastille fortress, Musée de Grenoble, French Alps gateway, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Grenoble"
+  },
+  "kryvyi-rih": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82_%D0%9A%D1%80%D0%B8%D0%B2%D0%B8%D0%B9_%D0%A0%D1%96%D0%B3._%D0%9A%D0%B0%D1%80%D0%B0%D1%87%D1%83%D0%BD%D0%B8.jpg/960px-%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82_%D0%9A%D1%80%D0%B8%D0%B2%D0%B8%D0%B9_%D0%A0%D1%96%D0%B3._%D0%9A%D0%B0%D1%80%D0%B0%D1%87%D1%83%D0%BD%D0%B8.jpg",
+    "imageAlt": "Kryvyi Rih cityscape",
+    "population": "612,000",
+    "landmarks": [
+      "Saksahan River embankment",
+      "Iron ore quarries",
+      "Gagarin Park"
+    ],
+    "knownFor": "Kryvyi Rih is a major city in Ukraine, home to a metro network spanning 19 km across 1 lines and 6 stations, with rapid transit service dating to 1986. Ukrainian industrial centre built around vast iron-ore mining. The city is widely recognised for landmarks including Saksahan River embankment, Iron ore quarries, Gagarin Park, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kryvyi_Rih"
+  },
+  "hanoi": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Hanoi_Skyline_panorama.JPG/960px-Hanoi_Skyline_panorama.JPG",
+    "imageAlt": "Hanoi cityscape",
+    "population": "8.1 million",
+    "landmarks": [
+      "Hoàn Kiếm Lake",
+      "Old Quarter",
+      "Temple of Literature"
+    ],
+    "knownFor": "Hanoi is a major city in Vietnam, home to a metro network spanning 21 km across 1 lines and 12 stations, with rapid transit service dating to 2024. Vietnamese capital of lakes, street food, and French-colonial boulevards. The city is widely recognised for landmarks including Hoàn Kiếm Lake, Old Quarter, Temple of Literature, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hanoi"
+  },
+  "zagreb": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Zagreb_Prisavlje_area_skyline.jpg",
+    "imageAlt": "Zagreb cityscape",
+    "population": "800,000",
+    "landmarks": [
+      "Ban Jelačić Square",
+      "St Mark's Church",
+      "Upper Town"
+    ],
+    "knownFor": "Zagreb is a major city in Croatia, home to a metro network spanning 22 km across 1 lines and 12 stations, with rapid transit service dating to 1994. Croatian capital of café terraces, Austro-Hungarian façades, and trams. The city is widely recognised for landmarks including Ban Jelačić Square, St Mark's Church, Upper Town, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Zagreb"
+  },
+  "quito": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/12_de_Octubre_Avenue_Skyline%2C_modern_downtown_Quito.png",
+    "imageAlt": "Quito cityscape",
+    "population": "2.0 million",
+    "landmarks": [
+      "Historic Centre (UNESCO)",
+      "Basilica del Voto Nacional",
+      "TelefériQo"
+    ],
+    "knownFor": "Quito is a major city in Ecuador, home to a metro network spanning 23 km across 1 lines and 15 stations, with rapid transit service dating to 2023. High-altitude Andean capital with one of the best-preserved colonial cores. The city is widely recognised for landmarks including Historic Centre (UNESCO), Basilica del Voto Nacional, TelefériQo, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Quito"
+  },
+  "mendoza": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tardes_Rojas_en_Cartagena_de_Indias.jpg/960px-Tardes_Rojas_en_Cartagena_de_Indias.jpg",
+    "imageAlt": "Mendoza cityscape",
+    "population": "1.0 million",
+    "landmarks": [
+      "Plaza Independencia",
+      "Andes backdrop",
+      "Wine country"
+    ],
+    "knownFor": "Mendoza is a major city in Argentina, home to a metro network spanning 24 km across 1 lines and 12 stations, with rapid transit service dating to 2025. Argentine oasis city at the foot of Aconcagua and heart of Malbec country. The city is widely recognised for landmarks including Plaza Independencia, Andes backdrop, Wine country, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mendoza"
+  },
+  "marseille": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Stormyskymarseille1.jpg/960px-Stormyskymarseille1.jpg",
+    "imageAlt": "Marseille cityscape",
+    "population": "870,000",
+    "landmarks": [
+      "Vieux-Port",
+      "Notre-Dame de la Garde",
+      "Calanques"
+    ],
+    "knownFor": "Marseille is a major city in France, home to a metro network spanning 24 km across 2 lines and 28 stations, with rapid transit service dating to 1977. France's oldest city — a gritty, sun-soaked Mediterranean port. The city is widely recognised for landmarks including Vieux-Port, Notre-Dame de la Garde, Calanques, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marseille"
+  },
+  "palma": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/View_of_Santa_Cruz_de_la_Palma.jpg/960px-View_of_Santa_Cruz_de_la_Palma.jpg",
+    "imageAlt": "Palma cityscape",
+    "population": "420,000",
+    "landmarks": [
+      "La Seu Cathedral",
+      "Bellver Castle",
+      "Paseo Marítimo"
+    ],
+    "knownFor": "Palma is a major city in Spain, home to a metro network spanning 27 km across 2 lines and 16 stations, with rapid transit service dating to 2007. Balearic capital pairing Gothic harbourside with resort-island life. The city is widely recognised for landmarks including La Seu Cathedral, Bellver Castle, Paseo Marítimo, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Palma"
+  },
+  "lahore": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lahore_skyline.jpg/960px-Lahore_skyline.jpg",
+    "imageAlt": "Lahore cityscape",
+    "population": "13.0 million",
+    "landmarks": [
+      "Badshahi Mosque",
+      "Lahore Fort",
+      "Shalimar Gardens"
+    ],
+    "knownFor": "Lahore is a major city in Pakistan, home to a metro network spanning 27 km across 1 lines and 26 stations, with rapid transit service dating to 2024. Cultural capital of Pakistan, famed for Mughal monuments and cuisine. The city is widely recognised for landmarks including Badshahi Mosque, Lahore Fort, Shalimar Gardens, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lahore"
+  },
+  "tbilisi": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Tbilisi_skyline.jpg/960px-Tbilisi_skyline.jpg",
+    "imageAlt": "Tbilisi cityscape",
+    "population": "1.1 million",
+    "landmarks": [
+      "Narikala Fortress",
+      "Peace Bridge",
+      "Old Tbilisi sulfur baths"
+    ],
+    "knownFor": "Tbilisi is a major city in Georgia, home to a metro network spanning 27 km across 2 lines and 23 stations, with rapid transit service dating to 1966. Georgian capital of wine, polyphonic song, and cliffside old town. The city is widely recognised for landmarks including Narikala Fortress, Peace Bridge, Old Tbilisi sulfur baths, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tbilisi"
+  },
+  "toulouse": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Panorama_Toulouse.jpg/960px-Panorama_Toulouse.jpg",
+    "imageAlt": "Toulouse cityscape",
+    "population": "500,000",
+    "landmarks": [
+      "Capitole de Toulouse",
+      "Basilica of Saint-Sernin",
+      "Cité de l'espace"
+    ],
+    "knownFor": "Toulouse is a major city in France, home to a metro network spanning 28 km across 2 lines and 38 stations, with rapid transit service dating to 1993. Pink-city aerospace capital on the Garonne in southwest France. The city is widely recognised for landmarks including Capitole de Toulouse, Basilica of Saint-Sernin, Cité de l'espace, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toulouse"
+  },
+  "ho-chi-minh-city": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/R%C3%ADo_Saig%C3%B3n%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_29.JPG/960px-R%C3%ADo_Saig%C3%B3n%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_29.JPG",
+    "imageAlt": "Ho Chi Minh City cityscape",
+    "population": "9.0 million",
+    "landmarks": [
+      "Ben Thanh Market",
+      "Notre-Dame Cathedral Basilica",
+      "Bitexco Tower"
+    ],
+    "knownFor": "Ho Chi Minh City is a major city in Vietnam, home to a metro network spanning 28 km across 1 lines and 14 stations, with rapid transit service dating to 2024. Vietnam's commercial megacity of motorbikes, pho, and rooftop bars. The city is widely recognised for landmarks including Ben Thanh Market, Notre-Dame Cathedral Basilica, Bitexco Tower, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City"
+  },
+  "santo-domingo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/View_of_Santo_Domingo_Skyline.jpg/960px-View_of_Santo_Domingo_Skyline.jpg",
+    "imageAlt": "Santo Domingo cityscape",
+    "population": "1.0 million",
+    "landmarks": [
+      "Zona Colonial",
+      "Alcázar de Colón",
+      "Malecón"
+    ],
+    "knownFor": "Santo Domingo is a major city in Dominican Republic, home to a metro network spanning 28 km across 2 lines and 34 stations, with rapid transit service dating to 2008. Caribbean capital where the Americas' first cathedral still stands. The city is widely recognised for landmarks including Zona Colonial, Alcázar de Colón, Malecón, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Santo_Domingo"
+  },
+  "nantes": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Odaiba_Decks.jpg/960px-Odaiba_Decks.jpg",
+    "imageAlt": "Nantes cityscape",
+    "population": "320,000",
+    "landmarks": [
+      "Château des Ducs de Bretagne",
+      "Machines of the Isle",
+      "Passage Pommeraye"
+    ],
+    "knownFor": "Nantes is a major city in France, home to a metro network spanning 29 km across 3 lines and 48 stations, with rapid transit service dating to 1985. Creative Loire city reinventing itself from shipyards to art and tech. The city is widely recognised for landmarks including Château des Ducs de Bretagne, Machines of the Isle, Passage Pommeraye, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nantes"
+  },
+  "tunis": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/R%C3%A9volution_des_Jasmins_11.jpg/960px-R%C3%A9volution_des_Jasmins_11.jpg",
+    "imageAlt": "Tunis cityscape",
+    "population": "2.4 million",
+    "landmarks": [
+      "Medina of Tunis",
+      "Bardo Museum",
+      "Carthage ruins"
+    ],
+    "knownFor": "Tunis is a major city in Tunisia, home to a metro network spanning 30 km across 1 lines and 24 stations, with rapid transit service dating to 1985. North African capital blending Arab medinas with ancient Punic history. The city is widely recognised for landmarks including Medina of Tunis, Bardo Museum, Carthage ruins, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tunis"
+  },
+  "naples": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/MontageofNaples.jpg",
+    "imageAlt": "Naples cityscape",
+    "population": "910,000",
+    "landmarks": [
+      "Piazza del Plebiscito",
+      "Castel dell'Ovo",
+      "Mount Vesuvius"
+    ],
+    "knownFor": "Naples is a major city in Italy, home to a metro network spanning 31 km across 3 lines and 26 stations, with rapid transit service dating to 1993. Passionate southern Italian port — birthplace of pizza and operatic drama. The city is widely recognised for landmarks including Piazza del Plebiscito, Castel dell'Ovo, Mount Vesuvius, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Naples"
+  },
+  "medellin": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Medell%C3%ADn_skyline02.jpg/960px-Medell%C3%ADn_skyline02.jpg",
+    "imageAlt": "Medellín cityscape",
+    "population": "2.5 million",
+    "landmarks": [
+      "Comuna 13",
+      "Plaza Botero",
+      "Metrocable"
+    ],
+    "knownFor": "Medellín is a major city in Colombia, home to a metro network spanning 31 km across 1 lines and 27 stations, with rapid transit service dating to 1995. Colombian city transformed by innovation, spring weather, and public transit. The city is widely recognised for landmarks including Comuna 13, Plaza Botero, Metrocable, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Medell%C3%ADn"
+  },
+  "lille": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sauna_2.jpg",
+    "imageAlt": "Lille cityscape",
+    "population": "235,000",
+    "landmarks": [
+      "Grand Place",
+      "Palais des Beaux-Arts",
+      "Vieux Lille"
+    ],
+    "knownFor": "Lille is a major city in France, home to a metro network spanning 33 km across 2 lines and 60 stations, with rapid transit service dating to 1983. Flemish-flavoured northern French hub minutes from Belgium. The city is widely recognised for landmarks including Grand Place, Palais des Beaux-Arts, Vieux Lille, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lille"
+  },
+  "lyon": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Skyline_Lyon.jpg/960px-Skyline_Lyon.jpg",
+    "imageAlt": "Lyon cityscape",
+    "population": "520,000",
+    "landmarks": [
+      "Basilica of Notre-Dame de Fourvière",
+      "Vieux Lyon",
+      "Confluence district"
+    ],
+    "knownFor": "Lyon is a major city in France, home to a metro network spanning 33 km across 4 lines and 40 stations, with rapid transit service dating to 1978. Gastronomic capital where Rhône and Saône meet beneath Roman ruins. The city is widely recognised for landmarks including Basilica of Notre-Dame de Fourvière, Vieux Lyon, Confluence district, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lyon"
+  },
+  "addis-ababa": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Addis_Ababa_skyline.jpg/960px-Addis_Ababa_skyline.jpg",
+    "imageAlt": "Addis Ababa cityscape",
+    "population": "5.2 million",
+    "landmarks": [
+      "Holy Trinity Cathedral",
+      "National Museum (Lucy)",
+      "Meskel Square"
+    ],
+    "knownFor": "Addis Ababa is a major city in Ethiopia, home to a metro network spanning 34 km across 2 lines and 39 stations, with rapid transit service dating to 2015. Highland Ethiopian capital and diplomatic seat of the African Union. The city is widely recognised for landmarks including Holy Trinity Cathedral, National Museum (Lucy), Meskel Square, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Addis_Ababa"
+  },
+  "lima": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Lima_skyline.jpg/960px-Lima_skyline.jpg",
+    "imageAlt": "Lima cityscape",
+    "population": "9.9 million",
+    "landmarks": [
+      "Plaza Mayor",
+      "Miraflores cliffs",
+      "Barranco"
+    ],
+    "knownFor": "Lima is a major city in Peru, home to a metro network spanning 35 km across 1 lines and 26 stations, with rapid transit service dating to 2011. Peruvian coastal capital of ceviche, colonial plazas, and Pacific sunsets. The city is widely recognised for landmarks including Plaza Mayor, Miraflores cliffs, Barranco, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lima"
+  },
+  "baku": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Baku_skyline.jpg/960px-Baku_skyline.jpg",
+    "imageAlt": "Baku cityscape",
+    "population": "2.3 million",
+    "landmarks": [
+      "Flame Towers",
+      "Old City (Icherisheher)",
+      "Heydar Aliyev Center"
+    ],
+    "knownFor": "Baku is a major city in Azerbaijan, home to a metro network spanning 37 km across 3 lines and 27 stations, with rapid transit service dating to 1967. Caspian oil capital mixing medieval walls with futuristic architecture. The city is widely recognised for landmarks including Flame Towers, Old City (Icherisheher), Heydar Aliyev Center, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Baku"
+  },
+  "turin": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Turin_Churches_skyline.jpg/960px-Turin_Churches_skyline.jpg",
+    "imageAlt": "Turin cityscape",
+    "population": "870,000",
+    "landmarks": [
+      "Mole Antonelliana",
+      "Egyptian Museum",
+      "Piazza Castello"
+    ],
+    "knownFor": "Turin is a major city in Italy, home to a metro network spanning 38 km across 1 lines and 21 stations, with rapid transit service dating to 1958. Refined Piedmont city of Fiat heritage, chocolate, and Alpine gateways. The city is widely recognised for landmarks including Mole Antonelliana, Egyptian Museum, Piazza Castello, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Turin"
+  },
+  "kharkiv": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Kharkiv_Kholodna_Hora_Sunset_%2857077448%29.jpeg/960px-Kharkiv_Kholodna_Hora_Sunset_%2857077448%29.jpeg",
+    "imageAlt": "Kharkiv cityscape",
+    "population": "1.4 million",
+    "landmarks": [
+      "Freedom Square",
+      "Gorky Park",
+      "Mirror Stream fountain"
+    ],
+    "knownFor": "Kharkiv is a major city in Ukraine, home to a metro network spanning 38 km across 3 lines and 30 stations, with rapid transit service dating to 1975. Ukrainian university city with one of Europe's largest public squares. The city is widely recognised for landmarks including Freedom Square, Gorky Park, Mirror Stream fountain, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kharkiv"
+  },
+  "kolkata": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Kolkata_skyline_at_night.jpg/960px-Kolkata_skyline_at_night.jpg",
+    "imageAlt": "Kolkata cityscape",
+    "population": "14.8 million",
+    "landmarks": [
+      "Victoria Memorial",
+      "Howrah Bridge",
+      "Dakshineswar Kali Temple"
+    ],
+    "knownFor": "Kolkata is a major city in India, home to a metro network spanning 39 km across 2 lines and 31 stations, with rapid transit service dating to 1984. India's literary east — trams, rasgulla, and colonial grandeur. The city is widely recognised for landmarks including Victoria Memorial, Howrah Bridge, Dakshineswar Kali Temple, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kolkata"
+  },
+  "copenhagen": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Skyline_of_Copenhagen_%28Cropped%29.jpg/960px-Skyline_of_Copenhagen_%28Cropped%29.jpg",
+    "imageAlt": "Copenhagen cityscape",
+    "population": "660,000",
+    "landmarks": [
+      "Nyhavn",
+      "Little Mermaid",
+      "Tivoli Gardens"
+    ],
+    "knownFor": "Copenhagen is a major city in Denmark, home to a metro network spanning 39 km across 2 lines and 39 stations, with rapid transit service dating to 2002. Scandinavian design capital of bikes, hygge, and harbour swimming. The city is widely recognised for landmarks including Nyhavn, Little Mermaid, Tivoli Gardens, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Copenhagen"
+  },
+  "brussels": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Frankfurt_Skyline_with_Brussels_Sprouts.jpg/960px-Frankfurt_Skyline_with_Brussels_Sprouts.jpg",
+    "imageAlt": "Brussels cityscape",
+    "population": "1.2 million",
+    "landmarks": [
+      "Grand Place",
+      "Atomium",
+      "Manneken Pis"
+    ],
+    "knownFor": "Brussels is a major city in Belgium, home to a metro network spanning 39 km across 4 lines and 59 stations, with rapid transit service dating to 1976. EU institutional heart pairing Art Nouveau with world-class chocolate. The city is widely recognised for landmarks including Grand Place, Atomium, Manneken Pis, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Brussels"
+  },
+  "budapest": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Chain_Bridge_east_part_from_Pest%2C_Budapest_skyline_%2822936122885%29.jpg/960px-Chain_Bridge_east_part_from_Pest%2C_Budapest_skyline_%2822936122885%29.jpg",
+    "imageAlt": "Budapest cityscape",
+    "population": "1.7 million",
+    "landmarks": [
+      "Parliament Building",
+      "Chain Bridge",
+      "Buda Castle"
+    ],
+    "knownFor": "Budapest is a major city in Hungary, home to a metro network spanning 39 km across 4 lines and 48 stations, with rapid transit service dating to 1896. Danube pearl of thermal baths, ruin bars, and Austro-Hungarian splendour. The city is widely recognised for landmarks including Parliament Building, Chain Bridge, Buda Castle, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Budapest"
+  },
+  "belgrade": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Belgrade%2CMT.jpg/960px-Belgrade%2CMT.jpg",
+    "imageAlt": "Belgrade cityscape",
+    "population": "1.4 million",
+    "landmarks": [
+      "Kalemegdan Fortress",
+      "Skadarlija",
+      "Saint Sava Temple"
+    ],
+    "knownFor": "Belgrade is a major city in Serbia, home to a metro network spanning 41 km across 2 lines and 25 stations, with rapid transit service dating to 1995. Balkan crossroads city with riverside nightlife and layered empires. The city is widely recognised for landmarks including Kalemegdan Fortress, Skadarlija, Saint Sava Temple, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Belgrade"
+  },
+  "minsk": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pugachovskaya_st..jpg/960px-Pugachovskaya_st..jpg",
+    "imageAlt": "Minsk cityscape",
+    "population": "2.0 million",
+    "landmarks": [
+      "Independence Square",
+      "National Library",
+      "Trinity Hill"
+    ],
+    "knownFor": "Minsk is a major city in Belarus, home to a metro network spanning 42 km across 2 lines and 29 stations, with rapid transit service dating to 1984. Wide-boulevard Belarusian capital rebuilt after WWII with Soviet grandeur. The city is widely recognised for landmarks including Independence Square, National Library, Trinity Hill, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Minsk"
+  },
+  "helsinki": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Skyline_of_Helsinki_as_seen_from_the_Erottaja_fire_station.jpg/960px-Skyline_of_Helsinki_as_seen_from_the_Erottaja_fire_station.jpg",
+    "imageAlt": "Helsinki cityscape",
+    "population": "660,000",
+    "landmarks": [
+      "Helsinki Cathedral",
+      "Suomenlinna",
+      "Market Square"
+    ],
+    "knownFor": "Helsinki is a major city in Finland, home to a metro network spanning 43 km across 2 lines and 25 stations, with rapid transit service dating to 1982. Nordic design port of saunas, archipelago islands, and calm efficiency. The city is widely recognised for landmarks including Helsinki Cathedral, Suomenlinna, Market Square, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Helsinki"
+  },
+  "lisbon": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/The_new_Lisbon_skyline_01_%2811512322673%29.jpg/960px-The_new_Lisbon_skyline_01_%2811512322673%29.jpg",
+    "imageAlt": "Lisbon cityscape",
+    "population": "550,000",
+    "landmarks": [
+      "Belém Tower",
+      "Alfama",
+      "Praça do Comércio"
+    ],
+    "knownFor": "Lisbon is a major city in Portugal, home to a metro network spanning 45 km across 4 lines and 56 stations, with rapid transit service dating to 1959. Hilly Atlantic capital of fado, azulejos, and pastel de nata. The city is widely recognised for landmarks including Belém Tower, Alfama, Praça do Comércio, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lisbon"
+  },
+  "almaty": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Almaty_skyline.jpg/960px-Almaty_skyline.jpg",
+    "imageAlt": "Almaty cityscape",
+    "population": "2.0 million",
+    "landmarks": [
+      "Kok-Tobe Hill",
+      "Zenkov Cathedral",
+      "Medeu skating rink"
+    ],
+    "knownFor": "Almaty is a major city in Kazakhstan, home to a metro network spanning 45 km across 1 lines and 11 stations, with rapid transit service dating to 2011. Former Kazakh capital framed by Tian Shan peaks and apple orchards. The city is widely recognised for landmarks including Kok-Tobe Hill, Zenkov Cathedral, Medeu skating rink, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Almaty"
+  },
+  "boston": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Boston_skyline_from_Cambridge_November_2015_panorama_1.jpg/960px-Boston_skyline_from_Cambridge_November_2015_panorama_1.jpg",
+    "imageAlt": "Boston cityscape",
+    "population": "675,000",
+    "landmarks": [
+      "Freedom Trail",
+      "Fenway Park",
+      "Harvard (nearby)"
+    ],
+    "knownFor": "Boston is a major city in USA, home to a metro network spanning 47 km across 4 lines and 53 stations, with rapid transit service dating to 1897. American cradle of revolution, universities, and clam chowder. The city is widely recognised for landmarks including Freedom Trail, Fenway Park, Harvard (nearby), and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Boston"
+  },
+  "philadelphia": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Philadelphia_skyline_sunset.jpg/960px-Philadelphia_skyline_sunset.jpg",
+    "imageAlt": "Philadelphia cityscape",
+    "population": "1.6 million",
+    "landmarks": [
+      "Liberty Bell",
+      "Independence Hall",
+      "Rocky Steps"
+    ],
+    "knownFor": "Philadelphia is a major city in USA, home to a metro network spanning 47 km across 4 lines and 53 stations, with rapid transit service dating to 1907. Birthplace of the United States with murals and cheesesteaks. The city is widely recognised for landmarks including Liberty Bell, Independence Hall, Rocky Steps, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Philadelphia"
+  },
+  "bordeaux": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Northern_Region_news_%28IA_CAT91947833126%29.pdf/page1-960px-Northern_Region_news_%28IA_CAT91947833126%29.pdf.jpg",
+    "imageAlt": "Bordeaux cityscape",
+    "population": "260,000",
+    "landmarks": [
+      "Place de la Bourse",
+      "Cité du Vin",
+      "Saint-André Cathedral"
+    ],
+    "knownFor": "Bordeaux is a major city in France, home to a metro network spanning 47 km across 4 lines and 47 stations, with rapid transit service dating to 2003. UNESCO wine capital of elegant 18th-century quays and grand cru. The city is widely recognised for landmarks including Place de la Bourse, Cité du Vin, Saint-André Cathedral, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bordeaux"
+  },
+  "bogota": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bogot%C3%A1_Skyline.jpg",
+    "imageAlt": "Bogotá cityscape",
+    "population": "8.0 million",
+    "landmarks": [
+      "Monserrate",
+      "La Candelaria",
+      "Gold Museum"
+    ],
+    "knownFor": "Bogotá is a major city in Colombia, home to a metro network spanning 48 km across 1 lines and 16 stations, with rapid transit service dating to 2022. High-altitude Andean capital of street art, coffee, and emerald trade. The city is widely recognised for landmarks including Monserrate, La Candelaria, Gold Museum, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bogot%C3%A1"
+  },
+  "amsterdam": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Amsterdam_Skyline_-_panoramio.jpg/960px-Amsterdam_Skyline_-_panoramio.jpg",
+    "imageAlt": "Amsterdam cityscape",
+    "population": "870,000",
+    "landmarks": [
+      "Canal Ring",
+      "Rijksmuseum",
+      "Anne Frank House"
+    ],
+    "knownFor": "Amsterdam is a major city in Netherlands, home to a metro network spanning 52 km across 5 lines and 58 stations, with rapid transit service dating to 1977. Dutch canal city of bikes, tulips, and Golden Age merchants. The city is widely recognised for landmarks including Canal Ring, Rijksmuseum, Anne Frank House, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Amsterdam"
+  },
+  "sofia": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sofia-skyline-360-wikipedia-edit.jpg/960px-Sofia-skyline-360-wikipedia-edit.jpg",
+    "imageAlt": "Sofia cityscape",
+    "population": "1.2 million",
+    "landmarks": [
+      "Alexander Nevsky Cathedral",
+      "Vitosha Boulevard",
+      "Boyana Church"
+    ],
+    "knownFor": "Sofia is a major city in Bulgaria, home to a metro network spanning 52 km across 4 lines and 47 stations, with rapid transit service dating to 1998. Bulgarian capital at the foot of Vitosha with Roman and Ottoman layers. The city is widely recognised for landmarks including Alexander Nevsky Cathedral, Vitosha Boulevard, Boyana Church, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sofia"
+  },
+  "caracas": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Skyline_Caracas.jpg/960px-Skyline_Caracas.jpg",
+    "imageAlt": "Caracas cityscape",
+    "population": "2.9 million",
+    "landmarks": [
+      "Avila Mountain",
+      "Plaza Bolívar",
+      "El Hatillo"
+    ],
+    "knownFor": "Caracas is a major city in Venezuela, home to a metro network spanning 54 km across 5 lines and 48 stations, with rapid transit service dating to 1983. Venezuelan capital in a valley ringed by Ávila peak and vivid murals. The city is widely recognised for landmarks including Avila Mountain, Plaza Bolívar, El Hatillo, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Caracas"
+  },
+  "valencia": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Old_city_of_Valencia_Skyline_from_Serrans_Towers.JPG/960px-Old_city_of_Valencia_Skyline_from_Serrans_Towers.JPG",
+    "imageAlt": "Valencia cityscape",
+    "population": "800,000",
+    "landmarks": [
+      "City of Arts and Sciences",
+      "Central Market",
+      "Turia Gardens"
+    ],
+    "knownFor": "Valencia is a major city in Spain, home to a metro network spanning 56 km across 5 lines and 70 stations, with rapid transit service dating to 1995. Mediterranean city of paella, futuristic architecture, and Fallas festival. The city is widely recognised for landmarks including City of Arts and Sciences, Central Market, Turia Gardens, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Valencia"
+  },
+  "bangalore": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bangalore_Panorama_edit1.jpg/960px-Bangalore_Panorama_edit1.jpg",
+    "imageAlt": "Bangalore cityscape",
+    "population": "13.6 million",
+    "landmarks": [
+      "Lalbagh Botanical Garden",
+      "Bangalore Palace",
+      "UB City"
+    ],
+    "knownFor": "Bangalore is a major city in India, home to a metro network spanning 56 km across 2 lines and 66 stations, with rapid transit service dating to 2011. India's Silicon Valley with gardens, breweries, and IT campuses. The city is widely recognised for landmarks including Lalbagh Botanical Garden, Bangalore Palace, UB City, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bangalore"
+  },
+  "manila": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Skyline_in_Manila_16.jpg/960px-Skyline_in_Manila_16.jpg",
+    "imageAlt": "Manila cityscape",
+    "population": "14.8 million",
+    "landmarks": [
+      "Intramuros",
+      "Rizal Park",
+      "Manila Bay sunset"
+    ],
+    "knownFor": "Manila is a major city in Philippines, home to a metro network spanning 56 km across 3 lines and 31 stations, with rapid transit service dating to 1984. Dense Philippine capital of jeepneys, Spanish walls, and megacity energy. The city is widely recognised for landmarks including Intramuros, Rizal Park, Manila Bay sunset, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 10,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Manila"
+  },
+  "rio-de-janeiro": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Rio_de_Janeiro_skyline.jpg/960px-Rio_de_Janeiro_skyline.jpg",
+    "imageAlt": "Rio de Janeiro cityscape",
+    "population": "6.7 million",
+    "landmarks": [
+      "Christ the Redeemer",
+      "Sugarloaf Mountain",
+      "Copacabana"
+    ],
+    "knownFor": "Rio de Janeiro is a major city in Brazil, home to a metro network spanning 58 km across 3 lines and 41 stations, with rapid transit service dating to 1979. Carioca carnival city of beaches, samba, and dramatic granite peaks. The city is widely recognised for landmarks including Christ the Redeemer, Sugarloaf Mountain, Copacabana, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rio_de_Janeiro"
+  },
+  "rome": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rome_skyline_panorama.jpg/960px-Rome_skyline_panorama.jpg",
+    "imageAlt": "Rome cityscape",
+    "population": "2.8 million",
+    "landmarks": [
+      "Colosseum",
+      "Vatican City",
+      "Trevi Fountain"
+    ],
+    "knownFor": "Rome is a major city in Italy, home to a metro network spanning 60 km across 3 lines and 73 stations, with rapid transit service dating to 1955. Eternal City of empires, pasta, and layers of Western civilisation. The city is widely recognised for landmarks including Colosseum, Vatican City, Trevi Fountain, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rome"
+  },
+  "prague": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Prague_skyline_at_dawn.jpg/960px-Prague_skyline_at_dawn.jpg",
+    "imageAlt": "Prague cityscape",
+    "population": "1.3 million",
+    "landmarks": [
+      "Charles Bridge",
+      "Prague Castle",
+      "Old Town Square"
+    ],
+    "knownFor": "Prague is a major city in Czech Republic, home to a metro network spanning 65 km across 3 lines and 61 stations, with rapid transit service dating to 1974. Fairytale Bohemian capital of spires, beer halls, and Kafka. The city is widely recognised for landmarks including Charles Bridge, Prague Castle, Old Town Square, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Prague"
+  },
+  "tashkent": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Skyline_of_Tashkent.jpg/960px-Skyline_of_Tashkent.jpg",
+    "imageAlt": "Tashkent cityscape",
+    "population": "2.9 million",
+    "landmarks": [
+      "Khast Imam Complex",
+      "Chorsu Bazaar",
+      "Tashkent Metro"
+    ],
+    "knownFor": "Tashkent is a major city in Uzbekistan, home to a metro network spanning 66 km across 4 lines and 50 stations, with rapid transit service dating to 1977. Central Asian crossroads of Silk Road bazaars and ornate Soviet metros. The city is widely recognised for landmarks including Khast Imam Complex, Chorsu Bazaar, Tashkent Metro, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tashkent"
+  },
+  "porto": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/DDG59lights.jpg/960px-DDG59lights.jpg",
+    "imageAlt": "Porto cityscape",
+    "population": "240,000",
+    "landmarks": [
+      "Ribeira",
+      "Dom Luís I Bridge",
+      "Livraria Lello"
+    ],
+    "knownFor": "Porto is a major city in Portugal, home to a metro network spanning 67 km across 6 lines and 68 stations, with rapid transit service dating to 2002. Hilly Douro city of port wine cellars and azulejo-clad alleys. The city is widely recognised for landmarks including Ribeira, Dom Luís I Bridge, Livraria Lello, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porto"
+  },
+  "warsaw": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Warsaw_Hub_and_Skyliner_under_construction.jpg/960px-The_Warsaw_Hub_and_Skyliner_under_construction.jpg",
+    "imageAlt": "Warsaw cityscape",
+    "population": "1.8 million",
+    "landmarks": [
+      "Old Town (rebuilt)",
+      "Palace of Culture",
+      "Łazienki Park"
+    ],
+    "knownFor": "Warsaw is a major city in Poland, home to a metro network spanning 70 km across 2 lines and 39 stations, with rapid transit service dating to 1995. Resilient Polish capital reborn from ashes with chopin and pierogi. The city is widely recognised for landmarks including Old Town (rebuilt), Palace of Culture, Łazienki Park, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Warsaw"
+  },
+  "kyiv": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Great_Lavra_Bell_Tower_with_its_four_tiers_%288600783053%29.jpg/960px-Great_Lavra_Bell_Tower_with_its_four_tiers_%288600783053%29.jpg",
+    "imageAlt": "Kyiv cityscape",
+    "population": "3.0 million",
+    "landmarks": [
+      "Saint Sophia Cathedral",
+      "Maidan Nezalezhnosti",
+      "Pechersk Lavra"
+    ],
+    "knownFor": "Kyiv is a major city in Ukraine, home to a metro network spanning 70 km across 3 lines and 52 stations, with rapid transit service dating to 1960. Golden-domed Ukrainian capital on the Dnieper with deep Slavic roots. The city is widely recognised for landmarks including Saint Sophia Cathedral, Maidan Nezalezhnosti, Pechersk Lavra, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kyiv"
+  },
+  "montreal": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Montreal_Twilight_Panorama_2006.jpg/960px-Montreal_Twilight_Panorama_2006.jpg",
+    "imageAlt": "Montreal cityscape",
+    "population": "1.8 million",
+    "landmarks": [
+      "Mount Royal",
+      "Old Montreal",
+      "Olympic Stadium"
+    ],
+    "knownFor": "Montreal is a major city in Canada, home to a metro network spanning 71 km across 4 lines and 68 stations, with rapid transit service dating to 1966. Bilingual island city of festivals, bagels, and joie de vivre. The city is widely recognised for landmarks including Mount Royal, Old Montreal, Olympic Stadium, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Montreal"
+  },
+  "toronto": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Toronto_-_ON_-_Skyline_bei_Nacht.jpg/960px-Toronto_-_ON_-_Skyline_bei_Nacht.jpg",
+    "imageAlt": "Toronto cityscape",
+    "population": "2.9 million",
+    "landmarks": [
+      "CN Tower",
+      "Royal Ontario Museum",
+      "Distillery District"
+    ],
+    "knownFor": "Toronto is a major city in Canada, home to a metro network spanning 76 km across 4 lines and 75 stations, with rapid transit service dating to 1954. Canada's multicultural metropolis on Lake Ontario's shore. The city is widely recognised for landmarks including CN Tower, Royal Ontario Museum, Distillery District, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toronto"
+  },
+  "doha": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Doha_Skyline_01.jpg/960px-Doha_Skyline_01.jpg",
+    "imageAlt": "Doha cityscape",
+    "population": "640,000",
+    "landmarks": [
+      "Museum of Islamic Art",
+      "Souq Waqif",
+      "The Pearl"
+    ],
+    "knownFor": "Doha is a major city in Qatar, home to a metro network spanning 76 km across 3 lines and 37 stations, with rapid transit service dating to 2011. Qatari Gulf city of futuristic skylines and desert-modern ambition. The city is widely recognised for landmarks including Museum of Islamic Art, Souq Waqif, The Pearl, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Doha"
+  },
+  "buenos-aires": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg/960px-193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg",
+    "imageAlt": "Buenos Aires cityscape",
+    "population": "3.1 million",
+    "landmarks": [
+      "La Boca",
+      "Recoleta Cemetery",
+      "Teatro Colón"
+    ],
+    "knownFor": "Buenos Aires is a major city in Argentina, home to a metro network spanning 78 km across 6 lines and 90 stations, with rapid transit service dating to 1913. Paris of the South — tango, steak, and Belle Époque boulevards. The city is widely recognised for landmarks including La Boca, Recoleta Cemetery, Teatro Colón, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buenos_Aires"
+  },
+  "rotterdam": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Harbour_Rotterdam_sunset_2005.jpg/960px-Harbour_Rotterdam_sunset_2005.jpg",
+    "imageAlt": "Rotterdam cityscape",
+    "population": "660,000",
+    "landmarks": [
+      "Erasmus Bridge",
+      "Cube Houses",
+      "Markthal"
+    ],
+    "knownFor": "Rotterdam is a major city in Netherlands, home to a metro network spanning 78 km across 5 lines and 70 stations, with rapid transit service dating to 1968. Rebuilt Dutch port of bold modern architecture and Europe's largest harbour. The city is widely recognised for landmarks including Erasmus Bridge, Cube Houses, Markthal, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rotterdam"
+  },
+  "bucharest": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bucharest_skyline.jpg/960px-Bucharest_skyline.jpg",
+    "imageAlt": "Bucharest cityscape",
+    "population": "1.8 million",
+    "landmarks": [
+      "Palace of the Parliament",
+      "Old Town",
+      "Village Museum"
+    ],
+    "knownFor": "Bucharest is a major city in Romania, home to a metro network spanning 78 km across 5 lines and 63 stations, with rapid transit service dating to 1979. Romanian capital of grand boulevards, nightlife, and communist megastructures. The city is widely recognised for landmarks including Palace of the Parliament, Old Town, Village Museum, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bucharest"
+  },
+  "vancouver": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Vancouver_dusk_pano.jpg/960px-Vancouver_dusk_pano.jpg",
+    "imageAlt": "Vancouver cityscape",
+    "population": "680,000",
+    "landmarks": [
+      "Stanley Park",
+      "Granville Island",
+      "Capilano Suspension Bridge"
+    ],
+    "knownFor": "Vancouver is a major city in Canada, home to a metro network spanning 80 km across 3 lines and 53 stations, with rapid transit service dating to 1985. Rainforest-meets-Pacific city of mountains, sushi, and film sets. The city is widely recognised for landmarks including Stanley Park, Granville Island, Capilano Suspension Bridge, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vancouver"
+  },
+  "vienna": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Skyline_of_St._Charles%27s_Church_%28Vienna%29.JPG/960px-Skyline_of_St._Charles%27s_Church_%28Vienna%29.JPG",
+    "imageAlt": "Vienna cityscape",
+    "population": "1.9 million",
+    "landmarks": [
+      "Schönbrunn Palace",
+      "St Stephen's Cathedral",
+      "Belvedere"
+    ],
+    "knownFor": "Vienna is a major city in Austria, home to a metro network spanning 83 km across 5 lines and 98 stations, with rapid transit service dating to 1976. Imperial city of waltz, coffee houses, and Habsburg palaces. The city is widely recognised for landmarks including Schönbrunn Palace, St Stephen's Cathedral, Belvedere, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 5,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vienna"
+  },
+  "oslo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Oslo_Skyline.jpg/960px-Oslo_Skyline.jpg",
+    "imageAlt": "Oslo cityscape",
+    "population": "700,000",
+    "landmarks": [
+      "Opera House",
+      "Vigeland Park",
+      "Akershus Fortress"
+    ],
+    "knownFor": "Oslo is a major city in Norway, home to a metro network spanning 85 km across 5 lines and 101 stations, with rapid transit service dating to 1966. Fjord capital of Nordic welfare, Edvard Munch, and outdoor living. The city is widely recognised for landmarks including Opera House, Vigeland Park, Akershus Fortress, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Oslo"
+  },
+  "athens": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Athens_skyline.JPG/960px-Athens_skyline.JPG",
+    "imageAlt": "Athens cityscape",
+    "population": "3.1 million",
+    "landmarks": [
+      "Acropolis",
+      "Plaka",
+      "Ancient Agora"
+    ],
+    "knownFor": "Athens is a major city in Greece, home to a metro network spanning 85 km across 3 lines and 66 stations, with rapid transit service dating to 1904. Birthplace of democracy crowned by the Parthenon above a modern sprawl. The city is widely recognised for landmarks including Acropolis, Plaka, Ancient Agora, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Athens"
+  },
+  "dubai": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Dubai_Skyline_on_10_January_2008.jpg/960px-Dubai_Skyline_on_10_January_2008.jpg",
+    "imageAlt": "Dubai cityscape",
+    "population": "3.5 million",
+    "landmarks": [
+      "Burj Khalifa",
+      "Palm Jumeirah",
+      "Dubai Frame"
+    ],
+    "knownFor": "Dubai is a major city in UAE, home to a metro network spanning 90 km across 2 lines and 53 stations, with rapid transit service dating to 2009. Desert emirate turned global hub of superlatives and luxury retail. The city is widely recognised for landmarks including Burj Khalifa, Palm Jumeirah, Dubai Frame, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dubai"
+  },
+  "melbourne": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg/960px-Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg",
+    "imageAlt": "Melbourne cityscape",
+    "population": "5.2 million",
+    "landmarks": [
+      "Federation Square",
+      "Royal Botanic Gardens",
+      "Laneway cafés"
+    ],
+    "knownFor": "Melbourne is a major city in Australia, home to a metro network spanning 97 km across 1 lines and 13 stations, with rapid transit service dating to 2021. Cultural Australian capital of coffee, sport, and Victorian terraces. The city is widely recognised for landmarks including Federation Square, Royal Botanic Gardens, Laneway cafés, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Melbourne"
+  },
+  "kuala-lumpur": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Kuala_Lumpur_Malaysia_Skyline-01.jpg/960px-Kuala_Lumpur_Malaysia_Skyline-01.jpg",
+    "imageAlt": "Kuala Lumpur cityscape",
+    "population": "8.0 million",
+    "landmarks": [
+      "Petronas Towers",
+      "Batu Caves",
+      "KL Tower"
+    ],
+    "knownFor": "Kuala Lumpur is a major city in Malaysia, home to a metro network spanning 99 km across 3 lines and 75 stations, with rapid transit service dating to 1996. Malaysian melting pot of street food, mosques, and twin-tower skylines. The city is widely recognised for landmarks including Petronas Towers, Batu Caves, KL Tower, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+  },
+  "sao-paulo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg/960px-Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg",
+    "imageAlt": "São Paulo cityscape",
+    "population": "12.3 million",
+    "landmarks": [
+      "Avenida Paulista",
+      "Ibirapuera Park",
+      "Municipal Market"
+    ],
+    "knownFor": "São Paulo is a major city in Brazil, home to a metro network spanning 101 km across 6 lines and 89 stations, with rapid transit service dating to 1974. Brazil's financial megacity of skyscrapers, art, and endless traffic. The city is widely recognised for landmarks including Avenida Paulista, Ibirapuera Park, Municipal Market, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 10,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo"
+  },
+  "milan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Milan-skyline-lcpitkan-pano_60-61.jpg/960px-Milan-skyline-lcpitkan-pano_60-61.jpg",
+    "imageAlt": "Milan cityscape",
+    "population": "1.4 million",
+    "landmarks": [
+      "Duomo di Milano",
+      "La Scala",
+      "Galleria Vittorio Emanuele II"
+    ],
+    "knownFor": "Milan is a major city in Italy, home to a metro network spanning 101 km across 5 lines and 113 stations, with rapid transit service dating to 1964. Italian fashion and design capital with Gothic grandeur. The city is widely recognised for landmarks including Duomo di Milano, La Scala, Galleria Vittorio Emanuele II, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Milan"
+  },
+  "stockholm": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/S%C3%B6dermalmstorg_and_Stockholm_skyline_from_S%C3%B6dermalm.jpg/960px-S%C3%B6dermalmstorg_and_Stockholm_skyline_from_S%C3%B6dermalm.jpg",
+    "imageAlt": "Stockholm cityscape",
+    "population": "980,000",
+    "landmarks": [
+      "Gamla Stan",
+      "Vasa Museum",
+      "City Hall"
+    ],
+    "knownFor": "Stockholm is a major city in Sweden, home to a metro network spanning 108 km across 7 lines and 100 stations, with rapid transit service dating to 1950. Scandinavian archipelago capital spread across fourteen islands. The city is widely recognised for landmarks including Gamla Stan, Vasa Museum, City Hall, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 4,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Stockholm"
+  },
+  "busan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Busan_skyline.jpg/960px-Busan_skyline.jpg",
+    "imageAlt": "Busan cityscape",
+    "population": "3.4 million",
+    "landmarks": [
+      "Haeundae Beach",
+      "Gamcheon Culture Village",
+      "Jagalchi Market"
+    ],
+    "knownFor": "Busan is a major city in South Korea, home to a metro network spanning 116 km across 4 lines and 114 stations, with rapid transit service dating to 1985. Korea's port city of seafood markets, beaches, and film festivals. The city is widely recognised for landmarks including Haeundae Beach, Gamcheon Culture Village, Jagalchi Market, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Busan"
+  },
+  "istanbul": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Istanbul_panorama_from_Galata_Tower.jpg/960px-Istanbul_panorama_from_Galata_Tower.jpg",
+    "imageAlt": "Istanbul cityscape",
+    "population": "15.8 million",
+    "landmarks": [
+      "Hagia Sophia",
+      "Blue Mosque",
+      "Grand Bazaar"
+    ],
+    "knownFor": "Istanbul is a major city in Turkey, home to a metro network spanning 120 km across 6 lines and 104 stations, with rapid transit service dating to 1989. Transcontinental bridge of empires straddling Europe and Asia. The city is widely recognised for landmarks including Hagia Sophia, Blue Mosque, Grand Bazaar, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Istanbul"
+  },
+  "saint-petersburg": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Saint_Petersburg_skyline.JPG/960px-Saint_Petersburg_skyline.JPG",
+    "imageAlt": "Saint Petersburg cityscape",
+    "population": "5.4 million",
+    "landmarks": [
+      "Hermitage Museum",
+      "Church of the Savior on Blood",
+      "Nevsky Prospect"
+    ],
+    "knownFor": "Saint Petersburg is a major city in Russia, home to a metro network spanning 124 km across 5 lines and 72 stations, with rapid transit service dating to 1955. Imperial Russian city of canals, white nights, and ballet. The city is widely recognised for landmarks including Hermitage Museum, Church of the Savior on Blood, Nevsky Prospect, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+  },
+  "osaka": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Osaka_Castle_Outer_Moat_and_Osaka_Business_Park%2C_November_2016.jpg/960px-Osaka_Castle_Outer_Moat_and_Osaka_Business_Park%2C_November_2016.jpg",
+    "imageAlt": "Osaka cityscape",
+    "population": "2.7 million",
+    "landmarks": [
+      "Osaka Castle",
+      "Dotonbori",
+      "Universal Studios Japan"
+    ],
+    "knownFor": "Osaka is a major city in Japan, home to a metro network spanning 137 km across 9 lines and 133 stations, with rapid transit service dating to 1933. Japan's kitchen — street food, comedy, and merchant spirit. The city is widely recognised for landmarks including Osaka Castle, Dotonbori, Universal Studios Japan, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Osaka"
+  },
+  "santiago": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Santiago_Skyline.jpg",
+    "imageAlt": "Santiago cityscape",
+    "population": "6.3 million",
+    "landmarks": [
+      "San Cristóbal Hill",
+      "Plaza de Armas",
+      "La Moneda"
+    ],
+    "knownFor": "Santiago is a major city in Chile, home to a metro network spanning 140 km across 6 lines and 136 stations, with rapid transit service dating to 1975. Chilean capital framed by the Andes with wine valleys nearby. The city is widely recognised for landmarks including San Cristóbal Hill, Plaza de Armas, La Moneda, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Santiago"
+  },
+  "bangkok": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bangkok_skytrain_sunset.jpg/960px-Bangkok_skytrain_sunset.jpg",
+    "imageAlt": "Bangkok cityscape",
+    "population": "10.5 million",
+    "landmarks": [
+      "Grand Palace",
+      "Wat Arun",
+      "Chatuchak Market"
+    ],
+    "knownFor": "Bangkok is a major city in Thailand, home to a metro network spanning 145 km across 6 lines and 120 stations, with rapid transit service dating to 1999. Thai capital of temples, street food, and legendary congestion. The city is widely recognised for landmarks including Grand Palace, Wat Arun, Chatuchak Market, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bangkok"
+  },
+  "taipei": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Taipei_Taiwan_Taipei-101-Tower-01.jpg/960px-Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+    "imageAlt": "Taipei cityscape",
+    "population": "2.6 million",
+    "landmarks": [
+      "Taipei 101",
+      "National Palace Museum",
+      "Shilin Night Market"
+    ],
+    "knownFor": "Taipei is a major city in Taiwan, home to a metro network spanning 152 km across 6 lines and 131 stations, with rapid transit service dating to 1996. Taiwanese capital of night markets, bubble tea, and mountain day trips. The city is widely recognised for landmarks including Taipei 101, National Palace Museum, Shilin Night Market, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Taipei"
+  },
+  "berlin": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Berlin_skyline_2.jpg/960px-Berlin_skyline_2.jpg",
+    "imageAlt": "Berlin cityscape",
+    "population": "3.7 million",
+    "landmarks": [
+      "Brandenburg Gate",
+      "Reichstag",
+      "East Side Gallery"
+    ],
+    "knownFor": "Berlin is a major city in Germany, home to a metro network spanning 155 km across 9 lines and 175 stations, with rapid transit service dating to 1902. Reunified German capital of history, clubs, and creative grit. The city is widely recognised for landmarks including Brandenburg Gate, Reichstag, East Side Gallery, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 6,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Berlin"
+  },
+  "chicago": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chicago_Skyline_Hi-Res.jpg/960px-Chicago_Skyline_Hi-Res.jpg",
+    "imageAlt": "Chicago cityscape",
+    "population": "2.7 million",
+    "landmarks": [
+      "Millennium Park",
+      "Willis Tower",
+      "Art Institute of Chicago"
+    ],
+    "knownFor": "Chicago is a major city in USA, home to a metro network spanning 165 km across 8 lines and 270 stations, with rapid transit service dating to 1892. Midwestern metropolis of architecture, deep-dish pizza, and lakefront. The city is widely recognised for landmarks including Millennium Park, Willis Tower, Art Institute of Chicago, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chicago"
+  },
+  "riyadh": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Riyadh-Skyline.jpg",
+    "imageAlt": "Riyadh cityscape",
+    "population": "7.7 million",
+    "landmarks": [
+      "Kingdom Centre",
+      "Diriyah",
+      "National Museum"
+    ],
+    "knownFor": "Riyadh is a major city in Saudi Arabia, home to a metro network spanning 176 km across 2 lines and 85 stations, with rapid transit service dating to 2014. Saudi capital transforming from desert outpost to glass-tower hub. The city is widely recognised for landmarks including Kingdom Centre, Diriyah, National Museum, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Riyadh"
+  },
+  "sydney": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Sydney_Harbour_Bridge_night.jpg/960px-Sydney_Harbour_Bridge_night.jpg",
+    "imageAlt": "Sydney cityscape",
+    "population": "5.3 million",
+    "landmarks": [
+      "Sydney Opera House",
+      "Harbour Bridge",
+      "Bondi Beach"
+    ],
+    "knownFor": "Sydney is a major city in Australia, home to a metro network spanning 178 km across 1 lines and 13 stations, with rapid transit service dating to 2019. Harbour city of surf, sunshine, and iconic performing arts. The city is widely recognised for landmarks including Sydney Opera House, Harbour Bridge, Bondi Beach, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sydney"
+  },
+  "san-francisco": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/San_Francisco_with_approaching_fog.jpg/960px-San_Francisco_with_approaching_fog.jpg",
+    "imageAlt": "San Francisco cityscape",
+    "population": "815,000",
+    "landmarks": [
+      "Golden Gate Bridge",
+      "Alcatraz",
+      "Fisherman's Wharf"
+    ],
+    "knownFor": "San Francisco is a major city in USA, home to a metro network spanning 180 km across 5 lines and 50 stations, with rapid transit service dating to 1972. Hilly tech capital of fog, Victorian houses, and counterculture. The city is widely recognised for landmarks including Golden Gate Bridge, Alcatraz, Fisherman's Wharf, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/San_Francisco"
+  },
+  "los-angeles": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Downtown_Los_Angeles_skyline.jpg/960px-Downtown_Los_Angeles_skyline.jpg",
+    "imageAlt": "Los Angeles cityscape",
+    "population": "3.9 million",
+    "landmarks": [
+      "Hollywood Sign",
+      "Griffith Observatory",
+      "Santa Monica Pier"
+    ],
+    "knownFor": "Los Angeles is a major city in USA, home to a metro network spanning 186 km across 2 lines and 93 stations, with rapid transit service dating to 1990. Sprawling entertainment capital of film, freeways, and diverse neighbourhoods. The city is widely recognised for landmarks including Hollywood Sign, Griffith Observatory, Santa Monica Pier, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Los_Angeles"
+  },
+  "washington-dc": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Capitol_Skyline_Hotel%2C_Washington%2C_D.C._%282013%29.jpg/960px-Capitol_Skyline_Hotel%2C_Washington%2C_D.C._%282013%29.jpg",
+    "imageAlt": "Washington D.C. cityscape",
+    "population": "690,000",
+    "landmarks": [
+      "National Mall",
+      "White House",
+      "Smithsonian museums"
+    ],
+    "knownFor": "Washington D.C. is a major city in USA, home to a metro network spanning 208 km across 6 lines and 98 stations, with rapid transit service dating to 1976. American political capital of monuments, museums, and cherry blossoms. The city is widely recognised for landmarks including National Mall, White House, Smithsonian museums, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Washington%2C_D.C."
+  },
+  "cairo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cairo_skyline_panorama.jpg/960px-Cairo_skyline_panorama.jpg",
+    "imageAlt": "Cairo cityscape",
+    "population": "10.2 million",
+    "landmarks": [
+      "Pyramids of Giza",
+      "Egyptian Museum",
+      "Khan el-Khalili"
+    ],
+    "knownFor": "Cairo is a major city in Egypt, home to a metro network spanning 210 km across 3 lines and 84 stations, with rapid transit service dating to 1987. Ancient Nile megacity where pharaonic wonders meet modern chaos. The city is widely recognised for landmarks including Pyramids of Giza, Egyptian Museum, Khan el-Khalili, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 10,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cairo"
+  },
+  "hong-kong": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/960px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
+    "imageAlt": "Hong Kong cityscape",
+    "population": "7.5 million",
+    "landmarks": [
+      "Victoria Peak",
+      "Star Ferry",
+      "Tian Tan Buddha"
+    ],
+    "knownFor": "Hong Kong is a major city in China, home to a metro network spanning 220 km across 15 lines and 264 stations, with rapid transit service dating to 1979. Vertical harbour city of finance, dim sum, and neon density. The city is widely recognised for landmarks including Victoria Peak, Star Ferry, Tian Tan Buddha, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hong_Kong"
+  },
+  "mexico-city": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Polanco_Skyline_Mexico_City_DF.jpg/960px-Polanco_Skyline_Mexico_City_DF.jpg",
+    "imageAlt": "Mexico City cityscape",
+    "population": "9.2 million",
+    "landmarks": [
+      "Zócalo",
+      "Teotihuacán (nearby)",
+      "Chapultepec Castle"
+    ],
+    "knownFor": "Mexico City is a major city in Mexico, home to a metro network spanning 226 km across 12 lines and 195 stations, with rapid transit service dating to 1969. High-altitude Aztec-rooted megacity of murals, tacos, and museums. The city is widely recognised for landmarks including Zócalo, Teotihuacán (nearby), Chapultepec Castle, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 10,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico_City"
+  },
+  "singapore": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Singapore_Skyline-01.jpg/960px-Singapore_Skyline-01.jpg",
+    "imageAlt": "Singapore cityscape",
+    "population": "5.9 million",
+    "landmarks": [
+      "Marina Bay Sands",
+      "Gardens by the Bay",
+      "Hawker centres"
+    ],
+    "knownFor": "Singapore is a major city in Singapore, home to a metro network spanning 230 km across 6 lines and 142 stations, with rapid transit service dating to 1987. City-state of strict order, tropical gardens, and global trade. The city is widely recognised for landmarks including Marina Bay Sands, Gardens by the Bay, Hawker centres, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Singapore"
+  },
+  "paris": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/960px-Paris_Night.jpg",
+    "imageAlt": "Paris cityscape",
+    "population": "2.1 million",
+    "landmarks": [
+      "Eiffel Tower",
+      "Louvre",
+      "Notre-Dame"
+    ],
+    "knownFor": "Paris is a major city in France, home to a metro network spanning 245 km across 16 lines and 308 stations, with rapid transit service dating to 1900. City of Light — art, café culture, and Haussmann boulevards. The city is widely recognised for landmarks including Eiffel Tower, Louvre, Notre-Dame, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Paris"
+  },
+  "tehran": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Tehran_skyline_2006.jpg",
+    "imageAlt": "Tehran cityscape",
+    "population": "9.0 million",
+    "landmarks": [
+      "Azadi Tower",
+      "Golestan Palace",
+      "Milad Tower"
+    ],
+    "knownFor": "Tehran is a major city in Iran, home to a metro network spanning 254 km across 7 lines and 119 stations, with rapid transit service dating to 1966. Iranian capital at the foot of the Alborz with bazaars and museums. The city is widely recognised for landmarks including Azadi Tower, Golestan Palace, Milad Tower, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tehran"
+  },
+  "tokyo": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Tokyo_skyline_from_the_Keio_Plaza_Hotel_%283104528129%29.jpg/960px-Tokyo_skyline_from_the_Keio_Plaza_Hotel_%283104528129%29.jpg",
+    "imageAlt": "Tokyo cityscape",
+    "population": "14.0 million",
+    "landmarks": [
+      "Shibuya Crossing",
+      "Senso-ji",
+      "Tokyo Tower"
+    ],
+    "knownFor": "Tokyo is a major city in Japan, home to a metro network spanning 304 km across 13 lines and 179 stations, with rapid transit service dating to 1927. World's largest metro area blending neon futurism with quiet shrines. The city is widely recognised for landmarks including Shibuya Crossing, Senso-ji, Tokyo Tower, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tokyo"
+  },
+  "seoul": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Seoul_Skyline_from_Namsan_%286907572103%29.jpg/960px-Seoul_Skyline_from_Namsan_%286907572103%29.jpg",
+    "imageAlt": "Seoul cityscape",
+    "population": "9.7 million",
+    "landmarks": [
+      "Gyeongbokgung Palace",
+      "N Seoul Tower",
+      "Dongdaemun Design Plaza"
+    ],
+    "knownFor": "Seoul is a major city in South Korea, home to a metro network spanning 332 km across 9 lines and 307 stations, with rapid transit service dating to 1974. K-dynamic capital of K-pop, BBQ, palaces, and 24-hour energy. The city is widely recognised for landmarks including Gyeongbokgung Palace, N Seoul Tower, Dongdaemun Design Plaza, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seoul"
+  },
+  "delhi": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Skyline_at_Rajiv_Chowk.JPG/960px-Skyline_at_Rajiv_Chowk.JPG",
+    "imageAlt": "Delhi cityscape",
+    "population": "32.9 million (metro)",
+    "landmarks": [
+      "Red Fort",
+      "India Gate",
+      "Qutub Minar"
+    ],
+    "knownFor": "Delhi is a major city in India, home to a metro network spanning 348 km across 10 lines and 288 stations, with rapid transit service dating to 2002. Indian capital of Mughal monuments, street chaos, and political power. The city is widely recognised for landmarks including Red Fort, India Gate, Qutub Minar, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 10,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Delhi"
+  },
+  "nanjing": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Nanjing_skyline.jpg/960px-Nanjing_skyline.jpg",
+    "imageAlt": "Nanjing cityscape",
+    "population": "9.4 million",
+    "landmarks": [
+      "Sun Yat-sen Mausoleum",
+      "Ming Xiaoling Mausoleum",
+      "Confucius Temple"
+    ],
+    "knownFor": "Nanjing is a major city in China, home to a metro network spanning 378 km across 12 lines and 237 stations, with rapid transit service dating to 2005. Former Chinese capital on the Yangtze with deep dynastic history. The city is widely recognised for landmarks including Sun Yat-sen Mausoleum, Ming Xiaoling Mausoleum, Confucius Temple, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nanjing"
+  },
+  "new-york-city": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Manhattan_at_night.jpg/960px-Manhattan_at_night.jpg",
+    "imageAlt": "New York City cityscape",
+    "population": "8.3 million",
+    "landmarks": [
+      "Statue of Liberty",
+      "Times Square",
+      "Central Park"
+    ],
+    "knownFor": "New York City is a major city in USA, home to a metro network spanning 394 km across 27 lines and 424 stations, with rapid transit service dating to 1904. The city that never sleeps — finance, Broadway, and five boroughs. The city is widely recognised for landmarks including Statue of Liberty, Times Square, Central Park, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/New_York_City"
+  },
+  "london": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/City_of_London_skyline_from_London_City_Hall_-_Oct_2008.jpg/960px-City_of_London_skyline_from_London_City_Hall_-_Oct_2008.jpg",
+    "imageAlt": "London cityscape",
+    "population": "9.0 million",
+    "landmarks": [
+      "Big Ben",
+      "Tower Bridge",
+      "British Museum"
+    ],
+    "knownFor": "London is a major city in UK, home to a metro network spanning 402 km across 11 lines and 272 stations, with rapid transit service dating to 1863. Global capital of royalty, theatre, finance, and the world's oldest metro. The city is widely recognised for landmarks including Big Ben, Tower Bridge, British Museum, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/London"
+  },
+  "moscow": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Moscow_Skyline.jpg/960px-Moscow_Skyline.jpg",
+    "imageAlt": "Moscow cityscape",
+    "population": "13.0 million",
+    "landmarks": [
+      "Red Square",
+      "Saint Basil's Cathedral",
+      "Bolshoi Theatre"
+    ],
+    "knownFor": "Moscow is a major city in Russia, home to a metro network spanning 465 km across 15 lines and 263 stations, with rapid transit service dating to 1935. Russian heart of Kremlin power, metro palaces, and vast ring roads. The city is widely recognised for landmarks including Red Square, Saint Basil's Cathedral, Bolshoi Theatre, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Moscow"
+  },
+  "chongqing": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/SkylineOfChongqing.jpg/960px-SkylineOfChongqing.jpg",
+    "imageAlt": "Chongqing cityscape",
+    "population": "16.0 million (metro)",
+    "landmarks": [
+      "Hongya Cave",
+      "Dazu Rock Carvings",
+      "Yangtze cable cars"
+    ],
+    "knownFor": "Chongqing is a major city in China, home to a metro network spanning 492 km across 12 lines and 280 stations, with rapid transit service dating to 2004. Mountainous Yangtze megacity famed for hot pot and layered topography. The city is widely recognised for landmarks including Hongya Cave, Dazu Rock Carvings, Yangtze cable cars, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chongqing"
+  },
+  "mumbai": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mumbai_Skyline_at_Night.jpg/960px-Mumbai_Skyline_at_Night.jpg",
+    "imageAlt": "Mumbai cityscape",
+    "population": "20.9 million (metro)",
+    "landmarks": [
+      "Gateway of India",
+      "Marine Drive",
+      "Chhatrapati Shivaji Terminus"
+    ],
+    "knownFor": "Mumbai is a major city in India, home to a metro network spanning 496 km across 12 lines and 173 stations, with rapid transit service dating to 2014. Bollywood coastal megacity of ambition, trains, and monsoon drama. The city is widely recognised for landmarks including Gateway of India, Marine Drive, Chhatrapati Shivaji Terminus, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 10,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mumbai"
+  },
+  "wuhan": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Wuhan_montage.png",
+    "imageAlt": "Wuhan cityscape",
+    "population": "11.1 million",
+    "landmarks": [
+      "Yellow Crane Tower",
+      "East Lake",
+      "Yangtze River Bridge"
+    ],
+    "knownFor": "Wuhan is a major city in China, home to a metro network spanning 518 km across 12 lines and 282 stations, with rapid transit service dating to 2004. Central Chinese hub where three towns merged along the Yangtze. The city is widely recognised for landmarks including Yellow Crane Tower, East Lake, Yangtze River Bridge, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Wuhan"
+  },
+  "chengdu": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Central_Chengdu_skyline_at_dawn_-_Flickr.jpg/960px-Central_Chengdu_skyline_at_dawn_-_Flickr.jpg",
+    "imageAlt": "Chengdu cityscape",
+    "population": "9.5 million",
+    "landmarks": [
+      "Giant Panda bases",
+      "Jinli Ancient Street",
+      "Wuhou Shrine"
+    ],
+    "knownFor": "Chengdu is a major city in China, home to a metro network spanning 558 km across 13 lines and 373 stations, with rapid transit service dating to 2010. Laid-back Sichuan capital of pandas, spice, and teahouse culture. The city is widely recognised for landmarks including Giant Panda bases, Jinli Ancient Street, Wuhou Shrine, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 7,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chengdu"
+  },
+  "shenzhen": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Skyline_of_Shenzhen_from_Hong_Kong.jpg/960px-Skyline_of_Shenzhen_from_Hong_Kong.jpg",
+    "imageAlt": "Shenzhen cityscape",
+    "population": "17.6 million",
+    "landmarks": [
+      "Ping An Finance Centre",
+      "Window of the World",
+      "Dafen Oil Painting Village"
+    ],
+    "knownFor": "Shenzhen is a major city in China, home to a metro network spanning 567 km across 16 lines and 369 stations, with rapid transit service dating to 2004. China's tech factory turned gleaming SEZ megacity north of Hong Kong. The city is widely recognised for landmarks including Ping An Finance Centre, Window of the World, Dafen Oil Painting Village, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Shenzhen"
+  },
+  "guangzhou": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Guangzhou_Skyline_1.jpg/960px-Guangzhou_Skyline_1.jpg",
+    "imageAlt": "Guangzhou cityscape",
+    "population": "15.0 million",
+    "landmarks": [
+      "Canton Tower",
+      "Chen Clan Ancestral Hall",
+      "Shamian Island"
+    ],
+    "knownFor": "Guangzhou is a major city in China, home to a metro network spanning 631 km across 16 lines and 270 stations, with rapid transit service dating to 1997. Cantonese trading port of dim sum, factories, and Pearl River commerce. The city is widely recognised for landmarks including Canton Tower, Chen Clan Ancestral Hall, Shamian Island, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Guangzhou"
+  },
+  "shanghai": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg/960px-Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg",
+    "imageAlt": "Shanghai cityscape",
+    "population": "26.3 million (metro)",
+    "landmarks": [
+      "The Bund",
+      "Oriental Pearl Tower",
+      "Yu Garden"
+    ],
+    "knownFor": "Shanghai is a major city in China, home to a metro network spanning 831 km across 20 lines and 508 stations, with rapid transit service dating to 1993. China's showpiece financial skyline where Art Deco meets futurism. The city is widely recognised for landmarks including The Bund, Oriental Pearl Tower, Yu Garden, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 9,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Shanghai"
+  },
+  "beijing": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Modern_Beijing_Skyline_Oct2004.jpg",
+    "imageAlt": "Beijing cityscape",
+    "population": "21.5 million (metro)",
+    "landmarks": [
+      "Forbidden City",
+      "Great Wall",
+      "Temple of Heaven"
+    ],
+    "knownFor": "Beijing is a major city in China, home to a metro network spanning 836 km across 27 lines and 490 stations, with rapid transit service dating to 1969. Chinese political capital of imperial history and ring-road sprawl. The city is widely recognised for landmarks including Forbidden City, Great Wall, Temple of Heaven, and continues to shape transport, culture, and daily life across its region.",
+    "trafficRating": 8,
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Beijing"
+  }
+}
