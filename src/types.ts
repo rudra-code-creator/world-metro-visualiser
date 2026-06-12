@@ -49,3 +49,13 @@ export type MetroCity = {
 export type CitiesManifest = {
   cities: MetroCity[];
 };
+
+export type CityProfile = {
+  imageUrl: string;
+  imageAlt: string;
+  population: string;
+  landmarks: string[];
+  knownFor: string;
+  trafficRating: number;
+  wikipediaUrl: string;
+};

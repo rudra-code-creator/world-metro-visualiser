@@ -3,6 +3,13 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { MetroCity } from '../types';
 import { cities, loadCityGeoJsonCached } from '../lib/cities';
+import { findNearestCity, isMapNearCity } from '../lib/geo';
+import {
+  animateMetroRadialSpread,
+  getMetroRevealDurationMs,
+  setMetroDataInstant,
+} from '../lib/metroAnimation';
+import { skipNextMetroAnimationRef } from '../lib/playbackFlags';
 import {
   CITY_MARKERS_SOURCE,
   DARK_MAP_STYLE,
@@ -55,19 +62,76 @@ function clearMetroLayers(map: mapboxgl.Map) {
   stationsSource?.setData(EMPTY_COLLECTION);
 }
 
-async function applyMetroData(map: mapboxgl.Map, city: MetroCity) {
-  const linesSource = map.getSource(METRO_LINES_SOURCE) as mapboxgl.GeoJSONSource | undefined;
-  const stationsSource = map.getSource(METRO_STATIONS_SOURCE) as mapboxgl.GeoJSONSource | undefined;
-
-  if (!linesSource || !stationsSource) {
-    throw new Error('Metro map sources are not ready');
-  }
-
+async function loadMetroData(city: MetroCity) {
   const geojson = await loadCityGeoJsonCached(city.geojsonPath);
-  const { lines, stations } = splitMetroGeoJson(geojson);
-
-  return { lines, stations, linesSource, stationsSource };
+  return splitMetroGeoJson(geojson);
 }
+
+/** Marker radius scales with zoom — large when zoomed out, tighter when zoomed in. */
+const MARKER_RADIUS: mapboxgl.Expression = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  1,
+  11,
+  4,
+  13,
+  7,
+  15,
+  9,
+  11,
+  7,
+  14,
+  5,
+];
+
+const MARKER_GLOW_RADIUS: mapboxgl.Expression = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  1,
+  20,
+  4,
+  24,
+  7,
+  28,
+  11,
+  18,
+  14,
+  12,
+];
+
+const MARKER_RADIUS_ACTIVE: mapboxgl.Expression = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  1,
+  14,
+  4,
+  17,
+  7,
+  19,
+  11,
+  11,
+  14,
+  8,
+];
+
+const MARKER_GLOW_RADIUS_ACTIVE: mapboxgl.Expression = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  1,
+  26,
+  4,
+  30,
+  7,
+  34,
+  11,
+  24,
+  14,
+  16,
+];
 
 export function MetroMap({
   currentCity,
@@ -78,7 +142,18 @@ export function MetroMap({
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const loadGenerationRef = useRef(0);
+  const metroRevealRef = useRef<{ cancel: () => void } | null>(null);
+  const pendingMetroRevealRef = useRef<{
+    lines: GeoJSON.FeatureCollection;
+    stations: GeoJSON.FeatureCollection;
+    city: MetroCity;
+  } | null>(null);
+  const awaitingFlyForRevealRef = useRef(false);
+  const programmaticMoveRef = useRef(false);
+  const currentCityIdRef = useRef(currentCity.id);
   const [mapReady, setMapReady] = useState(false);
+
+  currentCityIdRef.current = currentCity.id;
 
   const updateMarkerHighlight = useCallback((map: mapboxgl.Map, cityId: string) => {
     if (!map.getLayer('city-marker-glow')) return;
@@ -86,26 +161,45 @@ export function MetroMap({
     map.setPaintProperty('city-marker-glow', 'circle-radius', [
       'case',
       ['==', ['get', 'id'], cityId],
-      14,
-      6,
+      MARKER_GLOW_RADIUS_ACTIVE,
+      MARKER_GLOW_RADIUS,
     ]);
     map.setPaintProperty('city-marker-glow', 'circle-opacity', [
       'case',
       ['==', ['get', 'id'], cityId],
-      0.35,
-      0.15,
+      0.45,
+      0.2,
     ]);
     map.setPaintProperty('city-markers', 'circle-radius', [
       'case',
       ['==', ['get', 'id'], cityId],
-      7,
-      4,
+      MARKER_RADIUS_ACTIVE,
+      MARKER_RADIUS,
+    ]);
+    map.setPaintProperty('city-markers', 'circle-stroke-width', [
+      'case',
+      ['==', ['get', 'id'], cityId],
+      2.5,
+      1.5,
     ]);
     map.setPaintProperty('city-labels', 'text-opacity', [
       'case',
       ['==', ['get', 'id'], cityId],
       1,
       0.55,
+    ]);
+    map.setLayoutProperty('city-labels', 'text-size', [
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      1,
+      10,
+      6,
+      12,
+      10,
+      13,
+      14,
+      11,
     ]);
   }, []);
 
@@ -149,10 +243,10 @@ export function MetroMap({
         type: 'circle',
         source: CITY_MARKERS_SOURCE,
         paint: {
-          'circle-radius': 6,
+          'circle-radius': MARKER_GLOW_RADIUS,
           'circle-color': ['get', 'accentColor'],
-          'circle-opacity': 0.15,
-          'circle-blur': 0.6,
+          'circle-opacity': 0.2,
+          'circle-blur': 0.55,
         },
       });
 
@@ -161,11 +255,11 @@ export function MetroMap({
         type: 'circle',
         source: CITY_MARKERS_SOURCE,
         paint: {
-          'circle-radius': 4,
+          'circle-radius': MARKER_RADIUS,
           'circle-color': ['get', 'accentColor'],
-          'circle-stroke-width': 1,
+          'circle-stroke-width': 1.5,
           'circle-stroke-color': '#ffffff',
-          'circle-stroke-opacity': 0.8,
+          'circle-stroke-opacity': 0.9,
         },
       });
 
@@ -290,6 +384,22 @@ export function MetroMap({
         if (index >= 0) onCitySelect(index);
       });
 
+      const tryProximitySelect = () => {
+        if (programmaticMoveRef.current) return;
+
+        const zoom = map.getZoom();
+        const center = map.getCenter();
+        const nearest = findNearestCity([center.lng, center.lat], zoom, cities);
+        if (!nearest) return;
+        if (nearest.city.id === currentCityIdRef.current) return;
+
+        onScrubStart();
+        onCitySelect(nearest.index);
+      };
+
+      map.on('moveend', tryProximitySelect);
+      map.on('zoomend', tryProximitySelect);
+
       setMapReady(true);
     });
 
@@ -356,17 +466,80 @@ export function MetroMap({
     updateMarkerHighlight(map, currentCity.id);
   }, [currentCity.id, mapReady, updateMarkerHighlight]);
 
+  const applyMetroToMap = useCallback(
+    (
+      map: mapboxgl.Map,
+      lines: GeoJSON.FeatureCollection,
+      stations: GeoJSON.FeatureCollection,
+      city: MetroCity,
+      animate: boolean,
+    ) => {
+      metroRevealRef.current?.cancel();
+      metroRevealRef.current = null;
+
+      if (animate) {
+        clearMetroLayers(map);
+        metroRevealRef.current = animateMetroRadialSpread(
+          map,
+          lines,
+          stations,
+          city.coords,
+          { durationMs: getMetroRevealDurationMs(city.totalKm) },
+        );
+      } else {
+        setMetroDataInstant(map, lines, stations);
+      }
+    },
+    [],
+  );
+
+  const flushPendingMetroReveal = useCallback(
+    (map: mapboxgl.Map) => {
+      const pending = pendingMetroRevealRef.current;
+      if (!pending) return;
+      pendingMetroRevealRef.current = null;
+      applyMetroToMap(map, pending.lines, pending.stations, pending.city, true);
+    },
+    [applyMetroToMap],
+  );
+
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapReady) return;
 
+    const center = map.getCenter();
+    const alreadyNear = isMapNearCity(
+      [center.lng, center.lat],
+      map.getZoom(),
+      currentCity.coords,
+    );
+
+    if (alreadyNear) {
+      awaitingFlyForRevealRef.current = false;
+      flushPendingMetroReveal(map);
+      return;
+    }
+
+    awaitingFlyForRevealRef.current = true;
+    programmaticMoveRef.current = true;
     map.flyTo({
       center: currentCity.coords,
       zoom: 11.5,
       duration: 2200,
       essential: true,
     });
-  }, [currentCity.coords, currentIndex, mapReady]);
+
+    const onFlyEnd = () => {
+      programmaticMoveRef.current = false;
+      awaitingFlyForRevealRef.current = false;
+      flushPendingMetroReveal(map);
+    };
+    map.once('moveend', onFlyEnd);
+
+    return () => {
+      map.off('moveend', onFlyEnd);
+    };
+  }, [currentCity.coords, currentIndex, mapReady, flushPendingMetroReveal]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -375,22 +548,45 @@ export function MetroMap({
     const generation = ++loadGenerationRef.current;
     const city = currentCity;
 
+    pendingMetroRevealRef.current = null;
+    metroRevealRef.current?.cancel();
+    metroRevealRef.current = null;
     clearMetroLayers(map);
 
     (async () => {
       try {
-        const result = await applyMetroData(map, city);
+        const { lines, stations } = await loadMetroData(city);
         if (loadGenerationRef.current !== generation) return;
 
-        result.linesSource.setData(result.lines);
-        result.stationsSource.setData(result.stations);
+        const skipAnimation = skipNextMetroAnimationRef.current;
+        skipNextMetroAnimationRef.current = false;
+
+        if (skipAnimation) {
+          pendingMetroRevealRef.current = null;
+          applyMetroToMap(map, lines, stations, city, false);
+          return;
+        }
+
+        const mapCenter = map.getCenter();
+        const needsFly = !isMapNearCity(
+          [mapCenter.lng, mapCenter.lat],
+          map.getZoom(),
+          city.coords,
+        );
+
+        if (needsFly || awaitingFlyForRevealRef.current) {
+          pendingMetroRevealRef.current = { lines, stations, city };
+          return;
+        }
+
+        applyMetroToMap(map, lines, stations, city, true);
       } catch (error) {
         if (loadGenerationRef.current !== generation) return;
         console.error(`Failed to load metro data for ${city.name}:`, error);
         clearMetroLayers(map);
       }
     })();
-  }, [currentCity.id, currentCity.geojsonPath, mapReady]);
+  }, [currentCity.id, currentCity.geojsonPath, mapReady, applyMetroToMap]);
 
   const missingToken =
     !MAPBOX_TOKEN || MAPBOX_TOKEN === 'your_mapbox_public_token_here';

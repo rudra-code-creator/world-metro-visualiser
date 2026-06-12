@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "generate:geojson": "node scripts/generate-geojson.mjs",
     "build:manifest": "node scripts/build-manifest.mjs",
+    "build:profiles": "node scripts/build-city-profiles.mjs",
     "fetch:metro": "node --max-old-space-size=4096 scripts/fetch-osm-metro.mjs"
   },
   "dependencies": {
