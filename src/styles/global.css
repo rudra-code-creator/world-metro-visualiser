@@ -552,6 +552,184 @@ button {
   text-transform: uppercase;
   color: #787890;
   margin-bottom: 0.35rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.city-info__line-count {
+  font-size: 0.58rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: #686880;
+}
+
+/* City metro evolution video panel */
+.city-video {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: 100%;
+  min-height: 0;
+}
+
+.city-video__player-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: min(42vh, 320px);
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.city-video__player,
+.city-video__player-placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.city-video__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.city-video__title {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #ececf4;
+}
+
+.city-video__channel {
+  margin: 0;
+  font-size: 0.72rem;
+  color: #9898ac;
+}
+
+.city-video__channel a {
+  color: #b794f6;
+  text-decoration: none;
+}
+
+.city-video__channel a:hover {
+  text-decoration: underline;
+}
+
+.city-video__watch-link {
+  align-self: flex-start;
+  margin-top: 0.15rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #56ccf2;
+  text-decoration: none;
+}
+
+.city-video__watch-link:hover {
+  color: #8fdcff;
+  text-decoration: underline;
+}
+
+.city-video--empty {
+  justify-content: center;
+  padding: 0.5rem 0.25rem;
+}
+
+.city-video__empty-title {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ececf4;
+}
+
+.city-video__empty-copy {
+  margin: 0.45rem 0 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #9898ac;
+}
+
+.city-video__channel-list {
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.city-video__channel-link {
+  display: inline-flex;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #d8d8ea;
+  background: rgba(183, 148, 246, 0.14);
+  border: 1px solid rgba(183, 148, 246, 0.35);
+  text-decoration: none;
+}
+
+.city-video__channel-link:hover {
+  background: rgba(183, 148, 246, 0.24);
+  color: #f0eeff;
+}
+
+/* Metro lines list (city info panel) */
+.metro-lines {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-height: 11rem;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.metro-lines__item {
+  display: grid;
+  grid-template-columns: 10px 1fr auto;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.72rem;
+}
+
+.metro-lines__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 6px color-mix(in srgb, currentColor 60%, transparent);
+}
+
+.metro-lines__name {
+  color: #c8c8d8;
+  line-height: 1.3;
+}
+
+.metro-lines__km {
+  color: #707088;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.metro-lines__item--upcoming .metro-lines__name {
+  color: #808090;
+}
+
+.metro-lines__loading {
+  font-size: 0.72rem;
+  color: #686880;
 }
 
 .city-info__text {
@@ -755,45 +933,6 @@ button {
 .city-panel__expansion {
   font-size: 0.72rem;
   color: #808098;
-  margin-bottom: 0.65rem;
-}
-
-.city-panel__lines {
-  list-style: none;
-  overflow-y: auto;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  padding-right: 0.25rem;
-}
-
-.city-panel__line {
-  display: grid;
-  grid-template-columns: 10px 1fr auto;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.72rem;
-}
-
-.city-panel__line-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  box-shadow: 0 0 6px currentColor;
-}
-
-.city-panel__line-name {
-  color: #c8c8d8;
-}
-
-.city-panel__line-km {
-  color: #707088;
-  font-variant-numeric: tabular-nums;
-}
-
-.city-panel__line--upcoming .city-panel__line-name {
-  color: #808090;
 }
 
 .map-legend {
@@ -838,6 +977,215 @@ button {
     transparent 7px
   );
   opacity: 0.5;
+}
+
+.map-legend__swatch--landmark {
+  background: #f5d76e;
+}
+
+.map-legend__swatch--airport {
+  background: #56ccf2;
+}
+
+.map-legend__swatch--university {
+  background: #b794f6;
+}
+
+.poi-popup .mapboxgl-popup-content {
+  background: rgba(8, 8, 18, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  padding: 0;
+  color: #e8e8f0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
+.poi-popup__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.poi-popup__image {
+  display: block;
+  width: 100%;
+  max-height: 140px;
+  object-fit: cover;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.poi-popup__body {
+  padding: 0.65rem 0.75rem 0.7rem;
+}
+
+.poi-popup__title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.poi-popup__category {
+  margin-top: 0.2rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9898ac;
+}
+
+.poi-popup__description {
+  margin: 0.45rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: #c0c0d0;
+}
+
+.poi-popup__loading {
+  margin-top: 0.45rem;
+  font-size: 0.68rem;
+  color: #8888a0;
+}
+
+.poi-popup__maps-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.55rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #56ccf2;
+  text-decoration: none;
+}
+
+.poi-popup__maps-link:hover {
+  color: #8fdcff;
+  text-decoration: underline;
+}
+
+.map-layers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.15rem 0.1rem;
+}
+
+.map-layers__intro {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: #9898ac;
+}
+
+.map-layers__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.55rem;
+}
+
+.map-layers__row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+}
+
+.map-layers__row:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.map-layers__checkbox {
+  width: 15px;
+  height: 15px;
+  accent-color: #b794f6;
+  cursor: pointer;
+}
+
+.map-layers__swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.map-layers__swatch--lines {
+  background: linear-gradient(90deg, #ff6b6b, #ffd93d);
+}
+
+.map-layers__swatch--stations {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.map-layers__swatch--pois {
+  background: linear-gradient(135deg, #f5d76e 0%, #56ccf2 50%, #b794f6 100%);
+}
+
+.map-layers__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+
+.map-layers__label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #ececf4;
+}
+
+.map-layers__hint {
+  font-size: 0.68rem;
+  color: #8888a0;
+}
+
+.map-layers__legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.map-layers__legend-title {
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #787890;
+}
+
+.map-layers__legend-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+}
+
+.map-layers__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  color: #b0b0c4;
+}
+
+.map-layers__legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.bottom-dock__tab-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+.bottom-dock__minimized-tab {
+  gap: 0.35rem;
 }
 
 /* Bottom dock — shared shell for timeline and future panels */
@@ -918,6 +1266,9 @@ button {
 }
 
 .bottom-dock__tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   height: 30px;
   padding: 0 0.85rem;
   border-radius: 6px;

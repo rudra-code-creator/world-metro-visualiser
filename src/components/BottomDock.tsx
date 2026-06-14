@@ -1,8 +1,10 @@
 import { useCallback, useRef, type ReactNode } from 'react';
+import { DockTabIcon, type DockTabIconName } from './DockTabIcon';
 
 export type BottomDockTab = {
   id: string;
   label: string;
+  icon: DockTabIconName;
   hint?: string;
   panel: ReactNode;
 };
@@ -99,6 +101,7 @@ export function BottomDock({
                 <span className="bottom-dock__tab-chevron" aria-hidden>
                   ▲
                 </span>
+                <DockTabIcon name={tab.icon} />
                 <span className="bottom-dock__tab-title">{tab.label}</span>
                 {tab.hint && isActive ? (
                   <span className="bottom-dock__tab-hint">{tab.hint}</span>
@@ -136,6 +139,7 @@ export function BottomDock({
                 className={`bottom-dock__tab-btn${isActive ? ' bottom-dock__tab-btn--active' : ''}`}
                 onClick={() => selectTab(tab.id)}
               >
+                <DockTabIcon name={tab.icon} />
                 {tab.label}
               </button>
             );

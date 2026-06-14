@@ -1,0 +1,2749 @@
+{
+  "catania": [
+    {
+      "name": "Mount Etna",
+      "category": "landmark",
+      "coords": [
+        14.995,
+        37.755
+      ]
+    },
+    {
+      "name": "Piazza del Duomo",
+      "category": "landmark",
+      "coords": [
+        15.0871,
+        37.5025
+      ]
+    }
+  ],
+  "lausanne": [
+    {
+      "name": "Olympic Museum",
+      "category": "landmark",
+      "coords": [
+        6.63388889,
+        46.50861111
+      ]
+    },
+    {
+      "name": "Lausanne Cathedral",
+      "category": "landmark",
+      "coords": [
+        6.63555556,
+        46.5225
+      ]
+    },
+    {
+      "name": "Ouchy waterfront",
+      "category": "landmark",
+      "coords": [
+        6.63333333,
+        46.52
+      ]
+    }
+  ],
+  "glasgow": [
+    {
+      "name": "Glasgow Cathedral",
+      "category": "landmark",
+      "coords": [
+        -4.2346,
+        55.863
+      ]
+    },
+    {
+      "name": "River Clyde",
+      "category": "landmark",
+      "coords": [
+        -4.75416667,
+        55.97
+      ]
+    }
+  ],
+  "yerevan": [
+    {
+      "name": "Republic Square",
+      "category": "landmark",
+      "coords": [
+        44.51277778,
+        40.17777778
+      ]
+    },
+    {
+      "name": "Ararat views",
+      "category": "landmark",
+      "coords": [
+        44.2983,
+        39.7019
+      ]
+    }
+  ],
+  "rennes": [],
+  "nizhny-novgorod": [
+    {
+      "name": "Chkalov Stairs",
+      "category": "landmark",
+      "coords": [
+        44.00944444,
+        56.33083333
+      ]
+    }
+  ],
+  "jakarta": [
+    {
+      "name": "National Monument",
+      "category": "landmark",
+      "coords": [
+        106.82713889,
+        -6.17538889
+      ]
+    },
+    {
+      "name": "Old Batavia",
+      "category": "landmark",
+      "coords": [
+        106.814634,
+        -6.137579
+      ]
+    }
+  ],
+  "kazan": [],
+  "panama-city": [],
+  "algiers": [
+    {
+      "name": "Casbah of Algiers",
+      "category": "landmark",
+      "coords": [
+        3.06055556,
+        36.78694444
+      ]
+    },
+    {
+      "name": "Notre Dame d'Afrique",
+      "category": "landmark",
+      "coords": [
+        3.08722222,
+        36.7325
+      ]
+    }
+  ],
+  "grenoble": [
+    {
+      "name": "Bastille fortress",
+      "category": "landmark",
+      "coords": [
+        5.722387,
+        45.171546
+      ]
+    },
+    {
+      "name": "Musée de Grenoble",
+      "category": "landmark",
+      "coords": [
+        5.722387,
+        45.171546
+      ]
+    }
+  ],
+  "kryvyi-rih": [
+    {
+      "name": "Iron ore quarries",
+      "category": "landmark",
+      "coords": [
+        33.39,
+        47.91
+      ]
+    }
+  ],
+  "hanoi": [
+    {
+      "name": "Hoàn Kiếm Lake",
+      "category": "landmark",
+      "coords": [
+        105.8525,
+        21.02888889
+      ]
+    },
+    {
+      "name": "Old Quarter",
+      "category": "landmark",
+      "coords": [
+        105.85,
+        21
+      ]
+    },
+    {
+      "name": "Temple of Literature",
+      "category": "landmark",
+      "coords": [
+        105.83555556,
+        21.02861111
+      ]
+    }
+  ],
+  "zagreb": [
+    {
+      "name": "Ban Jelačić Square",
+      "category": "landmark",
+      "coords": [
+        15.97722222,
+        45.81305556
+      ]
+    },
+    {
+      "name": "Upper Town",
+      "category": "landmark",
+      "coords": [
+        15.9775,
+        45.81305556
+      ]
+    }
+  ],
+  "quito": [
+    {
+      "name": "Historic Centre (UNESCO)",
+      "category": "landmark",
+      "coords": [
+        -78.5125,
+        -0.22
+      ]
+    },
+    {
+      "name": "Basilica del Voto Nacional",
+      "category": "landmark",
+      "coords": [
+        -78.5125,
+        -0.22
+      ]
+    },
+    {
+      "name": "TelefériQo",
+      "category": "landmark",
+      "coords": [
+        -78.51888889,
+        -0.19194444
+      ]
+    }
+  ],
+  "mendoza": [
+    {
+      "name": "Plaza Independencia",
+      "category": "landmark",
+      "coords": [
+        -68.84444444,
+        -32.88972222
+      ]
+    },
+    {
+      "name": "Andes backdrop",
+      "category": "landmark",
+      "coords": [
+        -69.31666667,
+        -32.56666667
+      ]
+    },
+    {
+      "name": "Wine country",
+      "category": "landmark",
+      "coords": [
+        -68.84638889,
+        -32.89861111
+      ]
+    }
+  ],
+  "marseille": [
+    {
+      "name": "Vieux-Port",
+      "category": "landmark",
+      "coords": [
+        5.37083333,
+        43.29472222
+      ]
+    },
+    {
+      "name": "Notre-Dame de la Garde",
+      "category": "landmark",
+      "coords": [
+        5.371,
+        43.2841
+      ]
+    },
+    {
+      "name": "Calanques",
+      "category": "landmark",
+      "coords": [
+        5.44916667,
+        43.20888889
+      ]
+    }
+  ],
+  "palma": [
+    {
+      "name": "La Seu Cathedral",
+      "category": "landmark",
+      "coords": [
+        2.65,
+        39.56666667
+      ]
+    },
+    {
+      "name": "Bellver Castle",
+      "category": "landmark",
+      "coords": [
+        2.619338,
+        39.56375
+      ]
+    }
+  ],
+  "lahore": [
+    {
+      "name": "Badshahi Mosque",
+      "category": "landmark",
+      "coords": [
+        74.30944444,
+        31.58805556
+      ]
+    },
+    {
+      "name": "Lahore Fort",
+      "category": "landmark",
+      "coords": [
+        74.315,
+        31.58777778
+      ]
+    },
+    {
+      "name": "Shalimar Gardens",
+      "category": "landmark",
+      "coords": [
+        74.38194444,
+        31.58583333
+      ]
+    }
+  ],
+  "tbilisi": [
+    {
+      "name": "Narikala Fortress",
+      "category": "landmark",
+      "coords": [
+        44.7925,
+        41.7225
+      ]
+    },
+    {
+      "name": "Peace Bridge",
+      "category": "landmark",
+      "coords": [
+        44.7925,
+        41.7225
+      ]
+    }
+  ],
+  "toulouse": [
+    {
+      "name": "Capitole de Toulouse",
+      "category": "landmark",
+      "coords": [
+        1.444,
+        43.6045
+      ]
+    },
+    {
+      "name": "Basilica of Saint-Sernin",
+      "category": "landmark",
+      "coords": [
+        1.442,
+        43.6084
+      ]
+    },
+    {
+      "name": "Cité de l'espace",
+      "category": "landmark",
+      "coords": [
+        1.49316389,
+        43.5869611
+      ]
+    }
+  ],
+  "ho-chi-minh-city": [
+    {
+      "name": "Ben Thanh Market",
+      "category": "landmark",
+      "coords": [
+        106.70194444,
+        10.77555556
+      ]
+    },
+    {
+      "name": "Notre-Dame Cathedral Basilica",
+      "category": "landmark",
+      "coords": [
+        106.70194444,
+        10.77555556
+      ]
+    },
+    {
+      "name": "Bitexco Tower",
+      "category": "landmark",
+      "coords": [
+        106.70194444,
+        10.77555556
+      ]
+    }
+  ],
+  "santo-domingo": [
+    {
+      "name": "Zona Colonial",
+      "category": "landmark",
+      "coords": [
+        -69.9361,
+        18.4625
+      ]
+    },
+    {
+      "name": "Alcázar de Colón",
+      "category": "landmark",
+      "coords": [
+        -69.8828,
+        18.4775
+      ]
+    },
+    {
+      "name": "Malecón",
+      "category": "landmark",
+      "coords": [
+        -69.9361,
+        18.4625
+      ]
+    }
+  ],
+  "nantes": [
+    {
+      "name": "Château des Ducs de Bretagne",
+      "category": "landmark",
+      "coords": [
+        -1.5528,
+        47.2181
+      ]
+    },
+    {
+      "name": "Machines of the Isle",
+      "category": "landmark",
+      "coords": [
+        -1.5528,
+        47.2181
+      ]
+    },
+    {
+      "name": "Passage Pommeraye",
+      "category": "landmark",
+      "coords": [
+        -1.55972222,
+        47.21333333
+      ]
+    }
+  ],
+  "tunis": [
+    {
+      "name": "Medina of Tunis",
+      "category": "landmark",
+      "coords": [
+        10.16666667,
+        36.81666667
+      ]
+    },
+    {
+      "name": "Bardo Museum",
+      "category": "landmark",
+      "coords": [
+        10.14055556,
+        36.80916667
+      ]
+    },
+    {
+      "name": "Carthage ruins",
+      "category": "landmark",
+      "coords": [
+        10.18166667,
+        36.80638889
+      ]
+    }
+  ],
+  "naples": [
+    {
+      "name": "Piazza del Plebiscito",
+      "category": "landmark",
+      "coords": [
+        14.2486,
+        40.8358
+      ]
+    },
+    {
+      "name": "Castel dell'Ovo",
+      "category": "landmark",
+      "coords": [
+        14.24805556,
+        40.82777778
+      ]
+    },
+    {
+      "name": "Mount Vesuvius",
+      "category": "landmark",
+      "coords": [
+        14.42611111,
+        40.82138889
+      ]
+    }
+  ],
+  "medellin": [
+    {
+      "name": "Comuna 13",
+      "category": "landmark",
+      "coords": [
+        -75.59055556,
+        6.23083333
+      ]
+    },
+    {
+      "name": "Plaza Botero",
+      "category": "landmark",
+      "coords": [
+        -75.59055556,
+        6.23083333
+      ]
+    }
+  ],
+  "lille": [
+    {
+      "name": "Grand Place",
+      "category": "landmark",
+      "coords": [
+        3.0583,
+        50.6278
+      ]
+    },
+    {
+      "name": "Palais des Beaux-Arts",
+      "category": "landmark",
+      "coords": [
+        3.062906,
+        50.630353
+      ]
+    },
+    {
+      "name": "Vieux Lille",
+      "category": "landmark",
+      "coords": [
+        3.0583,
+        50.6278
+      ]
+    }
+  ],
+  "lyon": [
+    {
+      "name": "Basilica of Notre-Dame de Fourvière",
+      "category": "landmark",
+      "coords": [
+        4.8225,
+        45.7625
+      ]
+    },
+    {
+      "name": "Vieux Lyon",
+      "category": "landmark",
+      "coords": [
+        4.82666667,
+        45.76222222
+      ]
+    },
+    {
+      "name": "Confluence district",
+      "category": "landmark",
+      "coords": [
+        4.835,
+        45.7675
+      ]
+    }
+  ],
+  "addis-ababa": [
+    {
+      "name": "Holy Trinity Cathedral",
+      "category": "landmark",
+      "coords": [
+        38.766562,
+        9.030799
+      ]
+    },
+    {
+      "name": "National Museum (Lucy)",
+      "category": "landmark",
+      "coords": [
+        38.7525,
+        9.03583333
+      ]
+    },
+    {
+      "name": "Meskel Square",
+      "category": "landmark",
+      "coords": [
+        38.76111111,
+        9.01027778
+      ]
+    }
+  ],
+  "lima": [
+    {
+      "name": "Plaza Mayor",
+      "category": "landmark",
+      "coords": [
+        -77.03055556,
+        -12.04583333
+      ]
+    },
+    {
+      "name": "Miraflores cliffs",
+      "category": "landmark",
+      "coords": [
+        -77.0375,
+        -12.06
+      ]
+    },
+    {
+      "name": "Barranco",
+      "category": "landmark",
+      "coords": [
+        -77.01666667,
+        -12.14166667
+      ]
+    }
+  ],
+  "baku": [
+    {
+      "name": "Flame Towers",
+      "category": "landmark",
+      "coords": [
+        49.82666667,
+        40.35944444
+      ]
+    },
+    {
+      "name": "Old City (Icherisheher)",
+      "category": "landmark",
+      "coords": [
+        49.8325,
+        40.37555556
+      ]
+    },
+    {
+      "name": "Heydar Aliyev Center",
+      "category": "landmark",
+      "coords": [
+        49.86694444,
+        40.39527778
+      ]
+    }
+  ],
+  "turin": [
+    {
+      "name": "Mole Antonelliana",
+      "category": "landmark",
+      "coords": [
+        7.69305556,
+        45.06888889
+      ]
+    },
+    {
+      "name": "Egyptian Museum",
+      "category": "landmark",
+      "coords": [
+        7.68444444,
+        45.06833333
+      ]
+    },
+    {
+      "name": "Piazza Castello",
+      "category": "landmark",
+      "coords": [
+        7.685957,
+        45.071161
+      ]
+    }
+  ],
+  "kharkiv": [
+    {
+      "name": "Freedom Square",
+      "category": "landmark",
+      "coords": [
+        36.23333333,
+        50.00444444
+      ]
+    },
+    {
+      "name": "Gorky Park",
+      "category": "landmark",
+      "coords": [
+        36.23111111,
+        49.9925
+      ]
+    },
+    {
+      "name": "Mirror Stream fountain",
+      "category": "landmark",
+      "coords": [
+        36.23111111,
+        49.9925
+      ]
+    }
+  ],
+  "kolkata": [
+    {
+      "name": "Victoria Memorial",
+      "category": "landmark",
+      "coords": [
+        88.3425,
+        22.5449
+      ]
+    },
+    {
+      "name": "Howrah Bridge",
+      "category": "landmark",
+      "coords": [
+        88.3469,
+        22.5851
+      ]
+    },
+    {
+      "name": "Dakshineswar Kali Temple",
+      "category": "landmark",
+      "coords": [
+        88.35777778,
+        22.655
+      ]
+    }
+  ],
+  "copenhagen": [
+    {
+      "name": "Nyhavn",
+      "category": "landmark",
+      "coords": [
+        12.59055556,
+        55.67972222
+      ]
+    },
+    {
+      "name": "Little Mermaid",
+      "category": "landmark",
+      "coords": [
+        12.56833333,
+        55.67611111
+      ]
+    },
+    {
+      "name": "Tivoli Gardens",
+      "category": "landmark",
+      "coords": [
+        12.56833333,
+        55.67361111
+      ]
+    }
+  ],
+  "brussels": [
+    {
+      "name": "Grand Place",
+      "category": "landmark",
+      "coords": [
+        4.3525,
+        50.84666667
+      ]
+    },
+    {
+      "name": "Atomium",
+      "category": "landmark",
+      "coords": [
+        4.34111111,
+        50.89472222
+      ]
+    },
+    {
+      "name": "Manneken Pis",
+      "category": "landmark",
+      "coords": [
+        4.3499932,
+        50.8449861
+      ]
+    }
+  ],
+  "budapest": [
+    {
+      "name": "Parliament Building",
+      "category": "landmark",
+      "coords": [
+        19.05138889,
+        47.4925
+      ]
+    },
+    {
+      "name": "Chain Bridge",
+      "category": "landmark",
+      "coords": [
+        19.04361111,
+        47.49888889
+      ]
+    },
+    {
+      "name": "Buda Castle",
+      "category": "landmark",
+      "coords": [
+        19.03972222,
+        47.49611111
+      ]
+    }
+  ],
+  "belgrade": [
+    {
+      "name": "Kalemegdan Fortress",
+      "category": "landmark",
+      "coords": [
+        20.45694444,
+        44.81777778
+      ]
+    },
+    {
+      "name": "Skadarlija",
+      "category": "landmark",
+      "coords": [
+        20.4643,
+        44.8178
+      ]
+    },
+    {
+      "name": "Saint Sava Temple",
+      "category": "landmark",
+      "coords": [
+        20.45694444,
+        44.81777778
+      ]
+    }
+  ],
+  "minsk": [
+    {
+      "name": "Independence Square",
+      "category": "landmark",
+      "coords": [
+        27.5478,
+        53.8956
+      ]
+    },
+    {
+      "name": "National Library",
+      "category": "landmark",
+      "coords": [
+        27.55861111,
+        53.90055556
+      ]
+    },
+    {
+      "name": "Trinity Hill",
+      "category": "landmark",
+      "coords": [
+        27.55861111,
+        53.90055556
+      ]
+    }
+  ],
+  "helsinki": [
+    {
+      "name": "Helsinki Cathedral",
+      "category": "landmark",
+      "coords": [
+        24.95222222,
+        60.17027778
+      ]
+    },
+    {
+      "name": "Suomenlinna",
+      "category": "landmark",
+      "coords": [
+        24.98444444,
+        60.14361111
+      ]
+    },
+    {
+      "name": "Market Square",
+      "category": "landmark",
+      "coords": [
+        24.955,
+        60.167
+      ]
+    }
+  ],
+  "lisbon": [
+    {
+      "name": "Belém Tower",
+      "category": "landmark",
+      "coords": [
+        -9.21611111,
+        38.69166667
+      ]
+    },
+    {
+      "name": "Alfama",
+      "category": "landmark",
+      "coords": [
+        -9.13,
+        38.71222222
+      ]
+    },
+    {
+      "name": "Praça do Comércio",
+      "category": "landmark",
+      "coords": [
+        -9.13638889,
+        38.7075
+      ]
+    }
+  ],
+  "almaty": [
+    {
+      "name": "Kok-Tobe Hill",
+      "category": "landmark",
+      "coords": [
+        76.95,
+        43.23333333
+      ]
+    },
+    {
+      "name": "Zenkov Cathedral",
+      "category": "landmark",
+      "coords": [
+        76.95,
+        43.23333333
+      ]
+    },
+    {
+      "name": "Medeu skating rink",
+      "category": "landmark",
+      "coords": [
+        76.95,
+        43.23333333
+      ]
+    }
+  ],
+  "boston": [
+    {
+      "name": "Freedom Trail",
+      "category": "landmark",
+      "coords": [
+        -71.05666667,
+        42.36
+      ]
+    },
+    {
+      "name": "Fenway Park",
+      "category": "landmark",
+      "coords": [
+        -71.09777778,
+        42.34638889
+      ]
+    },
+    {
+      "name": "Harvard (nearby)",
+      "category": "landmark",
+      "coords": [
+        -71.05588889,
+        42.3685
+      ]
+    }
+  ],
+  "philadelphia": [
+    {
+      "name": "Liberty Bell",
+      "category": "landmark",
+      "coords": [
+        -75.15027778,
+        39.94944444
+      ]
+    },
+    {
+      "name": "Independence Hall",
+      "category": "landmark",
+      "coords": [
+        -75.15,
+        39.94888889
+      ]
+    },
+    {
+      "name": "Rocky Steps",
+      "category": "landmark",
+      "coords": [
+        -75.1802,
+        39.9649
+      ]
+    }
+  ],
+  "bordeaux": [
+    {
+      "name": "Place de la Bourse",
+      "category": "landmark",
+      "coords": [
+        -0.57,
+        44.8415
+      ]
+    },
+    {
+      "name": "Cité du Vin",
+      "category": "landmark",
+      "coords": [
+        -0.5503,
+        44.8625
+      ]
+    },
+    {
+      "name": "Saint-André Cathedral",
+      "category": "landmark",
+      "coords": [
+        -0.58,
+        44.84
+      ]
+    }
+  ],
+  "bogota": [
+    {
+      "name": "Monserrate",
+      "category": "landmark",
+      "coords": [
+        -74.05638889,
+        4.60583333
+      ]
+    },
+    {
+      "name": "La Candelaria",
+      "category": "landmark",
+      "coords": [
+        -74.07413,
+        4.591722
+      ]
+    },
+    {
+      "name": "Gold Museum",
+      "category": "landmark",
+      "coords": [
+        -74.072,
+        4.60191944
+      ]
+    }
+  ],
+  "amsterdam": [
+    {
+      "name": "Canal Ring",
+      "category": "landmark",
+      "coords": [
+        4.89361111,
+        52.37277778
+      ]
+    },
+    {
+      "name": "Rijksmuseum",
+      "category": "landmark",
+      "coords": [
+        4.8853,
+        52.36
+      ]
+    },
+    {
+      "name": "Anne Frank House",
+      "category": "landmark",
+      "coords": [
+        4.88432,
+        52.37525
+      ]
+    }
+  ],
+  "sofia": [
+    {
+      "name": "Alexander Nevsky Cathedral",
+      "category": "landmark",
+      "coords": [
+        23.332956,
+        42.695833
+      ]
+    },
+    {
+      "name": "Vitosha Boulevard",
+      "category": "landmark",
+      "coords": [
+        23.33,
+        42.7
+      ]
+    },
+    {
+      "name": "Boyana Church",
+      "category": "landmark",
+      "coords": [
+        23.26617222,
+        42.64467222
+      ]
+    }
+  ],
+  "caracas": [
+    {
+      "name": "Avila Mountain",
+      "category": "landmark",
+      "coords": [
+        -66.91444444,
+        10.50611111
+      ]
+    },
+    {
+      "name": "Plaza Bolívar",
+      "category": "landmark",
+      "coords": [
+        -66.914,
+        10.5062
+      ]
+    },
+    {
+      "name": "El Hatillo",
+      "category": "landmark",
+      "coords": [
+        -66.91444444,
+        10.50611111
+      ]
+    }
+  ],
+  "valencia": [
+    {
+      "name": "City of Arts and Sciences",
+      "category": "landmark",
+      "coords": [
+        -0.35,
+        39.45416667
+      ]
+    },
+    {
+      "name": "Central Market",
+      "category": "landmark",
+      "coords": [
+        -0.37638889,
+        39.47
+      ]
+    },
+    {
+      "name": "Turia Gardens",
+      "category": "landmark",
+      "coords": [
+        -0.37638889,
+        39.47
+      ]
+    }
+  ],
+  "bangalore": [
+    {
+      "name": "Lalbagh Botanical Garden",
+      "category": "landmark",
+      "coords": [
+        77.59,
+        12.95
+      ]
+    },
+    {
+      "name": "Bangalore Palace",
+      "category": "landmark",
+      "coords": [
+        77.56029,
+        12.970214
+      ]
+    },
+    {
+      "name": "UB City",
+      "category": "landmark",
+      "coords": [
+        77.59583333,
+        12.97175
+      ]
+    }
+  ],
+  "manila": [
+    {
+      "name": "Intramuros",
+      "category": "landmark",
+      "coords": [
+        120.97356,
+        14.59147
+      ]
+    },
+    {
+      "name": "Rizal Park",
+      "category": "landmark",
+      "coords": [
+        120.97833333,
+        14.5825
+      ]
+    },
+    {
+      "name": "Manila Bay sunset",
+      "category": "landmark",
+      "coords": [
+        120.76666667,
+        14.51666667
+      ]
+    }
+  ],
+  "rio-de-janeiro": [
+    {
+      "name": "Christ the Redeemer",
+      "category": "landmark",
+      "coords": [
+        -43.21166667,
+        -22.95241667
+      ]
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "category": "landmark",
+      "coords": [
+        -43.1567,
+        -22.9494
+      ]
+    },
+    {
+      "name": "Copacabana",
+      "category": "landmark",
+      "coords": [
+        -43.18055556,
+        -22.96694444
+      ]
+    }
+  ],
+  "rome": [
+    {
+      "name": "Colosseum",
+      "category": "landmark",
+      "coords": [
+        12.4922,
+        41.8903
+      ]
+    },
+    {
+      "name": "Vatican City",
+      "category": "landmark",
+      "coords": [
+        12.4525,
+        41.9025
+      ]
+    },
+    {
+      "name": "Trevi Fountain",
+      "category": "landmark",
+      "coords": [
+        12.48305556,
+        41.90083333
+      ]
+    }
+  ],
+  "prague": [
+    {
+      "name": "Charles Bridge",
+      "category": "landmark",
+      "coords": [
+        14.41194444,
+        50.08638889
+      ]
+    },
+    {
+      "name": "Prague Castle",
+      "category": "landmark",
+      "coords": [
+        14.4,
+        50.09
+      ]
+    },
+    {
+      "name": "Old Town Square",
+      "category": "landmark",
+      "coords": [
+        14.4214,
+        50.0875
+      ]
+    }
+  ],
+  "tashkent": [
+    {
+      "name": "Khast Imam Complex",
+      "category": "landmark",
+      "coords": [
+        69.2692,
+        41.3148
+      ]
+    },
+    {
+      "name": "Chorsu Bazaar",
+      "category": "landmark",
+      "coords": [
+        69.235,
+        41.32666667
+      ]
+    },
+    {
+      "name": "Tashkent Metro",
+      "category": "landmark",
+      "coords": [
+        69.27972222,
+        41.31111111
+      ]
+    }
+  ],
+  "porto": [
+    {
+      "name": "Ribeira",
+      "category": "landmark",
+      "coords": [
+        -8.609336,
+        41.139863
+      ]
+    },
+    {
+      "name": "Dom Luís I Bridge",
+      "category": "landmark",
+      "coords": [
+        -8.609336,
+        41.139863
+      ]
+    },
+    {
+      "name": "Livraria Lello",
+      "category": "landmark",
+      "coords": [
+        -8.61472222,
+        41.14694444
+      ]
+    }
+  ],
+  "warsaw": [
+    {
+      "name": "Old Town (rebuilt)",
+      "category": "landmark",
+      "coords": [
+        21.0122,
+        52.2497
+      ]
+    },
+    {
+      "name": "Palace of Culture",
+      "category": "landmark",
+      "coords": [
+        21.00638889,
+        52.23166667
+      ]
+    },
+    {
+      "name": "Łazienki Park",
+      "category": "landmark",
+      "coords": [
+        21.03277778,
+        52.21277778
+      ]
+    }
+  ],
+  "kyiv": [
+    {
+      "name": "Saint Sophia Cathedral",
+      "category": "landmark",
+      "coords": [
+        30.5144,
+        50.4528
+      ]
+    },
+    {
+      "name": "Maidan Nezalezhnosti",
+      "category": "landmark",
+      "coords": [
+        30.52416667,
+        50.45
+      ]
+    },
+    {
+      "name": "Pechersk Lavra",
+      "category": "landmark",
+      "coords": [
+        30.55916667,
+        50.43416667
+      ]
+    }
+  ],
+  "montreal": [
+    {
+      "name": "Mount Royal",
+      "category": "landmark",
+      "coords": [
+        -73.58888889,
+        45.50638889
+      ]
+    },
+    {
+      "name": "Old Montreal",
+      "category": "landmark",
+      "coords": [
+        -73.555,
+        45.505
+      ]
+    },
+    {
+      "name": "Olympic Stadium",
+      "category": "landmark",
+      "coords": [
+        -73.552,
+        45.558
+      ]
+    }
+  ],
+  "toronto": [
+    {
+      "name": "CN Tower",
+      "category": "landmark",
+      "coords": [
+        -79.38708333,
+        43.64255556
+      ]
+    },
+    {
+      "name": "Royal Ontario Museum",
+      "category": "landmark",
+      "coords": [
+        -79.394809,
+        43.667679
+      ]
+    },
+    {
+      "name": "Distillery District",
+      "category": "landmark",
+      "coords": [
+        -79.38166667,
+        43.6525
+      ]
+    }
+  ],
+  "doha": [
+    {
+      "name": "Museum of Islamic Art",
+      "category": "landmark",
+      "coords": [
+        51.53926545,
+        25.2950187
+      ]
+    },
+    {
+      "name": "Souq Waqif",
+      "category": "landmark",
+      "coords": [
+        51.53333333,
+        25.28666667
+      ]
+    }
+  ],
+  "buenos-aires": [
+    {
+      "name": "La Boca",
+      "category": "landmark",
+      "coords": [
+        -58.36472222,
+        -34.63555556
+      ]
+    },
+    {
+      "name": "Recoleta Cemetery",
+      "category": "landmark",
+      "coords": [
+        -58.39305556,
+        -34.58805556
+      ]
+    },
+    {
+      "name": "Teatro Colón",
+      "category": "landmark",
+      "coords": [
+        -58.38308333,
+        -34.60108333
+      ]
+    }
+  ],
+  "rotterdam": [
+    {
+      "name": "Erasmus Bridge",
+      "category": "landmark",
+      "coords": [
+        4.52583333,
+        51.91805556
+      ]
+    },
+    {
+      "name": "Cube Houses",
+      "category": "landmark",
+      "coords": [
+        4.48,
+        51.92
+      ]
+    },
+    {
+      "name": "Markthal",
+      "category": "landmark",
+      "coords": [
+        4.48,
+        51.92
+      ]
+    }
+  ],
+  "bucharest": [
+    {
+      "name": "Palace of the Parliament",
+      "category": "landmark",
+      "coords": [
+        26.0875,
+        44.4275
+      ]
+    },
+    {
+      "name": "Old Town",
+      "category": "landmark",
+      "coords": [
+        26.10388889,
+        44.4325
+      ]
+    },
+    {
+      "name": "Village Museum",
+      "category": "landmark",
+      "coords": [
+        26.10388889,
+        44.4325
+      ]
+    }
+  ],
+  "vancouver": [
+    {
+      "name": "Stanley Park",
+      "category": "landmark",
+      "coords": [
+        -123.14,
+        49.3
+      ]
+    },
+    {
+      "name": "Granville Island",
+      "category": "landmark",
+      "coords": [
+        -123.13416667,
+        49.27083333
+      ]
+    },
+    {
+      "name": "Capilano Suspension Bridge",
+      "category": "landmark",
+      "coords": [
+        -123.11222222,
+        49.34277778
+      ]
+    }
+  ],
+  "vienna": [
+    {
+      "name": "Schönbrunn Palace",
+      "category": "landmark",
+      "coords": [
+        16.311865,
+        48.184516
+      ]
+    },
+    {
+      "name": "St Stephen's Cathedral",
+      "category": "landmark",
+      "coords": [
+        16.373,
+        48.2085
+      ]
+    },
+    {
+      "name": "Belvedere",
+      "category": "landmark",
+      "coords": [
+        16.38027778,
+        48.19416667
+      ]
+    }
+  ],
+  "oslo": [
+    {
+      "name": "Opera House",
+      "category": "landmark",
+      "coords": [
+        10.75361111,
+        59.90694444
+      ]
+    },
+    {
+      "name": "Akershus Fortress",
+      "category": "landmark",
+      "coords": [
+        10.73611111,
+        59.90666667
+      ]
+    }
+  ],
+  "athens": [
+    {
+      "name": "Acropolis",
+      "category": "landmark",
+      "coords": [
+        23.72611111,
+        37.97166667
+      ]
+    },
+    {
+      "name": "Plaka",
+      "category": "landmark",
+      "coords": [
+        23.73055556,
+        37.97222222
+      ]
+    },
+    {
+      "name": "Ancient Agora",
+      "category": "landmark",
+      "coords": [
+        23.7225,
+        37.975
+      ]
+    }
+  ],
+  "dubai": [
+    {
+      "name": "Burj Khalifa",
+      "category": "landmark",
+      "coords": [
+        55.2742,
+        25.1972
+      ]
+    },
+    {
+      "name": "Palm Jumeirah",
+      "category": "landmark",
+      "coords": [
+        55.13333333,
+        25.11805556
+      ]
+    },
+    {
+      "name": "Dubai Frame",
+      "category": "landmark",
+      "coords": [
+        55.30034,
+        25.23548
+      ]
+    },
+    {
+      "name": "سكاي دايف دبي",
+      "category": "airport",
+      "coords": [
+        55.1343111,
+        25.0902727
+      ]
+    },
+    {
+      "name": "مطار آل مكتوم الدولي",
+      "category": "airport",
+      "coords": [
+        55.1714328,
+        24.9092898
+      ]
+    },
+    {
+      "name": "GEMS Legacy School Primary Campus",
+      "category": "university",
+      "coords": [
+        55.3393501,
+        25.2484623
+      ]
+    },
+    {
+      "name": "جامعة الجزيرة",
+      "category": "university",
+      "coords": [
+        55.393558,
+        25.2441619
+      ]
+    },
+    {
+      "name": "Higher College of Technology (Girls)",
+      "category": "university",
+      "coords": [
+        55.3760637,
+        25.2856646
+      ]
+    }
+  ],
+  "melbourne": [
+    {
+      "name": "Federation Square",
+      "category": "landmark",
+      "coords": [
+        144.968714,
+        -37.817798
+      ]
+    },
+    {
+      "name": "Royal Botanic Gardens",
+      "category": "landmark",
+      "coords": [
+        144.98033,
+        -37.8334
+      ]
+    },
+    {
+      "name": "Laneway cafés",
+      "category": "landmark",
+      "coords": [
+        144.96152778,
+        -37.81416667
+      ]
+    }
+  ],
+  "kuala-lumpur": [
+    {
+      "name": "Petronas Towers",
+      "category": "landmark",
+      "coords": [
+        101.7117,
+        3.1578
+      ]
+    },
+    {
+      "name": "Batu Caves",
+      "category": "landmark",
+      "coords": [
+        101.6839,
+        3.2374
+      ]
+    },
+    {
+      "name": "KL Tower",
+      "category": "landmark",
+      "coords": [
+        101.6864,
+        3.1343
+      ]
+    }
+  ],
+  "sao-paulo": [
+    {
+      "name": "Avenida Paulista",
+      "category": "landmark",
+      "coords": [
+        -46.65638889,
+        -23.56138889
+      ]
+    },
+    {
+      "name": "Ibirapuera Park",
+      "category": "landmark",
+      "coords": [
+        -46.65888889,
+        -23.58833333
+      ]
+    }
+  ],
+  "milan": [
+    {
+      "name": "Duomo di Milano",
+      "category": "landmark",
+      "coords": [
+        9.19,
+        45.46694444
+      ]
+    },
+    {
+      "name": "La Scala",
+      "category": "landmark",
+      "coords": [
+        9.18916667,
+        45.4675
+      ]
+    },
+    {
+      "name": "Galleria Vittorio Emanuele II",
+      "category": "landmark",
+      "coords": [
+        9.19,
+        45.46555556
+      ]
+    }
+  ],
+  "stockholm": [
+    {
+      "name": "Gamla Stan",
+      "category": "landmark",
+      "coords": [
+        18.07083333,
+        59.325
+      ]
+    },
+    {
+      "name": "Vasa Museum",
+      "category": "landmark",
+      "coords": [
+        18.09139,
+        59.32794
+      ]
+    },
+    {
+      "name": "City Hall",
+      "category": "landmark",
+      "coords": [
+        18.06861111,
+        59.32944444
+      ]
+    }
+  ],
+  "busan": [
+    {
+      "name": "Haeundae Beach",
+      "category": "landmark",
+      "coords": [
+        129.16053,
+        35.15855
+      ]
+    },
+    {
+      "name": "Gamcheon Culture Village",
+      "category": "landmark",
+      "coords": [
+        129.009,
+        35.097
+      ]
+    },
+    {
+      "name": "Jagalchi Market",
+      "category": "landmark",
+      "coords": [
+        129.03,
+        35.09666667
+      ]
+    }
+  ],
+  "istanbul": [
+    {
+      "name": "Hagia Sophia",
+      "category": "landmark",
+      "coords": [
+        28.98,
+        41.00833333
+      ]
+    },
+    {
+      "name": "Blue Mosque",
+      "category": "landmark",
+      "coords": [
+        28.9768247,
+        41.0053851
+      ]
+    },
+    {
+      "name": "Grand Bazaar",
+      "category": "landmark",
+      "coords": [
+        28.96793333,
+        41.01058056
+      ]
+    }
+  ],
+  "saint-petersburg": [
+    {
+      "name": "Hermitage Museum",
+      "category": "landmark",
+      "coords": [
+        30.3136,
+        59.9406
+      ]
+    },
+    {
+      "name": "Church of the Savior on Blood",
+      "category": "landmark",
+      "coords": [
+        30.32861111,
+        59.94
+      ]
+    },
+    {
+      "name": "Nevsky Prospect",
+      "category": "landmark",
+      "coords": [
+        30.3528,
+        59.9318
+      ]
+    },
+    {
+      "name": "Горская",
+      "category": "airport",
+      "coords": [
+        30.0153908,
+        60.0333642
+      ]
+    },
+    {
+      "name": "Манушкино",
+      "category": "airport",
+      "coords": [
+        30.803225,
+        59.87204
+      ]
+    },
+    {
+      "name": "Высший художественно-технический институт",
+      "category": "university",
+      "coords": [
+        30.3453619,
+        59.9396765
+      ]
+    },
+    {
+      "name": "Институт дизайна пространственной среды",
+      "category": "university",
+      "coords": [
+        30.3467838,
+        59.9417734
+      ]
+    },
+    {
+      "name": "Факультет экономики",
+      "category": "university",
+      "coords": [
+        30.3783496,
+        59.9450565
+      ]
+    }
+  ],
+  "osaka": [
+    {
+      "name": "Osaka Castle",
+      "category": "landmark",
+      "coords": [
+        135.52583333,
+        34.68722222
+      ]
+    },
+    {
+      "name": "Dotonbori",
+      "category": "landmark",
+      "coords": [
+        135.50222222,
+        34.69388889
+      ]
+    },
+    {
+      "name": "Universal Studios Japan",
+      "category": "landmark",
+      "coords": [
+        135.43305556,
+        34.66472222
+      ]
+    }
+  ],
+  "santiago": [
+    {
+      "name": "San Cristóbal Hill",
+      "category": "landmark",
+      "coords": [
+        -70.6298962,
+        -33.4203441
+      ]
+    },
+    {
+      "name": "Plaza de Armas",
+      "category": "landmark",
+      "coords": [
+        -70.65036,
+        -33.43791
+      ]
+    },
+    {
+      "name": "La Moneda",
+      "category": "landmark",
+      "coords": [
+        -70.65,
+        -33.4375
+      ]
+    }
+  ],
+  "bangkok": [
+    {
+      "name": "Grand Palace",
+      "category": "landmark",
+      "coords": [
+        100.492,
+        13.7501
+      ]
+    },
+    {
+      "name": "Wat Arun",
+      "category": "landmark",
+      "coords": [
+        100.48888889,
+        13.74361111
+      ]
+    },
+    {
+      "name": "Chatuchak Market",
+      "category": "landmark",
+      "coords": [
+        100.55138889,
+        13.80083333
+      ]
+    }
+  ],
+  "taipei": [
+    {
+      "name": "Taipei 101",
+      "category": "landmark",
+      "coords": [
+        121.5647,
+        25.0336
+      ]
+    },
+    {
+      "name": "National Palace Museum",
+      "category": "landmark",
+      "coords": [
+        121.5486,
+        25.1022
+      ]
+    },
+    {
+      "name": "Shilin Night Market",
+      "category": "landmark",
+      "coords": [
+        121.5254,
+        25.0866
+      ]
+    }
+  ],
+  "berlin": [
+    {
+      "name": "Brandenburg Gate",
+      "category": "landmark",
+      "coords": [
+        13.3777,
+        52.5163
+      ]
+    },
+    {
+      "name": "Reichstag",
+      "category": "landmark",
+      "coords": [
+        13.37611111,
+        52.51861111
+      ]
+    },
+    {
+      "name": "East Side Gallery",
+      "category": "landmark",
+      "coords": [
+        13.405,
+        52.52
+      ]
+    }
+  ],
+  "chicago": [
+    {
+      "name": "Millennium Park",
+      "category": "landmark",
+      "coords": [
+        -87.6225,
+        41.8825
+      ]
+    },
+    {
+      "name": "Willis Tower",
+      "category": "landmark",
+      "coords": [
+        -87.6358,
+        41.8789
+      ]
+    },
+    {
+      "name": "Art Institute of Chicago",
+      "category": "landmark",
+      "coords": [
+        -87.62388889,
+        41.87944444
+      ]
+    }
+  ],
+  "riyadh": [
+    {
+      "name": "Kingdom Centre",
+      "category": "landmark",
+      "coords": [
+        46.6744,
+        24.7113
+      ]
+    },
+    {
+      "name": "Diriyah",
+      "category": "landmark",
+      "coords": [
+        46.57555556,
+        24.73333333
+      ]
+    },
+    {
+      "name": "National Museum",
+      "category": "landmark",
+      "coords": [
+        46.71666667,
+        24.63333333
+      ]
+    }
+  ],
+  "sydney": [
+    {
+      "name": "Sydney Opera House",
+      "category": "landmark",
+      "coords": [
+        151.21514,
+        -33.85681
+      ]
+    },
+    {
+      "name": "Harbour Bridge",
+      "category": "landmark",
+      "coords": [
+        151.21055556,
+        -33.85222222
+      ]
+    },
+    {
+      "name": "Bondi Beach",
+      "category": "landmark",
+      "coords": [
+        151.27416667,
+        -33.89111111
+      ]
+    }
+  ],
+  "san-francisco": [
+    {
+      "name": "Golden Gate Bridge",
+      "category": "landmark",
+      "coords": [
+        -122.47861111,
+        37.81972222
+      ]
+    },
+    {
+      "name": "Alcatraz",
+      "category": "landmark",
+      "coords": [
+        -122.42277778,
+        37.82666667
+      ]
+    },
+    {
+      "name": "Fisherman's Wharf",
+      "category": "landmark",
+      "coords": [
+        -122.41555556,
+        37.80833333
+      ]
+    }
+  ],
+  "los-angeles": [
+    {
+      "name": "Hollywood Sign",
+      "category": "landmark",
+      "coords": [
+        -118.32159167,
+        34.13406111
+      ]
+    },
+    {
+      "name": "Griffith Observatory",
+      "category": "landmark",
+      "coords": [
+        -118.30033333,
+        34.11833333
+      ]
+    },
+    {
+      "name": "Santa Monica Pier",
+      "category": "landmark",
+      "coords": [
+        -118.49861111,
+        34.00861111
+      ]
+    }
+  ],
+  "washington-dc": [
+    {
+      "name": "National Mall",
+      "category": "landmark",
+      "coords": [
+        -77.02361111,
+        38.89
+      ]
+    },
+    {
+      "name": "White House",
+      "category": "landmark",
+      "coords": [
+        -77.03638889,
+        38.89777778
+      ]
+    },
+    {
+      "name": "Smithsonian museums",
+      "category": "landmark",
+      "coords": [
+        -77.0231,
+        38.8978
+      ]
+    }
+  ],
+  "cairo": [
+    {
+      "name": "Pyramids of Giza",
+      "category": "landmark",
+      "coords": [
+        31.13416667,
+        29.97916667
+      ]
+    },
+    {
+      "name": "Egyptian Museum",
+      "category": "landmark",
+      "coords": [
+        31.233333,
+        30.047778
+      ]
+    },
+    {
+      "name": "Khan el-Khalili",
+      "category": "landmark",
+      "coords": [
+        31.26222222,
+        30.0475
+      ]
+    }
+  ],
+  "hong-kong": [
+    {
+      "name": "Victoria Peak",
+      "category": "landmark",
+      "coords": [
+        114.14388889,
+        22.27555556
+      ]
+    },
+    {
+      "name": "Star Ferry",
+      "category": "landmark",
+      "coords": [
+        114.15805556,
+        22.28194444
+      ]
+    },
+    {
+      "name": "Tian Tan Buddha",
+      "category": "landmark",
+      "coords": [
+        113.95277778,
+        22.27055556
+      ]
+    }
+  ],
+  "mexico-city": [
+    {
+      "name": "Zócalo",
+      "category": "landmark",
+      "coords": [
+        -99.13305556,
+        19.43277778
+      ]
+    },
+    {
+      "name": "Teotihuacán (nearby)",
+      "category": "landmark",
+      "coords": [
+        -98.84388889,
+        19.6925
+      ]
+    },
+    {
+      "name": "Chapultepec Castle",
+      "category": "landmark",
+      "coords": [
+        -99.18166667,
+        19.42055556
+      ]
+    }
+  ],
+  "singapore": [
+    {
+      "name": "Marina Bay Sands",
+      "category": "landmark",
+      "coords": [
+        103.86,
+        1.2825
+      ]
+    },
+    {
+      "name": "Gardens by the Bay",
+      "category": "landmark",
+      "coords": [
+        103.865,
+        1.28472222
+      ]
+    },
+    {
+      "name": "Hawker centres",
+      "category": "landmark",
+      "coords": [
+        103.8395698,
+        1.3119156
+      ]
+    }
+  ],
+  "paris": [
+    {
+      "name": "Eiffel Tower",
+      "category": "landmark",
+      "coords": [
+        2.2945,
+        48.85822222
+      ]
+    },
+    {
+      "name": "Louvre",
+      "category": "landmark",
+      "coords": [
+        2.3358,
+        48.8611
+      ]
+    },
+    {
+      "name": "Notre-Dame",
+      "category": "landmark",
+      "coords": [
+        2.35,
+        48.85305556
+      ]
+    }
+  ],
+  "tehran": [
+    {
+      "name": "Azadi Tower",
+      "category": "landmark",
+      "coords": [
+        51.33777778,
+        35.69944444
+      ]
+    },
+    {
+      "name": "Golestan Palace",
+      "category": "landmark",
+      "coords": [
+        51.42027778,
+        35.67972222
+      ]
+    },
+    {
+      "name": "Milad Tower",
+      "category": "landmark",
+      "coords": [
+        51.37527778,
+        35.74472222
+      ]
+    }
+  ],
+  "tokyo": [
+    {
+      "name": "Shibuya Crossing",
+      "category": "landmark",
+      "coords": [
+        139.70056,
+        35.6595
+      ]
+    },
+    {
+      "name": "Senso-ji",
+      "category": "landmark",
+      "coords": [
+        139.69222222,
+        35.68972222
+      ]
+    },
+    {
+      "name": "Tokyo Tower",
+      "category": "landmark",
+      "coords": [
+        139.74555556,
+        35.65861111
+      ]
+    }
+  ],
+  "seoul": [
+    {
+      "name": "Gyeongbokgung Palace",
+      "category": "landmark",
+      "coords": [
+        126.9768,
+        37.579884
+      ]
+    },
+    {
+      "name": "N Seoul Tower",
+      "category": "landmark",
+      "coords": [
+        126.988276,
+        37.551216
+      ]
+    },
+    {
+      "name": "Dongdaemun Design Plaza",
+      "category": "landmark",
+      "coords": [
+        127.0094,
+        37.5669
+      ]
+    }
+  ],
+  "delhi": [
+    {
+      "name": "Red Fort",
+      "category": "landmark",
+      "coords": [
+        77.24083333,
+        28.65583333
+      ]
+    },
+    {
+      "name": "India Gate",
+      "category": "landmark",
+      "coords": [
+        77.22930556,
+        28.61286389
+      ]
+    },
+    {
+      "name": "Qutub Minar",
+      "category": "landmark",
+      "coords": [
+        77.18543,
+        28.524382
+      ]
+    }
+  ],
+  "nanjing": [
+    {
+      "name": "Sun Yat-sen Mausoleum",
+      "category": "landmark",
+      "coords": [
+        118.8483,
+        32.0643
+      ]
+    },
+    {
+      "name": "Ming Xiaoling Mausoleum",
+      "category": "landmark",
+      "coords": [
+        118.77888889,
+        32.06083333
+      ]
+    },
+    {
+      "name": "Confucius Temple",
+      "category": "landmark",
+      "coords": [
+        118.77888889,
+        32.06083333
+      ]
+    }
+  ],
+  "new-york-city": [
+    {
+      "name": "Statue of Liberty",
+      "category": "landmark",
+      "coords": [
+        -74.04444444,
+        40.68916667
+      ]
+    },
+    {
+      "name": "Times Square",
+      "category": "landmark",
+      "coords": [
+        -73.9858,
+        40.7575
+      ]
+    },
+    {
+      "name": "Central Park",
+      "category": "landmark",
+      "coords": [
+        -73.96527778,
+        40.78222222
+      ]
+    }
+  ],
+  "london": [
+    {
+      "name": "Big Ben",
+      "category": "landmark",
+      "coords": [
+        -0.1245,
+        51.5007
+      ]
+    },
+    {
+      "name": "Tower Bridge",
+      "category": "landmark",
+      "coords": [
+        -0.0753,
+        51.5056
+      ]
+    },
+    {
+      "name": "British Museum",
+      "category": "landmark",
+      "coords": [
+        -0.1269,
+        51.5194
+      ]
+    }
+  ],
+  "moscow": [
+    {
+      "name": "Red Square",
+      "category": "landmark",
+      "coords": [
+        37.62,
+        55.75416667
+      ]
+    },
+    {
+      "name": "Saint Basil's Cathedral",
+      "category": "landmark",
+      "coords": [
+        37.62305556,
+        55.7525
+      ]
+    },
+    {
+      "name": "Bolshoi Theatre",
+      "category": "landmark",
+      "coords": [
+        37.61861111,
+        55.76027778
+      ]
+    }
+  ],
+  "chongqing": [
+    {
+      "name": "Hongya Cave",
+      "category": "landmark",
+      "coords": [
+        106.5504,
+        29.5637
+      ]
+    },
+    {
+      "name": "Dazu Rock Carvings",
+      "category": "landmark",
+      "coords": [
+        106.5504,
+        29.5637
+      ]
+    }
+  ],
+  "mumbai": [
+    {
+      "name": "Gateway of India",
+      "category": "landmark",
+      "coords": [
+        72.83465811,
+        18.92198263
+      ]
+    },
+    {
+      "name": "Marine Drive",
+      "category": "landmark",
+      "coords": [
+        72.823,
+        18.944
+      ]
+    },
+    {
+      "name": "Chhatrapati Shivaji Terminus",
+      "category": "landmark",
+      "coords": [
+        72.83544,
+        18.93985
+      ]
+    }
+  ],
+  "wuhan": [
+    {
+      "name": "Yellow Crane Tower",
+      "category": "landmark",
+      "coords": [
+        114.29694444,
+        30.54694444
+      ]
+    },
+    {
+      "name": "East Lake",
+      "category": "landmark",
+      "coords": [
+        114.4,
+        30.5583
+      ]
+    },
+    {
+      "name": "Yangtze River Bridge",
+      "category": "landmark",
+      "coords": [
+        114.2975,
+        30.595
+      ]
+    }
+  ],
+  "chengdu": [
+    {
+      "name": "Giant Panda bases",
+      "category": "landmark",
+      "coords": [
+        104.06333333,
+        30.66
+      ]
+    },
+    {
+      "name": "Jinli Ancient Street",
+      "category": "landmark",
+      "coords": [
+        104.06333333,
+        30.66
+      ]
+    },
+    {
+      "name": "Wuhou Shrine",
+      "category": "landmark",
+      "coords": [
+        104.06333333,
+        30.66
+      ]
+    }
+  ],
+  "shenzhen": [
+    {
+      "name": "Ping An Finance Centre",
+      "category": "landmark",
+      "coords": [
+        114.0503,
+        22.5367
+      ]
+    },
+    {
+      "name": "Window of the World",
+      "category": "landmark",
+      "coords": [
+        113.96975556,
+        22.53751389
+      ]
+    },
+    {
+      "name": "Dafen Oil Painting Village",
+      "category": "landmark",
+      "coords": [
+        114.05444444,
+        22.54666667
+      ]
+    }
+  ],
+  "guangzhou": [
+    {
+      "name": "Canton Tower",
+      "category": "landmark",
+      "coords": [
+        113.31888889,
+        23.10888889
+      ]
+    },
+    {
+      "name": "Chen Clan Ancestral Hall",
+      "category": "landmark",
+      "coords": [
+        113.2405,
+        23.12975833
+      ]
+    },
+    {
+      "name": "Shamian Island",
+      "category": "landmark",
+      "coords": [
+        113.26,
+        23.13
+      ]
+    }
+  ],
+  "shanghai": [
+    {
+      "name": "The Bund",
+      "category": "landmark",
+      "coords": [
+        121.48613889,
+        31.23802778
+      ]
+    },
+    {
+      "name": "Oriental Pearl Tower",
+      "category": "landmark",
+      "coords": [
+        121.494717,
+        31.241669
+      ]
+    },
+    {
+      "name": "Yu Garden",
+      "category": "landmark",
+      "coords": [
+        121.4875,
+        31.22916667
+      ]
+    }
+  ],
+  "beijing": [
+    {
+      "name": "Forbidden City",
+      "category": "landmark",
+      "coords": [
+        116.39083333,
+        39.91583333
+      ]
+    },
+    {
+      "name": "Great Wall",
+      "category": "landmark",
+      "coords": [
+        116.00694444,
+        40.35416667
+      ]
+    },
+    {
+      "name": "Temple of Heaven",
+      "category": "landmark",
+      "coords": [
+        116.4066,
+        39.8822
+      ]
+    }
+  ]
+}

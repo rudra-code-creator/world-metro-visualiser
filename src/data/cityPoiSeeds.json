@@ -1,0 +1,32 @@
+{
+  "kuala-lumpur": [
+    { "name": "Petronas Towers", "category": "landmark", "coords": [101.7117, 3.1578] },
+    { "name": "Batu Caves", "category": "landmark", "coords": [101.6837, 3.2379] },
+    { "name": "KL Tower", "category": "landmark", "coords": [101.7038, 3.1529] }
+  ],
+  "singapore": [
+    { "name": "Marina Bay Sands", "category": "landmark", "coords": [103.8607, 1.2834] },
+    { "name": "Gardens by the Bay", "category": "landmark", "coords": [103.8636, 1.2816] },
+    { "name": "Merlion", "category": "landmark", "coords": [103.8545, 1.2868] }
+  ],
+  "london": [
+    { "name": "Tower of London", "category": "landmark", "coords": [-0.0761, 51.5081] },
+    { "name": "Big Ben", "category": "landmark", "coords": [-0.1246, 51.5007] },
+    { "name": "London Eye", "category": "landmark", "coords": [-0.1195, 51.5033] }
+  ],
+  "paris": [
+    { "name": "Eiffel Tower", "category": "landmark", "coords": [2.2945, 48.8584] },
+    { "name": "Louvre", "category": "landmark", "coords": [2.3376, 48.8606] },
+    { "name": "Notre-Dame", "category": "landmark", "coords": [2.3499, 48.853] }
+  ],
+  "tokyo": [
+    { "name": "Tokyo Tower", "category": "landmark", "coords": [139.7454, 35.6586] },
+    { "name": "Senso-ji", "category": "landmark", "coords": [139.7967, 35.7148] },
+    { "name": "Shibuya Crossing", "category": "landmark", "coords": [139.7006, 35.6595] }
+  ],
+  "new-york-city": [
+    { "name": "Statue of Liberty", "category": "landmark", "coords": [-74.0445, 40.6892] },
+    { "name": "Empire State Building", "category": "landmark", "coords": [-73.9857, 40.7484] },
+    { "name": "Central Park", "category": "landmark", "coords": [-73.9654, 40.7829] }
+  ]
+}

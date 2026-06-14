@@ -59,3 +59,18 @@ export type CityProfile = {
   trafficRating: number;
   wikipediaUrl: string;
 };
+
+export type CityMetroVideo = {
+  videoId: string;
+  title: string;
+  channel: string;
+  channelHandle: string;
+};
+
+export type CityPoiCategory = 'landmark' | 'airport' | 'port' | 'university';
+
+export type CityPoi = {
+  name: string;
+  category: CityPoiCategory;
+  coords: [number, number];
+};
