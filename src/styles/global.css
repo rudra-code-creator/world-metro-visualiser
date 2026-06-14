@@ -1197,6 +1197,7 @@ button {
   z-index: 4;
   pointer-events: auto;
   cursor: default;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 .bottom-dock--expanded {
@@ -1258,11 +1259,30 @@ button {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.bottom-dock__tabs-scroll {
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.bottom-dock__tabs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.bottom-dock__tabs-scroll--minimized {
+  height: 100%;
+}
+
 .bottom-dock__tabs {
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  min-width: 0;
+  min-width: min-content;
+  flex-wrap: nowrap;
 }
 
 .bottom-dock__tab-btn {
@@ -1279,6 +1299,8 @@ button {
   color: #9090a8;
   background: transparent;
   border: 1px solid transparent;
+  flex-shrink: 0;
+  white-space: nowrap;
   transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
 
@@ -1333,18 +1355,22 @@ button {
   display: flex;
   align-items: stretch;
   height: 100%;
+  min-width: min-content;
+  flex-wrap: nowrap;
 }
 
 .bottom-dock__minimized-tab {
-  flex: 1;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.45rem;
-  padding: 0 0.75rem;
+  padding: 0 0.85rem;
+  min-height: 100%;
   border: none;
   border-right: 1px solid rgba(255, 255, 255, 0.08);
   background: transparent;
+  white-space: nowrap;
   transition: background 0.15s, color 0.15s;
 }
 
@@ -1662,7 +1688,51 @@ button {
 
 @media (max-width: 600px) {
   .app__overlay {
-    padding: 0.75rem;
+    padding:
+      max(0.75rem, env(safe-area-inset-top, 0px))
+      max(0.75rem, env(safe-area-inset-right, 0px))
+      calc(var(--bottom-dock-height) + max(0.5rem, env(safe-area-inset-bottom, 0px)))
+      max(0.75rem, env(safe-area-inset-left, 0px));
+  }
+
+  .app__top {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .global-stats {
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.65rem 1rem;
+  }
+
+  .global-stats__row {
+    flex: 1 1 auto;
+    min-width: 5.5rem;
+  }
+
+  .app__bottom {
+    gap: 0.5rem;
+  }
+
+  .app__bottom-left {
+    display: none;
+  }
+
+  .city-panel {
+    max-height: 160px;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .city-panel__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .metro-map .mapboxgl-ctrl-bottom-right {
+    bottom: calc(var(--bottom-dock-height) + 0.35rem);
+    right: max(0.5rem, env(safe-area-inset-right, 0px));
   }
 
   .header__row {
@@ -1674,16 +1744,61 @@ button {
     max-width: none;
   }
 
+  .city-search__input {
+    min-height: 44px;
+    font-size: 16px;
+  }
+
   .header__city-name {
     font-size: 1.5rem;
   }
 
+  .bottom-dock__resize-handle {
+    height: 28px;
+    transform: translateY(-35%);
+  }
+
+  .bottom-dock__resize-handle::after {
+    width: 3.5rem;
+    height: 5px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.35);
+  }
+
+  .bottom-dock__tabs-scroll {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 10px,
+      #000 calc(100% - 10px),
+      transparent
+    );
+  }
+
+  .bottom-dock__tab-btn {
+    min-height: 44px;
+    padding: 0 0.95rem;
+  }
+
+  .bottom-dock__minimize {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+
+  .bottom-dock__tab-hint {
+    display: none;
+  }
+
   .bottom-dock__content {
     padding: 0.45rem 0.75rem 0.6rem;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .bottom-dock__header {
-    padding: 0.4rem 0.75rem 0.3rem;
+    padding: 0.35rem 0.5rem 0.35rem 0.65rem;
+    gap: 0.35rem;
   }
 
   .timeline__controls {
@@ -1696,7 +1811,63 @@ button {
     justify-content: flex-start;
   }
 
+  .timeline__play {
+    width: 44px;
+    height: 44px;
+  }
+
+  .timeline__direction,
+  .timeline__speed {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0 0.5rem;
+  }
+
+  .timeline__track {
+    height: 40px;
+    padding: 12px 0.35rem;
+  }
+
   .timeline__label {
     font-size: 0.54rem;
+  }
+
+  .welcome-overlay {
+    padding: max(1rem, env(safe-area-inset-top, 0px)) 1rem
+      max(1rem, env(safe-area-inset-bottom, 0px));
+    align-items: flex-end;
+  }
+
+  .welcome-overlay__card {
+    max-height: min(85vh, 520px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .welcome-overlay__dismiss {
+    min-height: 44px;
+    width: 100%;
+  }
+
+  .city-info {
+    grid-template-rows: minmax(8rem, 28%) 1fr;
+  }
+
+  .city-video__player-wrap {
+    max-height: min(36vh, 240px);
+  }
+
+  .map-layers__row {
+    min-height: 44px;
+  }
+
+  .leaderboard__button {
+    min-height: 44px;
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .poi-popup .mapboxgl-popup-content {
+    max-width: min(280px, calc(100vw - 2rem));
   }
 }

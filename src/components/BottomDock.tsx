@@ -1,4 +1,4 @@
-import { useCallback, useRef, type ReactNode } from 'react';
+import { useCallback, useEffect, useRef, type ReactNode } from 'react';
 import { DockTabIcon, type DockTabIconName } from './DockTabIcon';
 
 export type BottomDockTab = {
@@ -18,7 +18,9 @@ export function clampDockHeight(heightPx: number): number {
 }
 
 export function getDefaultDockHeight(): number {
-  return clampDockHeight(Math.round(window.innerHeight * 0.25));
+  const isMobile = window.matchMedia('(max-width: 600px)').matches;
+  const heightRatio = isMobile ? 0.32 : 0.25;
+  return clampDockHeight(Math.round(window.innerHeight * heightRatio));
 }
 
 type BottomDockProps = {
@@ -44,6 +46,25 @@ export function BottomDock({
 }: BottomDockProps) {
   const activeTab = tabs.find((tab) => tab.id === activeTabId) ?? tabs[0];
   const resizeRef = useRef<{ startY: number; startHeight: number } | null>(null);
+  const tabsScrollRef = useRef<HTMLDivElement>(null);
+  const tabButtonRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
+
+  const setTabButtonRef = useCallback((tabId: string, node: HTMLButtonElement | null) => {
+    if (node) tabButtonRefs.current.set(tabId, node);
+    else tabButtonRefs.current.delete(tabId);
+  }, []);
+
+  useEffect(() => {
+    const activeButton = tabButtonRefs.current.get(activeTabId);
+    const scrollContainer = tabsScrollRef.current;
+    if (!activeButton || !scrollContainer) return;
+
+    activeButton.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'nearest',
+    });
+  }, [activeTabId, expanded]);
 
   const selectTab = (tabId: string, expand = false) => {
     onActiveTabChange(tabId);
@@ -85,19 +106,24 @@ export function BottomDock({
   if (!expanded) {
     return (
       <div className="bottom-dock bottom-dock--minimized">
-        <div className="bottom-dock__minimized-tabs" role="tablist" aria-label="Bottom panels">
-          {tabs.map((tab) => {
-            const isActive = tab.id === activeTabId;
-            return (
-              <button
-                key={tab.id}
-                type="button"
-                role="tab"
-                aria-selected={isActive}
-                className={`bottom-dock__minimized-tab${isActive ? ' bottom-dock__minimized-tab--active' : ''}`}
-                onClick={() => selectTab(tab.id, true)}
-                aria-label={`Expand ${tab.label}`}
-              >
+        <div
+          ref={tabsScrollRef}
+          className="bottom-dock__tabs-scroll bottom-dock__tabs-scroll--minimized"
+        >
+          <div className="bottom-dock__minimized-tabs" role="tablist" aria-label="Bottom panels">
+            {tabs.map((tab) => {
+              const isActive = tab.id === activeTabId;
+              return (
+                <button
+                  key={tab.id}
+                  ref={(node) => setTabButtonRef(tab.id, node)}
+                  type="button"
+                  role="tab"
+                  aria-selected={isActive}
+                  className={`bottom-dock__minimized-tab${isActive ? ' bottom-dock__minimized-tab--active' : ''}`}
+                  onClick={() => selectTab(tab.id, true)}
+                  aria-label={`Expand ${tab.label}`}
+                >
                 <span className="bottom-dock__tab-chevron" aria-hidden>
                   ▲
                 </span>
@@ -109,6 +135,7 @@ export function BottomDock({
               </button>
             );
           })}
+          </div>
         </div>
       </div>
     );
@@ -127,23 +154,26 @@ export function BottomDock({
         onPointerCancel={handleResizePointerCancel}
       />
       <div className="bottom-dock__header">
-        <div className="bottom-dock__tabs" role="tablist" aria-label="Bottom panels">
-          {tabs.map((tab) => {
-            const isActive = tab.id === activeTabId;
-            return (
-              <button
-                key={tab.id}
-                type="button"
-                role="tab"
-                aria-selected={isActive}
-                className={`bottom-dock__tab-btn${isActive ? ' bottom-dock__tab-btn--active' : ''}`}
-                onClick={() => selectTab(tab.id)}
-              >
-                <DockTabIcon name={tab.icon} />
-                {tab.label}
-              </button>
-            );
-          })}
+        <div ref={tabsScrollRef} className="bottom-dock__tabs-scroll">
+          <div className="bottom-dock__tabs" role="tablist" aria-label="Bottom panels">
+            {tabs.map((tab) => {
+              const isActive = tab.id === activeTabId;
+              return (
+                <button
+                  key={tab.id}
+                  ref={(node) => setTabButtonRef(tab.id, node)}
+                  type="button"
+                  role="tab"
+                  aria-selected={isActive}
+                  className={`bottom-dock__tab-btn${isActive ? ' bottom-dock__tab-btn--active' : ''}`}
+                  onClick={() => selectTab(tab.id)}
+                >
+                  <DockTabIcon name={tab.icon} />
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
         <button
           type="button"
