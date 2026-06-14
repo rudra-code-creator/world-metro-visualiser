@@ -8,9 +8,12 @@ import { LeaderboardChart } from './components/LeaderboardChart';
 import { CityInfoPanel } from './components/CityInfoPanel';
 import { TimelineScrubber } from './components/TimelineScrubber';
 import { WelcomeOverlay } from './components/WelcomeOverlay';
+import { MapLayersPanel } from './components/MapLayersPanel';
+import { CityVideoPanel } from './components/CityVideoPanel';
 import { useMetroPlayback } from './hooks/useMetroPlayback';
 import { getCityIndex } from './lib/cities';
 import { resolveInitialCityIndex, setCityIdInUrl } from './lib/cityUrl';
+import { DEFAULT_MAP_LAYER_VISIBILITY, type MapLayerVisibility } from './lib/mapLayers';
 
 const initialIndex = resolveInitialCityIndex();
 
@@ -35,6 +38,9 @@ export default function App() {
   const [activeDockTab, setActiveDockTab] = useState('timeline');
   const [dockHeight, setDockHeight] = useState(getDefaultDockHeight);
   const [dockResizing, setDockResizing] = useState(false);
+  const [mapLayerVisibility, setMapLayerVisibility] = useState<MapLayerVisibility>(
+    DEFAULT_MAP_LAYER_VISIBILITY,
+  );
 
   useEffect(() => {
     setCityIdInUrl(currentCity.id);
@@ -77,6 +83,7 @@ export default function App() {
         currentIndex={currentIndex}
         onCitySelect={handleCitySelect}
         onScrubStart={pause}
+        layerVisibility={mapLayerVisibility}
       />
 
       <div className="app__overlay">
@@ -100,6 +107,18 @@ export default function App() {
                 <span className="map-legend__swatch map-legend__swatch--upcoming" />
                 <span>Upcoming — dim dashed</span>
               </div>
+              <div className="map-legend__item">
+                <span className="map-legend__swatch map-legend__swatch--landmark" />
+                <span>Landmarks</span>
+              </div>
+              <div className="map-legend__item">
+                <span className="map-legend__swatch map-legend__swatch--airport" />
+                <span>Airports & ports</span>
+              </div>
+              <div className="map-legend__item">
+                <span className="map-legend__swatch map-legend__swatch--university" />
+                <span>Universities</span>
+              </div>
             </div>
           </div>
           <CityPanel city={currentCity} />
@@ -118,6 +137,7 @@ export default function App() {
           {
             id: 'timeline',
             label: 'Timeline',
+            icon: 'timeline',
             hint: currentCity.name,
             panel: (
               <TimelineScrubber
@@ -136,6 +156,7 @@ export default function App() {
           {
             id: 'leaderboard',
             label: 'Leaderboard',
+            icon: 'leaderboard',
             panel: (
               <LeaderboardChart
                 currentCityId={currentCity.id}
@@ -148,8 +169,39 @@ export default function App() {
           {
             id: 'city-info',
             label: 'City',
+            icon: 'city',
             hint: currentCity.name,
-            panel: <CityInfoPanel key={currentCity.id} city={currentCity} />,
+            panel: (
+              <CityInfoPanel
+                key={currentCity.id}
+                city={currentCity}
+                isActive={activeDockTab === 'city-info'}
+              />
+            ),
+          },
+          {
+            id: 'layers',
+            label: 'Layers',
+            icon: 'layers',
+            panel: (
+              <MapLayersPanel
+                visibility={mapLayerVisibility}
+                onChange={setMapLayerVisibility}
+              />
+            ),
+          },
+          {
+            id: 'video',
+            label: 'Video',
+            icon: 'video',
+            hint: currentCity.name,
+            panel: (
+              <CityVideoPanel
+                key={currentCity.id}
+                city={currentCity}
+                isActive={activeDockTab === 'video'}
+              />
+            ),
           },
         ]}
       />

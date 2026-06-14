@@ -50,28 +50,6 @@ export function CityPanel({ city }: CityPanelProps) {
           {city.expansionRate.toFixed(2)} stations / year expansion
         </p>
       )}
-
-      <ul className="city-panel__lines">
-        {city.linesDetail.map((line) => (
-          <li
-            key={line.name}
-            className={`city-panel__line${line.status === 'construction' ? ' city-panel__line--upcoming' : ''}`}
-          >
-            <span
-              className="city-panel__line-dot"
-              style={{
-                backgroundColor: line.color,
-                opacity: line.status === 'construction' ? 0.45 : 1,
-              }}
-            />
-            <span className="city-panel__line-name">
-              {line.name}
-              {line.status === 'construction' ? ' (upcoming)' : ''}
-            </span>
-            <span className="city-panel__line-km">{line.lengthKm} km</span>
-          </li>
-        ))}
-      </ul>
     </aside>
   );
 }

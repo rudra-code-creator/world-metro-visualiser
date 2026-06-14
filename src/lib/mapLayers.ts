@@ -4,8 +4,32 @@ export const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN as string;
 export const DARK_MAP_STYLE = 'mapbox://styles/mapbox/navigation-night-v1';
 
 export const CITY_MARKERS_SOURCE = 'city-markers';
+export const CITY_POIS_SOURCE = 'city-pois';
 export const METRO_LINES_SOURCE = 'metro-lines';
 export const METRO_STATIONS_SOURCE = 'metro-stations';
+
+export const METRO_LINE_LAYER_IDS = [
+  'metro-lines-glow-upcoming',
+  'metro-lines-glow',
+  'metro-lines-upcoming',
+  'metro-lines',
+] as const;
+
+export const METRO_STATION_LAYER_IDS = ['metro-stations-upcoming', 'metro-stations'] as const;
+
+export const POI_LAYER_IDS = ['poi-pin', 'poi-labels'] as const;
+
+export type MapLayerVisibility = {
+  lines: boolean;
+  stations: boolean;
+  pois: boolean;
+};
+
+export const DEFAULT_MAP_LAYER_VISIBILITY: MapLayerVisibility = {
+  lines: true,
+  stations: true,
+  pois: true,
+};
 
 export function cityMarkersGeoJson(
   cities: { id: string; name: string; coords: [number, number]; accentColor: string; totalKm: number }[],

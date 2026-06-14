@@ -2,9 +2,12 @@ import { useEffect, useState } from 'react';
 import type { MetroCity } from '../types';
 import { getCityProfile } from '../lib/cityProfiles';
 import { resolveCityImage } from '../lib/resolveCityImage';
+import { useMetroLines } from '../hooks/useMetroLines';
+import { MetroLinesList } from './MetroLinesList';
 
 type CityInfoPanelProps = {
   city: MetroCity;
+  isActive?: boolean;
 };
 
 function TrafficMeter({ rating }: { rating: number }) {
@@ -33,8 +36,9 @@ function TrafficMeter({ rating }: { rating: number }) {
   );
 }
 
-export function CityInfoPanel({ city }: CityInfoPanelProps) {
+export function CityInfoPanel({ city, isActive = true }: CityInfoPanelProps) {
   const profile = getCityProfile(city);
+  const { lines, loading: linesLoading } = useMetroLines(city, isActive);
   const [imageSrc, setImageSrc] = useState(profile.imageUrl);
   const [imageFailed, setImageFailed] = useState(false);
   const [resolvingImage, setResolvingImage] = useState(false);
@@ -94,6 +98,14 @@ export function CityInfoPanel({ city }: CityInfoPanelProps) {
             </dd>
           </div>
         </dl>
+
+        <section className="city-info__section">
+          <h3 className="city-info__section-title">
+            Metro lines
+            <span className="city-info__line-count">{lines.length} lines</span>
+          </h3>
+          <MetroLinesList lines={lines} loading={linesLoading} />
+        </section>
 
         <section className="city-info__section">
           <h3 className="city-info__section-title">Known for</h3>

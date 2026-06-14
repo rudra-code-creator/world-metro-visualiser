@@ -12,24 +12,65 @@ import {
 import { skipNextMetroAnimationRef } from '../lib/playbackFlags';
 import {
   CITY_MARKERS_SOURCE,
+  CITY_POIS_SOURCE,
   DARK_MAP_STYLE,
+  DEFAULT_MAP_LAYER_VISIBILITY,
   MAPBOX_TOKEN,
+  METRO_LINE_LAYER_IDS,
+  METRO_STATION_LAYER_IDS,
   METRO_LINES_SOURCE,
   METRO_STATIONS_SOURCE,
+  POI_LAYER_IDS,
   cityMarkersGeoJson,
   splitMetroGeoJson,
+  type MapLayerVisibility,
 } from '../lib/mapLayers';
+import {
+  POI_CATEGORY_COLORS,
+  cityPoisGeoJson,
+} from '../lib/cityPois';
+import { loadCityPois } from '../lib/loadCityPois';
+import { getCityProfile } from '../lib/cityProfiles';
+import { poiPopupContentHtml, poiPopupLoadingHtml } from '../lib/poiPopupHtml';
+import { resolvePoiDetails } from '../lib/resolvePoiDetails';
+import type { CityPoiCategory } from '../types';
 
 const LINE_COLOR = ['coalesce', ['get', 'color'], '#888888'] as mapboxgl.Expression;
 const IS_OPERATIONAL = ['==', ['coalesce', ['get', 'status'], 'operational'], 'operational'] as mapboxgl.Expression;
 const IS_CONSTRUCTION = ['==', ['coalesce', ['get', 'status'], 'operational'], 'construction'] as mapboxgl.Expression;
+
+const POI_COLOR: mapboxgl.Expression = [
+  'match',
+  ['get', 'category'],
+  'landmark',
+  POI_CATEGORY_COLORS.landmark,
+  'airport',
+  POI_CATEGORY_COLORS.airport,
+  'port',
+  POI_CATEGORY_COLORS.port,
+  'university',
+  POI_CATEGORY_COLORS.university,
+  '#cccccc',
+];
 
 type MetroMapProps = {
   currentCity: MetroCity;
   currentIndex: number;
   onCitySelect: (index: number) => void;
   onScrubStart: () => void;
+  layerVisibility?: MapLayerVisibility;
 };
+
+function applyLayerGroupVisibility(
+  map: mapboxgl.Map,
+  layerIds: readonly string[],
+  visible: boolean,
+) {
+  for (const layerId of layerIds) {
+    if (!map.getLayer(layerId)) continue;
+    map.setLayoutProperty(layerId, 'visibility', visible ? 'visible' : 'none');
+  }
+}
 
 const EMPTY_COLLECTION: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: [] };
 
@@ -138,6 +179,7 @@ export function MetroMap({
   currentIndex,
   onCitySelect,
   onScrubStart,
+  layerVisibility = DEFAULT_MAP_LAYER_VISIBILITY,
 }: MetroMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
@@ -151,6 +193,9 @@ export function MetroMap({
   const awaitingFlyForRevealRef = useRef(false);
   const programmaticMoveRef = useRef(false);
   const currentCityIdRef = useRef(currentCity.id);
+  const poiPopupRef = useRef<mapboxgl.Popup | null>(null);
+  const currentCityRef = useRef(currentCity);
+  currentCityRef.current = currentCity;
   const [mapReady, setMapReady] = useState(false);
 
   currentCityIdRef.current = currentCity.id;
@@ -376,6 +421,108 @@ export function MetroMap({
         },
       });
 
+      map.addSource(CITY_POIS_SOURCE, {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] },
+      });
+
+      map.addLayer({
+        id: 'poi-pin',
+        type: 'circle',
+        source: CITY_POIS_SOURCE,
+        minzoom: 8,
+        paint: {
+          'circle-radius': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            8,
+            5,
+            12,
+            7,
+            14,
+            9,
+          ],
+          'circle-color': [
+            'match',
+            ['get', 'category'],
+            'landmark',
+            POI_CATEGORY_COLORS.landmark,
+            'airport',
+            POI_CATEGORY_COLORS.airport,
+            'port',
+            POI_CATEGORY_COLORS.port,
+            'university',
+            POI_CATEGORY_COLORS.university,
+            POI_CATEGORY_COLORS.landmark,
+          ],
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#0b0f19',
+          'circle-opacity': 0.95,
+        },
+      });
+
+      map.addLayer({
+        id: 'poi-labels',
+        type: 'symbol',
+        source: CITY_POIS_SOURCE,
+        minzoom: 10,
+        layout: {
+          'text-field': ['get', 'name'],
+          'text-size': 11,
+          'text-offset': [0, 1.35],
+          'text-anchor': 'top',
+          'text-max-width': 12,
+          'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
+        },
+        paint: {
+          'text-color': POI_COLOR,
+          'text-halo-color': '#0b0f19',
+          'text-halo-width': 1.5,
+        },
+      });
+
+      const showPoiPopup = (event: mapboxgl.MapMouseEvent & { features?: mapboxgl.GeoJSONFeature[] }) => {
+        const feature = event.features?.[0];
+        if (!feature?.geometry || feature.geometry.type !== 'Point') return;
+
+        const { name, category } = feature.properties ?? {};
+        if (!name || !category) return;
+
+        const coords = feature.geometry.coordinates as [number, number];
+        const poiCategory = category as CityPoiCategory;
+        const cityName = currentCityRef.current.name;
+
+        poiPopupRef.current?.remove();
+        const popup = new mapboxgl.Popup({
+          closeButton: true,
+          className: 'poi-popup',
+          offset: 12,
+          maxWidth: '280px',
+        })
+          .setLngLat(coords)
+          .setHTML(poiPopupLoadingHtml(name, poiCategory))
+          .addTo(map);
+        poiPopupRef.current = popup;
+
+        void resolvePoiDetails(name, poiCategory, coords, cityName).then((details) => {
+          if (!popup.isOpen()) return;
+          popup.setHTML(poiPopupContentHtml(name, poiCategory, details));
+        });
+      };
+
+      map.on('click', 'poi-pin', showPoiPopup);
+
+      const setPoiCursor = () => {
+        map.getCanvas().style.cursor = 'pointer';
+      };
+      const clearPoiCursor = () => {
+        map.getCanvas().style.removeProperty('cursor');
+      };
+
+      map.on('mouseenter', 'poi-pin', setPoiCursor);
+      map.on('mouseleave', 'poi-pin', clearPoiCursor);
+
       map.on('click', 'city-markers', (event) => {
         const feature = event.features?.[0];
         if (!feature?.properties?.id) return;
@@ -463,8 +610,40 @@ export function MetroMap({
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapReady) return;
+
+    applyLayerGroupVisibility(map, METRO_LINE_LAYER_IDS, layerVisibility.lines);
+    applyLayerGroupVisibility(map, METRO_STATION_LAYER_IDS, layerVisibility.stations);
+    applyLayerGroupVisibility(map, POI_LAYER_IDS, layerVisibility.pois);
+  }, [layerVisibility, mapReady]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
     updateMarkerHighlight(map, currentCity.id);
   }, [currentCity.id, mapReady, updateMarkerHighlight]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+
+    poiPopupRef.current?.remove();
+    poiPopupRef.current = null;
+
+    const source = map.getSource(CITY_POIS_SOURCE) as mapboxgl.GeoJSONSource | undefined;
+    if (!source) return;
+
+    let cancelled = false;
+    const profile = getCityProfile(currentCity);
+
+    void loadCityPois(currentCity, profile.landmarks).then((pois) => {
+      if (cancelled) return;
+      source.setData(cityPoisGeoJson(pois));
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [currentCity, mapReady]);
 
   const applyMetroToMap = useCallback(
     (
